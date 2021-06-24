@@ -24,24 +24,17 @@
 
 
 ! lifehacker
-lifehacker.com##div[class="pycp4o-0 kDBWIt"]
-lifehacker.com##div[class="bxm4mm-13 kIviSi"]
-lifehacker-com.cdn.ampproject.org##div[class="pycp4o-0 kDBWIt"]
 lifehacker.com###ad-container
-lifehacker.com##div[class^="js_ad-mobile-dynamic  js_ad-dynamic ad-mobile-dynamic movable-ad"]
-lifehacker.com##div[class^="js_video-sticky__top-limit"]
-lifehacker.com##div[class="bxm4mm-4 fQqUFt"]
+lifehacker.com##div[class^="ad"]
+lifehacker.com##div[class^="js_video-sticky"]
 lifehacker.com##div[class^="js_related-stories-inset"]
-lifehacker.com##div[class="bxm4mm-19 fIUNXF"]
 lifehacker.com##div[class^="js_newsletter-form-inline"]
-lifehacker.com##div[class="sc-1ib37xr-0 bgezzh"]
 lifehacker.com##div[class^="share-tools-static"]
-lifehacker.com##div[class="sc-18b1b2r-4 bemTYH"]
 lifehacker.com##div[class="js_ymal-below-post"]
 lifehacker.com##div[class="js_more-below-post"]
 lifehacker.com##div[class^="js_comments-iframe"]
 lifehacker.com##div[class^="js_subscribe"]
-lifehacker.com##div.js_footer-container
+lifehacker.com##.js_footer-container
 
 ! bgr.in
 bgr.in##.sso-toolbar
@@ -49,9 +42,7 @@ bgr.in##.sso-toolbar
 
 ! 9to5google
 9to5google.com##div.site-header-inner
-9to5mac.com,9to5google.com,9to5toys.com###div.author-bio-container
-9to5google.com##div.order-control
-9to5mac.com,9to5google.com,9to5toys.com##div.post-social-mobile
+9to5google.com##.order-control
 9to5mac.com,9to5google.com,9to5toys.com##div.post-cats
 9to5google.com##div.wp-block-image
 9to5mac.com,9to5google.com,9to5toys.com##div.leaderboard-ad
@@ -61,7 +52,6 @@ bgr.in##.sso-toolbar
 9to5mac.com,9to5google.com,9to5toys.com##footer[class^="footer"]
 9to5mac.com,9to5google.com,9to5toys.com###related-posts
 9to5mac.com,9to5google.com,9to5toys.com###comments
-9to5google.com##div.amp-wp-footer
 9to5google.com##ins[class^="adsbygoogle"]
 9to5google.com##aside[class="trending-wrapper"]
 9to5google.com,9to5toys.com##div[class^="video-wrapper"]
@@ -86,22 +76,20 @@ bgr.in##.sso-toolbar
 ! gizmochina
 gizmochina.com###comments-anchor
 gizmochina.com###wpfront-notification-bar-spacer
-gizmochina.com##div.td_block_related_posts_mob
-gizmochina.com##div.td-module-thumb
-gizmochina.com##div.item-details
+gizmochina.com##div[class^="related_posts"]
+gizmochina.com##.td-module-thumb
+gizmochina.com##.item-details
 gizmochina.com##.e-widget-wrapper
 gizmochina.com##ul[class="sxc-follow-buttons"]
 gizmochina.com###taboola-below-article
-gizmochina.com##.td-post-source-tags
+gizmochina.com##div[class^="tags"]
 gizmochina.com##.td-post-next-prev-content
 gizmochina.com##h4[class="td-related-title"]
 gizmochina.com##.td-related-row
 gizmochina.com##.author-box-wrap
 gizmochina.com##.td-post-sharing-bottom
-gizmochina.com##div.td-mobile-footer-wrap
-gizmochina.com##.td-mobile-sub-footer-wrap
-gizmochina.com###cookie-law-info-bar
-gizmochina.com###cookie-law-info-again
+gizmochina.com##div[class^="footer"]
+gizmochina.com###div[class^="cookie-law-info"]
 
 
 ! gizchina.com
@@ -123,14 +111,12 @@ gizchina.com##footer[class^="footer"]
 ! gizmodo
 gizmodo.com###trackers
 gizmodo.com##.js_mobile-nav
-gizmodo.com##div[class^="js_video-sticky__hide"]
+gizmodo.com##div[class^="js_video-sticky"]
 gizmodo.com##div[class^="js_video-wrapper"]
-gizmodo.com##div[class^="js_video-sticky__label"]
-gizmodo.com##div[class^="js_video-sticky__bottom-limit"]
 gizmodo.com##div[class^="js_related-stories-inset"]
 gizmodo.com##div[class^="js_commerce-inset-permalink"]
-gizmodo.com##div[class^="js_ad-mobile-dynamic  js_ad-dynamic ad-mobile-dynamic movable-ad"]
-gizmodo.com##div[class^="js_newsletter-form-inline"]
+gizmodo.com##div[class^="ad"]
+gizmodo.com##div[class^="js_newsletter"]
 gizmodo.com##div[class^="share-tools-static"]
 gizmodo.com##.js_liveblog-controls
 gizmodo.com##.js_qanda-controls
@@ -140,7 +126,7 @@ gizmodo.com###replies
 gizmodo.com##.js_postbottom-waypoint-hook
 gizmodo.com##div[class^="js_comments-iframe"]
 gizmodo.com###taboola-below-article-thumbnails
-gizmodo.com##div[class^="js_sticky-footer"]
+gizmodo.com##div[class^="footer"]
 gizmodo.com###commerce-inset-wrapper
 gizmodo.com###js_commerceInsetModule
 gizmodo.com###trending_wrapper
@@ -148,22 +134,20 @@ gizmodo.com###js_trending
 gizmodo.com###js_alerts_sidebar
 gizmodo.com##.js_reading-list
 gizmodo.com##div[class^="js_subscribe"]
-gizmodo.com##.js_footer-container
 gizmodo.com##.js_lightbox-container
 gizmodo.com##amp-ad[type^="doubleclick"]
-gizmodo.com##span[class^="ad-label"]
 gizmodo.com##amp-iframe[src^="https://api.kinja.com/embed/comments/"]
 
 
 ! wccftech.com
-wccftech.com##ul[class="share-menu share-menu-single"]
+wccftech.com##ul[class="share-menu"]
 wccftech.com##.content-ad
 wccftech.com##.wccf-stock-wrap
-wccftech.com##.wccf_related_post
+wccftech.com##div[class^="related_post"]
 wccftech.com##.wp-share
 wccftech.com##div[class="subscribe clearfix"]
 wccftech.com##.subscribe-form
-wccftech.com##[id^="div-gpt-ad-"]
+wccftech.com##[id^="div-gpt-ad"]
 wccftech.com##div[class="trending-posts widget-analytics"]
 wccftech.com##div[data-nosnippet=""]
 wccftech.com##footer[data-nosnippet=""]
@@ -174,7 +158,6 @@ xda-developers.com##header[class="topbar logged-out"]
 xda-developers.com##div[class="full_meta clearfix"]
 xda-developers.com##div[class="alert_message yellow"]
 xda-developers.com##div[class^="spon_banner"]
-xda-developers.com##div.honor-spon-banner
 xda-developers.com##div[class="et_social_inline et_social_mobile_on et_social_inline_bottom"]
 xda-developers.com###post-tags-wrapper
 xda-developers.com###about-author-wrapper
@@ -184,10 +167,8 @@ xda-developers.com##div[class="col col_3_of_12 sidebar sidebar_area" ]
 xda-developers.com##div[class="widget_text widget-1 first widget"]
 xda-developers.com##div[class="widget-2 widget"]
 xda-developers.com##div.nanobox-topofpage
-xda-developers.com###footer
-xda-developers.com###footer-left
-xda-developers.com###footer-right
-xda-developers.com##div.amp-active
+xda-developers.com##div[id^="footer"]
+xda-developers.com##.amp-active
 xda-developers.com##.share
 xda-developers.com##header[class="topbar"]
 xda-developers.com##div.nonamp-link
@@ -201,7 +182,7 @@ forum.xda-developers.com##.postbit-social
 forum.xda-developers.com##.showthread-social
 
 ! theverge.com
-theverge.com##div.comments
+theverge.com##.comments
 theverge.com##section.top
 theverge.com##section.c-nextclick
 theverge.com##div[class="u-hidden-text"][id="formatter-datter"]
@@ -219,22 +200,20 @@ phonearena.com##div.layout__page_main_header_tags
 phonearena.com##div.layout__page_main_header_disclaimer
 phonearena.com##footer.layout__footer
 phonearena.com###adOverlay
-phonearena.com##div.container
-phonearena.com##div.layout__page_main_more
-phonearena.com##div.auth
-phonearena.com##div.modal-body
-phonearena.com##div.carousel-headline
-phonearena.com##div.carousel-slider
-phonearena.com##div.loader
+phonearena.com##.container
+phonearena.com##.layout__page_main_more
+phonearena.com##.auth
+phonearena.com##.modal-body
+phonearena.com##.carousel-headline
+phonearena.com##.carousel-slider
+phonearena.com##.loader
 phonearena.com##section[class="widgetOffersMultiMerchant"]
-phonearena.com##div[class="layout__spot spot_disclaimer full-width-element inverse-background nolinks part-of-content disable-disclaimer ad_940_0"]
-phonearena.com##div.paginator-headline
-phonearena.com##div.paginator-items
-phonearena.com##div[class="layout__spot spot_disclaimer disable-disclaimer ad_1_1"]
+phonearena.com##div[class^="disclaimer"]
+phonearena.com##.paginator-headline
+phonearena.com##.paginator-items
 phonearena.com##div[class="sidebar-bottom sticky"]
 phonearena.com##nav[aria-label="navigation"]
 phonearena.com##[class^="layout__page_sidebar"]
-phonearena.com##div[class="layout__spot spot_disclaimer ad_300_250"]
 phonearena.com##div[class="layout__page_main_latestReviews"]
 phonearena.com##div[class="layout__page_sidebar_rightSecond sticky-container"]
 phonearena.com##div[data-trigger="paginator"]
@@ -246,35 +225,33 @@ phonearena.com##div.col-sm-6
 ! GSMarena
 gsmarena.com##footer.grid_12
 gsmarena.com###wrapper-brands
-gsmarena.com##div.homepage-slide
+gsmarena.com##.homepage-slide
 gsmarena.com###related-news-container
 gsmarena.com###all-opinions
-gsmarena.com##div.secondary-menu container_12
 gsmarena.com##div[class="share-buttons material-card"]
-gsmarena.com##div.section
+gsmarena.com##.section
 
 ! androidauthority.com
-androidauthority.com##div.prefix
+androidauthority.com##.prefix
 androidauthority.com##div[data-cy="dealbar"]
 androidauthority.com##div[data-nc="nc-ad"]
-androidauthority.com##div.form-grid
-androidauthority.com##div.policy
-androidauthority.com##div.post-sidebar
+androidauthority.com##.form-grid
+androidauthority.com##.policy
+androidauthority.com##.post-sidebar
 androidauthority.com##footer[data-cy="footer"]
 
 ! androidcentral.com
 androidcentral.com##div[class="sidebar__section sidebar__section--shrink"]
-androidcentral.com##div.row
+androidcentral.com##.row
 androidcentral.com##footer.footer
 androidcentral.com##div[class="article-token article-token--more-of"]
 
 ! apkmirror
-apkmirror.com##div.advertisement-text
+apkmirror.com##.advertisement-text
 !apkmirror.com##div[class^="downloadCountdown"]
-apkmirror.com##ins[class="adsbygoogle adslot"]
-apkmirror.com##div.footer
-apkmirror.com##div[class="copyRight text-muted"]
-||apkmirror.com^$inline-script
+apkmirror.com##ins[class^="adsbygoogle"]
+apkmirror.com##.footer
+apkmirror.com##div[class^="copyRight"]
 
 ! disqus
 ||disqus.com/embed/comments/
@@ -286,7 +263,6 @@ twitter.com##.dashboard-right.dashboard
 twitter.com##.module.DashboardProfileCard
 twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Реклама' or text()='Promocionado'or text()='Sponsorisé']/../../../../..)
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама|Promocionado|Sponsorisé/):xpath(..)
-twitter.com##nav[aria-label="Primary"][role="navigation"]
 
 ! appletrack.com
 appletrack.com##div[class^="amp-ad"]
@@ -344,7 +320,7 @@ hothardware.com##.footer
 ! semiengineering.com
 semiengineering.com##.sharing-button
 semiengineering.com##.tag_list
-semiengineering.com##.post_author_bio_single
+semiengineering.com##div[class^="author_bio"]
 semiengineering.com##div[style="width:auto;float:rightl"]
 semiengineering.com##div[class^="loop_post_wrapper"]
 semiengineering.com###sponsors
