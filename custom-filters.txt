@@ -12,7 +12,7 @@
 ##.dsq-brlink
 ##.disqus-container
 ###amp-iframe
-! remove adblocker disable warning
+! remove adblocker disable message
 ##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
 !##.container
 ###comments
@@ -49,47 +49,38 @@ bgr.in##.sso-toolbar
 
 ! 9to5google
 9to5google.com##div.site-header-inner
-9to5google.com###div.author-bio-container
+9to5mac.com,9to5google.com,9to5toys.com###div.author-bio-container
 9to5google.com##div.order-control
-9to5google.com##div.post-social-mobile
-9to5google.com##div.post-cats
-9to5google.com##div.ad-disclaimer-container
+9to5mac.com,9to5google.com,9to5toys.com##div.post-social-mobile
+9to5mac.com,9to5google.com,9to5toys.com##div.post-cats
 9to5google.com##div.wp-block-image
-9to5google.com##div.leaderboard-ad
-9to5google.com##div.social-share
-9to5google.com##amp-ad[type="adsense"]
-9to5google.com##div.ad-disclaimer-container
-9to5google.com##p[class="amp-wp-7023da7"]
-9to5google.com##div[class="amp-post-details related-guides-container inner-wrap"]
-9to5google.com##div.bottom-ad
-9to5google.com##div[class="amp-post-details author-bio-container inner-wrap"]
-9to5google.com##div[class="posts-carousel inner-wrap"]
-9to5google.com##footer[class="amp-wp-article-footer inner-wrap"]
-9to5google.com###related-posts
-9to5google.com###comments
+9to5mac.com,9to5google.com,9to5toys.com##div.leaderboard-ad
+9to5mac.com,9to5google.com,9to5toys.com##div[class^="social"]
+9to5mac.com,9to5google.com,9to5toys.com##div.ad-disclaimer-container
+9to5mac.com,9to5google.com,9to5toys.com##div.bottom-ad
+9to5mac.com,9to5google.com,9to5toys.com##footer[class^="footer"]
+9to5mac.com,9to5google.com,9to5toys.com###related-posts
+9to5mac.com,9to5google.com,9to5toys.com###comments
 9to5google.com##div.amp-wp-footer
 9to5google.com##ins[class^="adsbygoogle"]
 9to5google.com##aside[class="trending-wrapper"]
 9to5google.com,9to5toys.com##div[class^="video-wrapper"]
-9to5google.com,9to5toys.com##amp-ad[type="adsense"]
-9to5google.com,9to5toys.com##amp-ad[type="doubleclick"]
-9to5google.com##div[class^="related-guides"]
-9to5google.com##div[class^="author-bio"]
+9to5mac.com,9to5google.com,9to5toys.com##amp-ad[type="adsense"]
+9to5mac.com,9to5google.com,9to5toys.com##amp-ad[type="doubleclick"]
+9to5mac.com,9to5google.com##div[class^="related-guides"]
+9to5mac.com,9to5google.com##div[class^="author-bio"]
 
 ! 9to5toys.com
-9to5toys.com##.consent-wrapper
+9to5mac.com,9to5google.com,9to5toys.com##.consent-wrapper
 9to5toys.com##.wrap-sm
 9to5toys.com##div[class="entry-tags entry-meta-column"]
 9to5toys.com##div[class="entry-cta aligncenter"]
 9to5toys.com##div[class="slot bg-striped slot-leaderboard"]
-9to5toys.com##div[class="social__share wrap-md"]
-9to5toys.com###after_disclaimer_placement
-9to5toys.com##div[class="entry-guides section-footer wrap-xs mt-5 vpmd:mt-7"]
+9to5mac.com,9to5google.com,9to5toys.com###after_disclaimer_placement
+9to5mac.com,9to5google.com,9to5toys.com##div[class^="footer"]
 9to5toys.com##.fluid-width-video-wrapper
-9to5toys.com##div[class^="entry-author"]
-9to5toys.com##div[class="posts-carousel mt-5 vpmd:mt-7"]
-9to5toys.com##div[class^="entry-related "]
-9to5toys.com###comments
+9to5mac.com,9to5google.com,9to5toys.com##div[class^="entry-author"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class^="entry-related"]
 
 
 ! gizmochina
@@ -480,3 +471,7 @@ computerworld.com##.empty-div
 
 ! https://www.tv9marathi.com/
 tv9marathi.com##div[class^="ads"]
+
+
+
+
