@@ -478,3 +478,5 @@ computerworld.com##section[class="about"]
 computerworld.com##section[class="copyright"]
 computerworld.com##.empty-div
 
+! https://www.tv9marathi.com/
+tv9marathi.com##div[class^="ads"]
