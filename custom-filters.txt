@@ -468,7 +468,6 @@ twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама|
 
 
 ! wccftech.com
-wccftech.com##.logo
 wccftech.com##.search-toggle
 wccftech.com##form[class="search-form"]
 wccftech.com##nav[class="clearfix"]
