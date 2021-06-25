@@ -13,6 +13,7 @@
 ###disqus_thread
 ##.dsq-brlink
 ##.disqus-container
+##amp-iframe
 ###amp-iframe
 ! remove adblocker disable message
 ##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
