@@ -1,5 +1,6 @@
 ! Gobal
 ###ad-container
+##amp-ad
 ##amp-ad[type="adsense"]
 ##amp-ad[type="doubleclick"]
 ##div[id^="div-gpt-ad-"]
