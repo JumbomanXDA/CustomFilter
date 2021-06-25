@@ -234,9 +234,15 @@ phonearena.com##.viewMoreOffers
 phonearena.com##div[class^="spot_disclaimer"]
 phonearena.com##div[class^="adSpot"]
 phonearena.com##.sticky-container
+phonearena.com##.price-banner
+phonearena.com##div[class="pricing widget"]
+phonearena.com##.pricing-info
 phonearena.com##div[class^="type-popular"]
 phonearena.com##div[class^="hot-phones"]
 phonearena.com##nav[aria-label="navigation"]
+phonearena.com###related-container
+phonearena.com###popular-container
+phonearena.com##.footer
 ~phonearena.com##.section
 ~phonearena.com##div[class^="lower section material-card"]
 
