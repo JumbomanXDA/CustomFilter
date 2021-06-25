@@ -215,6 +215,7 @@ phonearena.com##.layout__page_main_more
 phonearena.com##div[class="modal fade"]
 phonearena.com##.carousel-headline
 phonearena.com##.carousel-slider
+phonearena.com##div[class="container"][style^="position:relative;"]
 phonearena.com##div[class="sidebar-bottom sticky"]
 phonearena.com##[class^="layout__page_sidebar"]
 phonearena.com##div[class="layout__page_sidebar_rightSecond sticky-container"]
