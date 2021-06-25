@@ -448,6 +448,7 @@ computerworld.com##.empty-div
 ! https://www.tv9marathi.com/
 tv9marathi.com##div[class^="ads"]
 
-
+!economictimes.com
+economictimes.com##amp-ad
 
 
