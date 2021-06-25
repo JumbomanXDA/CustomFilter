@@ -1,29 +1,38 @@
 ! Gobal
+
+! Global ad filter
 ###ad-container
 ##amp-ad
 ##amp-embed
+##amp-iframe
+###amp-iframe
 ##amp-ad[type="adsense"]
 ##amp-ad[type="doubleclick"]
 ##div[id^="div-gpt-ad-"]
 ##div[id^="div-gpt-ads"]
-##div[id^="comment"]
 ##div[class^="div-gpt-ad"]
-##div[class^="footer"]
+##div[class^="amp-ad"]
+##div[class^="ads"]
+##div[class^="adtext"]
+##amp-analytics[type^="googleanalytics"]
+
+! Global 
+###comments
 ##div[class^="tags"]
+##div[id^="comment"]
+##div[class^="footer"]
+##footer[class^="footer"]
+##amp-ima-video[data-tag^=""]
+
+! Global Disqus
+##div[class^="disqus"]
+##div[id^="disqus"]
 ###disqus_thread
 ##.dsq-brlink
 ##.disqus-container
-##amp-iframe
-###amp-iframe
+
 ! remove adblocker disable message
 ##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
-!##.container
-###comments
-##div[class^="tags"]
-##div[class^="amp-ad"]
-##div[class^="adtext"]
-##amp-ima-video[data-tag^=""]
-##amp-analytics[type^="googleanalytics"]
 
 
 ! lifehacker
@@ -437,7 +446,7 @@ piunikaweb.com##aside.sidebar
 piunikaweb.com###main-footer
 piunikaweb.com##div[class^="copyrights"]
 
-! https://www.computerworld.com/article/3609778/apple-on-track-for-3nm-silicon-iphones-and-more-in-2022.html
+! www.computerworld.com
 computerworld.com##div[class^="social"]
 computerworld.com##div[class^="ad"]
 computerworld.com##div[class^="tags"]
