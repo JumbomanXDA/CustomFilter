@@ -203,14 +203,13 @@ theverge.com##.c-recirc-module
 theverge.com##.c-footer
 
 ! phonearena.com
-phonearena.com##.layout__page_breadcrumbs
+
 phonearena.com##section[class^="announcements"]
 phonearena.com##div.widgetHeader__headingDeals
 phonearena.com##section.widgetHeadingDeals__button
-phonearena.com##div.layout__page_main_header_disclaimer
 phonearena.com##footer.layout__footer
 phonearena.com###adOverlay
-phonearena.com##.container
+
 phonearena.com##.auth
 phonearena.com##.loader
 phonearena.com##section[class="widgetOffersMultiMerchant"]
