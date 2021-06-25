@@ -209,27 +209,27 @@ phonearena.com##div.widgetHeader__headingDeals
 phonearena.com##section.widgetHeadingDeals__button
 phonearena.com##footer.layout__footer
 phonearena.com###adOverlay
-phonearena.com##div.layout__page_main_widgetLinks
-phonearena.com##div.layout__page_main_header_tags
+phonearena.com##.layout__page_main_widgetLinks
+phonearena.com##.layout__page_main_header_tags
 phonearena.com##.layout__page_main_more
-phonearena.com##.modal-body
+phonearena.com##div[class="modal fade"]
 phonearena.com##.carousel-headline
 phonearena.com##.carousel-slider
 phonearena.com##div[class="sidebar-bottom sticky"]
 phonearena.com##[class^="layout__page_sidebar"]
 phonearena.com##div[class="layout__page_sidebar_rightSecond sticky-container"]
 phonearena.com##.layout__page_breadcrumbs
-phonearena.com##.container
+phonearena.com##footer[class="container"]
 phonearena.com##.paginator-headline
 phonearena.com##.paginator-items
-phonearena.com##div[class="layout__page_main_latestReviews"]
+phonearena.com##.layout__page_main_latestReviews
 phonearena.com##div[data-trigger="paginator"]
-phonearena.com##div.col-sm-6
+phonearena.com##.col-sm-6
 ~phonearena.com##.section
 phonearena.com##.auth
-phonearena.com##.loader
+!phonearena.com##.loader
 phonearena.com##section[class="widgetOffersMultiMerchant"]
-phonearena.com##div[class^="disclaimer"]
+!phonearena.com##div[class^="disclaimer"]
 phonearena.com##nav[aria-label="navigation"]
 ~phonearena.com##div[class^="lower section material-card"]
 
