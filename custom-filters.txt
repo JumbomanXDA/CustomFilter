@@ -226,12 +226,18 @@ phonearena.com##.paginator-items
 phonearena.com##.layout__page_main_latestReviews
 phonearena.com##div[data-trigger="paginator"]
 phonearena.com##.col-sm-6
-~phonearena.com##.section
 phonearena.com##.auth
-!phonearena.com##.loader
+phonearena.com##.adSpot
 phonearena.com##section[class="widgetOffersMultiMerchant"]
-!phonearena.com##div[class^="disclaimer"]
+phonearena.com##section[class^="shopLinks"]
+phonearena.com##.viewMoreOffers
+phonearena.com##div[class^="spot_disclaimer"]
+phonearena.com##div[class^="adSpot"]
+phonearena.com##.sticky-container
+phonearena.com##div[class^="type-popular"]
+phonearena.com##div[class^="hot-phones"]
 phonearena.com##nav[aria-label="navigation"]
+~phonearena.com##.section
 ~phonearena.com##div[class^="lower section material-card"]
 
 ! GSMarena
