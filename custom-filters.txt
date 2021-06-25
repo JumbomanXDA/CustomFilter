@@ -234,7 +234,7 @@ phonearena.com##.viewMoreOffers
 phonearena.com##div[class^="spot_disclaimer"]
 phonearena.com##div[class^="adSpot"]
 phonearena.com##.sticky-container
-phonearena.com##.price-banner
+phonearena.com##li[class="price-banner"]
 phonearena.com##div[class="pricing widget"]
 phonearena.com##.pricing-info
 phonearena.com##div[class^="type-popular"]
