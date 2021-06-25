@@ -209,18 +209,11 @@ phonearena.com##div.widgetHeader__headingDeals
 phonearena.com##section.widgetHeadingDeals__button
 phonearena.com##footer.layout__footer
 phonearena.com###adOverlay
-
 phonearena.com##.auth
 phonearena.com##.loader
 phonearena.com##section[class="widgetOffersMultiMerchant"]
 phonearena.com##div[class^="disclaimer"]
-phonearena.com##.paginator-headline
-phonearena.com##.paginator-items
 phonearena.com##nav[aria-label="navigation"]
-phonearena.com##div[class="layout__page_main_latestReviews"]
-phonearena.com##div[data-trigger="paginator"]
-phonearena.com##div.col-sm-6
-~phonearena.com##.section
 ~phonearena.com##div[class^="lower section material-card"]
 
 ! GSMarena
