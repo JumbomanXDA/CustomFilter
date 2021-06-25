@@ -226,6 +226,7 @@ phonearena.com##div.col-sm-6
 
 
 ! GSMarena
+gsmarena.com##div[class="secondary-menu container_12"]
 gsmarena.com##footer.grid_12
 gsmarena.com###wrapper-brands
 gsmarena.com##.homepage-slide
