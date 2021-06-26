@@ -258,6 +258,7 @@ gizmodo.com##div[class^="share-tools-static"]
 
 
 ! gsmarena.com
+gsmarena.com##.footer
 gsmarena.com###all-opinions
 gsmarena.com###related-news-container
 gsmarena.com###wrapper-brands
