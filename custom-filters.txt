@@ -190,10 +190,12 @@ frontpagetech.com##div[class^="post-ad"]
 frontpagetech.com##div[class^="tags"]
 frontpagetech.com##div[id^="_ad_"]
 
-! https://gadgets.ndtv.com/mobiles/news/mi-11-lite-price-in-india-rs-21999-23999-launch-sale-date-june-28-specifications-2469558
+! gadgets.ndtv.com
 gadgets.ndtv.com##div[class="langch langchange"]
 gadgets.ndtv.com##p[class="about_authors"]
+gadgets.ndtv.com##h2[class="innerContainer"]
 gadgets.ndtv.com##h4[class="innerContainer"]
+gadgets.ndtv.com##div[class^="readmore_hindi"]
 gadgets.ndtv.com##ul[class="newslist"]
 gadgets.ndtv.com##div[class="_flx"]
 gadgets.ndtv.com##div[class="_flst _brnd"]
