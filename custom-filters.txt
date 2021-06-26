@@ -190,6 +190,21 @@ frontpagetech.com##div[class^="post-ad"]
 frontpagetech.com##div[class^="tags"]
 frontpagetech.com##div[id^="_ad_"]
 
+! https://gadgets.ndtv.com/mobiles/news/mi-11-lite-price-in-india-rs-21999-23999-launch-sale-date-june-28-specifications-2469558
+gadgets.ndtv.com##div[class="langch langchange"]
+gadgets.ndtv.com##p[class="about_authors"]
+gadgets.ndtv.com##h4[class="innerContainer"]
+gadgets.ndtv.com##ul[class="newslist"]
+gadgets.ndtv.com##div[class="_flx"]
+gadgets.ndtv.com##div[class="_flst _brnd"]
+gadgets.ndtv.com##div[class="_ftstry"]
+gadgets.ndtv.com##div[class="_ftgry"]
+gadgets.ndtv.com##div[class="_ftlnks"]
+gadgets.ndtv.com##div[class="_ftlascl center"]
+gadgets.ndtv.com##div[class="_flscl"]
+gadgets.ndtv.com##div[class="_ftdapp"]
+gadgets.ndtv.com##div[class="_ftcpytxt"]
+
 
 ! gizchina.com
 gizchina.com###taboola-below-article-thumbnails
@@ -522,9 +537,9 @@ xda-developers.com##.et_social_inline
 xda-developers.com##.share
 xda-developers.com##amp-iframe[class="i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-element i-amphtml-built i-amphtml-layout"]
 xda-developers.com##amp-sticky-ad[class="i-amphtml-layout-nodisplay i-amphtml-element i-amphtml-notbuilt amp-notbuilt amp-unresolved i-amphtml-unresolved"]
-xda-developers.com##div.comments-block
-xda-developers.com##div.nanobox-topofpage
-xda-developers.com##div.nonamp-link
+xda-developers.com##.comments-block
+xda-developers.com##.nanobox-topofpage
+xda-developers.com##.nonamp-link
 xda-developers.com##div[class="alert_message yellow"]
 xda-developers.com##div[class="col col_3_of_12 sidebar sidebar_area" ]
 xda-developers.com##div[class="et_social_inline et_social_mobile_on et_social_inline_bottom"]
