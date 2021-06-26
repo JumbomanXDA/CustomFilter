@@ -17,6 +17,7 @@
 ! Global 
 ###comments
 ##div[class^="tags"]
+##div[class^="author"]
 ##div[id^="comment"]
 ##div[class^="footer"]
 ##footer[class^="footer"]
@@ -39,8 +40,8 @@
 ! 9to5google
 9to5google.com##.order-control
 9to5google.com##aside[class="trending-wrapper"]
-9to5google.com##div.site-header-inner
-9to5google.com##div.wp-block-image
+9to5google.com##.site-header-inner
+9to5google.com##.wp-block-image
 9to5google.com##ins[class^="adsbygoogle"]
 9to5google.com,9to5toys.com##div[class^="video-wrapper"]
 9to5mac.com,9to5google.com##div[class^="author-bio"]
@@ -51,10 +52,10 @@
 9to5mac.com,9to5google.com,9to5toys.com##.consent-wrapper
 9to5mac.com,9to5google.com,9to5toys.com##amp-ad[type="adsense"]
 9to5mac.com,9to5google.com,9to5toys.com##amp-ad[type="doubleclick"]
-9to5mac.com,9to5google.com,9to5toys.com##div.ad-disclaimer-container
-9to5mac.com,9to5google.com,9to5toys.com##div.bottom-ad
-9to5mac.com,9to5google.com,9to5toys.com##div.leaderboard-ad
-9to5mac.com,9to5google.com,9to5toys.com##div.post-cats
+9to5mac.com,9to5google.com,9to5toys.com##.ad-disclaimer-container
+9to5mac.com,9to5google.com,9to5toys.com##.bottom-ad
+9to5mac.com,9to5google.com,9to5toys.com##.leaderboard-ad
+9to5mac.com,9to5google.com,9to5toys.com##.post-cats
 9to5mac.com,9to5google.com,9to5toys.com##div[class^="entry-author"]
 9to5mac.com,9to5google.com,9to5toys.com##div[class^="entry-related"]
 9to5mac.com,9to5google.com,9to5toys.com##div[class^="footer"]
@@ -94,7 +95,7 @@ androidcentral.com##.row
 androidcentral.com##div[class="article-token article-token--more-of"]
 androidcentral.com##div[class="sidebar__section sidebar__section--shrink"]
 androidcentral.com##div[class^="article-body__suppl_content--podcast-footer"]
-androidcentral.com##footer.footer
+androidcentral.com##footer[class^="footer"]
 androidcentral.com##img[alt^="Google Ad Tracking Opt Out"]
 androidcentral.com##p[class="article-header__disclosure"]
 androidcentral.com##p[class="auto-disclosure"]
@@ -113,10 +114,10 @@ appletrack.com##.fox-related-posts
 appletrack.com##.widget-area
 appletrack.com##amp-animation[id="hideAnim"]
 appletrack.com##amp-next-page[class^="next-page"]
-appletrack.com##div.fsp
-appletrack.com##div.fsp-cnt
-appletrack.com##div.r-pf
-appletrack.com##div.srp
+appletrack.com##.fsp
+appletrack.com##.fsp-cnt
+appletrack.com##.r-pf
+appletrack.com##.srp
 appletrack.com##div[class^="amp-ad"]
 appletrack.com##div[class^="comments"]
 appletrack.com##div[class^="related"]
@@ -356,8 +357,8 @@ mysmartprice.com##.social-links
 mysmartprice.com##aside[id="search-3"][class^="search-3"]
 mysmartprice.com##aside[id^="compare_widget-"][class^="compare_widget-"]
 mysmartprice.com##aside[id^="nav_menu-"][class^="nav_menu-"]
-mysmartprice.com##div.author-box-wrap
-mysmartprice.com##div.td-post-source-tags
+mysmartprice.com##.author-box-wrap
+mysmartprice.com##.td-post-source-tags
 mysmartprice.com##div[class^="fb-like"]
 mysmartprice.com##div[class^="footer-wrap"]
 mysmartprice.com##div[class^="td_block_related_posts"]
@@ -535,3 +536,5 @@ xda-developers.com##div[id^="footer"]
 xda-developers.com##header[class="topbar logged-out"]
 xda-developers.com##header[class="topbar"]
 xda-developers.com##section[class="readmore"]
+
+
