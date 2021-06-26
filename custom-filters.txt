@@ -68,6 +68,18 @@
 9to5toys.com##div[class="entry-tags entry-meta-column"]
 9to5toys.com##div[class="slot bg-striped slot-leaderboard"]
 
+
+! 91mobiles.com
+91mobiles.com##.mashsb-box
+91mobiles.com##.mashsb-buttons
+91mobiles.com##[class^="next-prev"]
+91mobiles.com##aside[class^="widget_polular-product"]
+91mobiles.com##[class^="tags"]
+91mobiles.com##[class^="author"]
+91mobiles.com##[class^="related_post"]
+91mobiles.com##[class^="subscribe"]
+91mobiles.com##[class^="footer"]
+
 ! androidauthority.com
 androidauthority.com##.form-grid
 androidauthority.com##.policy
@@ -368,6 +380,18 @@ pcgamer.com##footer[class="van_taboola"]
 pcgamer.com##nav[class="box"][id="articleTag"]
 
 
+! pcmag.com
+pcmag.com##div[class="zad billboard"]
+pcmag.com###affiliationDisclaimer
+pcmag.com##div[class^="article_ads"]
+pcmag.com##div[data-pbs-root="true"]
+pcmag.com##.related
+pcmag.com##.morelikethis
+pcmag.com##div[class="wrapper bottom"]
+pcmag.com##div[class^="footer"]
+pcmag.com##[id^="footer"]
+pcmag.com##div[class="inteditions"]
+
 
 ! phonearena.com
 phonearena.com###adOverlay
@@ -468,6 +492,7 @@ twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама|
 
 
 ! wccftech.com
+wccftech.com##.logo
 wccftech.com##.search-toggle
 wccftech.com##form[class="search-form"]
 wccftech.com##nav[class="clearfix"]
@@ -476,7 +501,7 @@ wccftech.com##.content-ad
 wccftech.com##.subscribe-form
 wccftech.com##.wccf-stock-wrap
 wccftech.com##.wp-share
-wccftech.com##[id^="div-gpt-ad"]
+wccftech.com##div[id^="div-gpt-ad"]
 wccftech.com##div[class="subscribe clearfix"]
 wccftech.com##div[class="trending-posts widget-analytics"]
 wccftech.com##div[class^="related_post"]
@@ -509,4 +534,3 @@ xda-developers.com##div[id^="footer"]
 xda-developers.com##header[class="topbar logged-out"]
 xda-developers.com##header[class="topbar"]
 xda-developers.com##section[class="readmore"]
-
