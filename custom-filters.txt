@@ -61,7 +61,6 @@
 9to5mac.com,9to5google.com,9to5toys.com##div[class^="footer"]
 9to5mac.com,9to5google.com,9to5toys.com##div[class^="social"]
 9to5mac.com,9to5google.com,9to5toys.com##footer[class^="footer"]
-9to5mac.com,9to5google.com,9to5toys.com##a[href="https://www.youtube.com/c/9to5google?sub_confirmation=1"]
 9to5mac.com,9to5google.com,9to5toys.com##div[class="posts-carousel inner-wrap"]
 
 ! 9to5toys.com
@@ -501,6 +500,12 @@ semiengineering.com##div[style="width:auto;float:rightl"]
 semiengineering.com##h3[class="widget_title newsletter-title"]
 semiengineering.com##li[id="recent-comments-2"][class="sidebar_widget"]
 semiengineering.com##li[id="tag_cloud-3"][class="sidebar_widget"]
+
+
+! stackexchange.com
+stackexchange.com##.privacy-policy-agreement
+stackexchange.com##div[class^="js-consent-banner"]
+stackexchange.com##div[class^="js-accept-cookies"]
 
 
 
