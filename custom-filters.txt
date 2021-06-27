@@ -335,6 +335,12 @@ indiatoday.in##iframe[data-src^="https://www.indiatodaygroup.com/newsletter-subs
 indiatoday.in##iframe[src^="//youtube.com/embed/"]
 
 
+! letsgodigital.org
+letsgodigital.org##ins[class^="adsbygoogle"]
+letsgodigital.org##p[class="ad__title"]
+letsgodigital.org##section[class^="article__footer"]
+letsgodigital.org##div[class^="article__author"]
+letsgodigital.org##section[class="partners-bar"]
 
 ! lifehacker.com
 lifehacker.com###ad-container
