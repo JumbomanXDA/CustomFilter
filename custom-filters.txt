@@ -321,6 +321,9 @@ hothardware.com##.footer
 hothardware.com##div[class="sharing-right patreon-button"]
 
 
+! hpcwire.com
+hpcwire.com##.textwidget
+
 
 ! indiatoday.in
 indiatoday.in###footer
