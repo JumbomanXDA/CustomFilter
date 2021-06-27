@@ -136,6 +136,7 @@ bloomberg.com##div[class^="share-article"]
 bloomberg.com##div[class^="blens"]
 bloomberg.com##div[class^="zipr-recirc_"]
 bloomberg.com###paywall-banner
+bloomberg.com##div[class^="paywall-inline-tout"]
 
 
 ! businessinsider.in
