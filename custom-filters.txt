@@ -22,6 +22,8 @@
 ##div[class^="footer"]
 ##footer[class^="footer"]
 ##amp-ima-video[data-tag^=""]
+##div[class*="accept-cookies"]
+##div[class="consent-popup"]
 
 ! Global Disqus
 ##div[class^="disqus"]
