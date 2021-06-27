@@ -61,6 +61,8 @@
 9to5mac.com,9to5google.com,9to5toys.com##div[class^="footer"]
 9to5mac.com,9to5google.com,9to5toys.com##div[class^="social"]
 9to5mac.com,9to5google.com,9to5toys.com##footer[class^="footer"]
+9to5mac.com,9to5google.com,9to5toys.com##a[href="https://www.youtube.com/c/9to5google?sub_confirmation=1"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class="posts-carousel inner-wrap"]
 
 ! 9to5toys.com
 9to5toys.com##.fluid-width-video-wrapper
