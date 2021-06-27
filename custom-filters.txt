@@ -146,6 +146,7 @@ bloomberg.com##div[class^="paywall-inline-tout"]
 businessinsider.in##.footer-main-cont
 businessinsider.in##.mobile_padding
 businessinsider.in##.right_content
+businessinsider.in##.article-ad-container
 businessinsider.in##div[class="scl_panel clearfix"]
 businessinsider.in##div[class^="ads-cont"]
 businessinsider.in##div[class^="art-videos-wdgt"]
