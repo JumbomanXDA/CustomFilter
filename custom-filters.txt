@@ -134,11 +134,10 @@ bloomberg.com##.unsupported-browser-notification-container
 bloomberg.com##.inline-newsletter-top
 bloomberg.com##div[class^="share-article"]
 bloomberg.com##div[class^="blens"]
-bloomberg.com##[class^="zipr-recirc__story"]
+bloomberg.com##div[class^="zipr-recirc_"]
 bloomberg.com###paywall-banner
 
 
-blens
 ! businessinsider.in
 businessinsider.in##.footer-main-cont
 businessinsider.in##.mobile_padding
