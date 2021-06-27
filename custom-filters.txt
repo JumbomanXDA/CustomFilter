@@ -132,7 +132,9 @@ bgr.in##.sso-toolbar
 ! bloomberg.com
 bloomberg.com##.unsupported-browser-notification-container
 bloomberg.com##.inline-newsletter-top
+bloomberg.com##div[class^="share-article"]
 bloomberg.com##div[class^="blens"]
+bloomberg.com##[class^="zipr-recirc__story"]
 bloomberg.com###paywall-banner
 
 
