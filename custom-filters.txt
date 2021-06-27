@@ -323,7 +323,7 @@ hothardware.com##div[class="sharing-right patreon-button"]
 
 ! hpcwire.com
 hpcwire.com##.textwidget
-
+hpcwire.com###editorspick
 
 ! indiatoday.in
 indiatoday.in###footer
