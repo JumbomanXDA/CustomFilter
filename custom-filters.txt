@@ -140,7 +140,7 @@ bloomberg.com##div[class^="blens"]
 bloomberg.com##div[class^="zipr-recirc_"]
 bloomberg.com###paywall-banner
 bloomberg.com##div[class^="paywall-inline-tout"]
-
+bloomberg.com##div[class^="content__"]
 
 ! businessinsider.in
 businessinsider.in##.footer-main-cont
@@ -209,9 +209,7 @@ frontpagetech.com##div[id^="_ad_"]
 ! gadgets.ndtv.com
 gadgets.ndtv.com##div[class="langch langchange"]
 gadgets.ndtv.com##p[class="about_authors"]
-!gadgets.ndtv.com##h2[class="innerContainer"]
 gadgets.ndtv.com##h4[class="innerContainer"]
-!gadgets.ndtv.com##div[class^="readmore_hindi"]
 gadgets.ndtv.com##ul[class="newslist"]
 gadgets.ndtv.com##div[class="_flx"]
 gadgets.ndtv.com##div[class="_flst _brnd"]
