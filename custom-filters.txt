@@ -290,6 +290,8 @@ gizmodo.com##div[class^="share-tools-static"]
 
 
 ! gsmarena.com
+gsmarena.com##li[id="search-button"]
+gsmarena.com##div[class="search-field"]
 gsmarena.com##details[class="pricing inline widget"]
 gsmarena.com###all-opinions
 gsmarena.com###related-news-container
