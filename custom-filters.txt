@@ -34,7 +34,7 @@
 ||disqus.com/embed.js
 ||disqus.com/embed/comments/
 
-! remove adblocker disable message
+! Remove adblocker disable message
 ##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
 
 
@@ -296,9 +296,13 @@ gsmarena.com###related-news-container
 gsmarena.com###wrapper-brands
 gsmarena.com##.homepage-slide
 gsmarena.com##.section
-gsmarena.com##div[class="secondary-menu container_12"]
+gsmarena.com##div[class^="secondary-menu container_12"]
 gsmarena.com##div[class="share-buttons material-card"]
+gsmarena.com##div[class="amp-related material-card"]
+gsmarena.com##div[class^="adv-bottom"]
+gsmarena.com##nav[class="alpha"]
 gsmarena.com##footer.grid_12
+gsmarena.com##p[class="switch-desktop"]
 
 
 
@@ -572,7 +576,7 @@ xda-developers.com##.comments-block
 xda-developers.com##.nanobox-topofpage
 xda-developers.com##.nonamp-link
 xda-developers.com##div[class="alert_message yellow"]
-xda-developers.com##div[class="col col_3_of_12 sidebar sidebar_area" ]
+xda-developers.com##div[class="col col_3_of_12 sidebar sidebar_area"]
 xda-developers.com##div[class="et_social_inline et_social_mobile_on et_social_inline_bottom"]
 xda-developers.com##div[class="full_meta clearfix"]
 xda-developers.com##div[class="widget-2 widget"]
