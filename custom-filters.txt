@@ -298,6 +298,7 @@ gsmarena.com###related-news-container
 gsmarena.com###wrapper-brands
 gsmarena.com##.homepage-slide
 gsmarena.com##.section
+gsmarena.com##div[class^="buyers-guide-notification"]
 gsmarena.com##div[class^="secondary-menu container_12"]
 gsmarena.com##div[class="share-buttons material-card"]
 gsmarena.com##div[class="amp-related material-card"]
@@ -589,4 +590,6 @@ xda-developers.com##div[id^="footer"]
 xda-developers.com##header[class="topbar logged-out"]
 xda-developers.com##header[class="topbar"]
 xda-developers.com##section[class="readmore"]
+
+
 
