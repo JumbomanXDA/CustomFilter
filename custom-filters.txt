@@ -570,6 +570,7 @@ wccftech.com##div[class^="related_post"]
 wccftech.com##div[data-nosnippet=""]
 wccftech.com##footer[data-nosnippet=""]
 wccftech.com##ul[class^="share-menu"]
+wccftech.com##[class*="comment"]
 
 
 ! xda-developers.com
