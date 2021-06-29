@@ -305,7 +305,7 @@ gsmarena.com##div[class="amp-related material-card"]
 gsmarena.com##div[class^="adv-bottom"]
 gsmarena.com##nav[class="alpha"]
 gsmarena.com##footer.grid_12
-gsmarena.com##a[href^="news.php3"]
+gsmarena.com##h2[class="lower section material-card"]
 gsmarena.com##a[href="search.php3"]
 gsmarena.com##p[class="switch-desktop"]
 
