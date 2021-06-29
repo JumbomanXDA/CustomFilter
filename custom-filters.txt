@@ -562,15 +562,19 @@ wccftech.com##.featured-ad
 wccftech.com##.footer-ad
 wccftech.com##.subscribe-form
 wccftech.com##.wccf-stock-wrap
-wccftech.com##.wp-share
+wccftech.com##p[class^="wccf_related_post"]
+wccftech.com##p[class^="disclosure"]
+wccftech.com##div[class^="-ad"]
+wccftech.com##div[class^="wccf-products"]
 wccftech.com##div[id^="div-gpt-ad"]
+wccftech.com##aside[class^="deals"]
 wccftech.com##div[class^="subscribe"]
 wccftech.com##div[class^="trending-posts"]
 wccftech.com##div[class^="related_post"]
 wccftech.com##div[data-nosnippet=""]
 wccftech.com##footer[data-nosnippet=""]
-wccftech.com##ul[class^="share-menu"]
-wccftech.com##[class*="comment"]
+wccftech.com##div[class^="share"]
+wccftech.com##ul[class^="share"]
 
 
 ! xda-developers.com
