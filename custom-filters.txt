@@ -554,19 +554,22 @@ twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама|
 wccftech.com##.logo
 wccftech.com##.search-toggle
 wccftech.com##form[class="search-form"]
+wccftech.com##section[class="youtube-channel"]
 wccftech.com##nav[class="clearfix"]
 wccftech.com##.topics
 wccftech.com##.content-ad
+wccftech.com##.featured-ad
+wccftech.com##.footer-ad
 wccftech.com##.subscribe-form
 wccftech.com##.wccf-stock-wrap
 wccftech.com##.wp-share
 wccftech.com##div[id^="div-gpt-ad"]
-wccftech.com##div[class="subscribe clearfix"]
-wccftech.com##div[class="trending-posts widget-analytics"]
+wccftech.com##div[class^="subscribe"]
+wccftech.com##div[class^="trending-posts"]
 wccftech.com##div[class^="related_post"]
 wccftech.com##div[data-nosnippet=""]
 wccftech.com##footer[data-nosnippet=""]
-wccftech.com##ul[class="share-menu"]
+wccftech.com##ul[class^="share-menu"]
 
 
 ! xda-developers.com
