@@ -317,6 +317,8 @@ hindustantimes.com##.relatedStory
 hindustantimes.com##.socialEl
 hindustantimes.com##.storyAd
 hindustantimes.com##div[class^="ads"]
+hindustantimes.com##div[class^="adHeight"]
+hindustantimes.com##div[class^="storyAd"]
 
 
 
