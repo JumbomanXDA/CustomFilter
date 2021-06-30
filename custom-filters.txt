@@ -40,14 +40,14 @@
 
 
 ! 9to5google
-9to5google.com##.order-control
-9to5google.com##aside[class="trending-wrapper"]
-9to5google.com##.site-header-inner
-9to5google.com##.wp-block-image
-9to5google.com##ins[class^="adsbygoogle"]
-9to5google.com,9to5toys.com##div[class^="video-wrapper"]
-9to5mac.com,9to5google.com##div[class^="author-bio"]
-9to5mac.com,9to5google.com##div[class^="related-guides"]
+9to5mac.com,9to5google.com,9to5toys.com##.order-control
+9to5mac.com,9to5google.com,9to5toys.com##aside[class="trending-wrapper"]
+9to5mac.com,9to5google.com,9to5toys.com##.site-header-inner
+9to5mac.com,9to5google.com,9to5toys.com##.wp-block-image
+9to5mac.com,9to5google.com,9to5toys.com##ins[class^="adsbygoogle"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class^="video-wrapper"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class^="author-bio"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class^="related-guides"]
 9to5mac.com,9to5google.com,9to5toys.com###after_disclaimer_placement
 9to5mac.com,9to5google.com,9to5toys.com###comments
 9to5mac.com,9to5google.com,9to5toys.com###related-posts
@@ -64,9 +64,10 @@
 9to5mac.com,9to5google.com,9to5toys.com##div[class^="social"]
 9to5mac.com,9to5google.com,9to5toys.com##footer[class^="footer"]
 9to5mac.com,9to5google.com,9to5toys.com##div[class="posts-carousel inner-wrap"]
+9to5mac.com,9to5google.com,9to5toys.com##amp-lightbox-gallery[id="amp-lightbox-gallery"]
+
 
 ! 9to5toys.com
-9to5toys.com##.fluid-width-video-wrapper
 9to5toys.com##.wrap-sm
 9to5toys.com##div[class="entry-cta aligncenter"]
 9to5toys.com##div[class="entry-tags entry-meta-column"]
@@ -526,6 +527,7 @@ stackexchange.com##div[class^="js-accept-cookies"]
 
 
 ! theverge.com
+theverge.com##.c-ad-allowlist
 theverge.com##.c-footer
 theverge.com##.c-recirc-module
 theverge.com##.comments
