@@ -19,12 +19,12 @@
 
 
 ! Global 
-###comments
+!###comments
+!##div[class^="discussion"]
 ##div[class^="tags"]
 ##div[class^="author"]
 ##div[id^="comment"]
 ##div[class^="footer"]
-##div[class^="discussion"]
 ##footer[class^="footer"]
 ##amp-ima-video[data-tag^=""]
 ##div[class*="accept-cookies"]
