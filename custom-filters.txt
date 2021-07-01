@@ -6,6 +6,8 @@
 ###amp-iframe
 ##amp-ad[type="adsense"]
 ##amp-ad[type="doubleclick"]
+##amp-sticky-ad[layout="nodisplay"]
+##amp-lightbox-gallery[layout="nodisplay"]
 ##div[id^="div-gpt-ad-"]
 ##div[id^="div-gpt-ads"]
 ##div[class^="div-gpt-ad"]
@@ -13,6 +15,8 @@
 ##div[class^="ads"]
 ##div[class^="adtext"]
 ##amp-analytics[type^="googleanalytics"]
+##amp-embed[width="100"][height="100"]
+
 
 ! Global 
 ###comments
@@ -20,6 +24,7 @@
 ##div[class^="author"]
 ##div[id^="comment"]
 ##div[class^="footer"]
+##div[class^="discussion"]
 ##footer[class^="footer"]
 ##amp-ima-video[data-tag^=""]
 ##div[class*="accept-cookies"]
@@ -85,7 +90,16 @@
 91mobiles.com##[class^="subscribe"]
 91mobiles.com##[class^="footer"]
 
+! anandtech.com
+@@||anandtech.com###comments
+anandtech.com##.fl-lt
+anandtech.com##.fl-rt
+
+
 ! androidauthority.com
+androidauthority.com##header
+androidauthority.com##div[data-cy="side-menu"][id="menu-holder"]
+androidauthority.com##amp-script
 androidauthority.com##.form-grid
 androidauthority.com##.policy
 androidauthority.com##.post-sidebar
@@ -93,16 +107,25 @@ androidauthority.com##.prefix
 androidauthority.com##div[data-cy="dealbar"]
 androidauthority.com##div[data-nc="nc-ad"]
 androidauthority.com##footer[data-cy="footer"]
+androidauthority.com##amp-iframe[src^="js.wpenginepowered.com"]
+androidauthority.com##amp-state
+androidauthority.com##amp-web-push
+androidauthority.com##amp-web-push-widget
+androidauthority.com##a[href="/newsletters/"]
+androidauthority.com##div[data-nc="nc-deals-large"]
+androidauthority.com##a[href="/versus/"]
+androidauthority.com##a[href^="/tag/"]
+
 
 ! androidcentral.com
+androidcentral.com##div[class^="page-header"]
 androidcentral.com##.row
 androidcentral.com##div[class="article-token article-token--more-of"]
 androidcentral.com##div[class="sidebar__section sidebar__section--shrink"]
 androidcentral.com##div[class^="article-body__suppl_content--podcast-footer"]
 androidcentral.com##footer[class^="footer"]
 androidcentral.com##img[alt^="Google Ad Tracking Opt Out"]
-androidcentral.com##p[class="article-header__disclosure"]
-androidcentral.com##p[class="auto-disclosure"]
+androidcentral.com##p[class^="disclosure"]
 
 ! apkmirror.com
 apkmirror.com##.advertisement-text
@@ -173,6 +196,7 @@ computerworld.com##section[class="copyright"]
 ! digitaltrends.com
 digitaltrends.com##.h-editors-recs
 digitaltrends.com##div[class^="ads"]
+digitaltrends.com##amp-ad
 digitaltrends.com##div[class^="b-grid b-single__grid"]
 digitaltrends.com##footer[class^="foot"]
 digitaltrends.com##h4[class^="h-editors-recs"]
@@ -188,8 +212,26 @@ extremetech.com##.byline
 extremetech.com##.global-footer
 extremetech.com##.post-widget
 extremetech.com##.textwidget
-extremetech.com##div[class="affiliate-text hide-for-large-up"]
+extremetech.com##div[class^="affiliate-text"]
 extremetech.com##div[class="row collapse"]
+
+
+
+! forbes.com
+forbes.com##amp-geo
+forbes.com##amp-consent
+forbes.com##fbs-ad
+forbes.com##fbs-video
+forbes.com##div[class^="fbs-ad"]
+forbes.com##div[class^="author"]
+forbes.com##div[class^="amp-player"]
+forbes.com##a[class^="embed-base"]
+forbes.com##div[class^="newsletter"]
+forbes.com##div[class^="contrib"]
+forbes.com##div[class^="ad-unit"]
+forbes.com##amp-lightbox
+forbes.com##div[class^="share"]
+forbes.com##div[class^="social"]
 
 
 ! forum.xda-developers.com
@@ -354,10 +396,11 @@ indiatoday.in##iframe[src^="//youtube.com/embed/"]
 
 
 ! letsgodigital.org
+letsgodigital.org##div[aria-label="cookieconsent"]
 letsgodigital.org##ins[class^="adsbygoogle"]
 letsgodigital.org##p[class="ad__title"]
-letsgodigital.org##section[class^="article__footer"]
-letsgodigital.org##div[class^="article__author"]
+letsgodigital.org##section[class^="footer"]
+letsgodigital.org##div[class^="author"]
 letsgodigital.org##section[class="partners-bar"]
 
 ! lifehacker.com
@@ -416,8 +459,27 @@ mysmartprice.com##div[class^="footer-wrap"]
 mysmartprice.com##div[class^="td_block_related_posts"]
 
 
+! notebookcheck.net
+notebookcheck.net##.introa_loading_info
+notebookcheck.net##.introa_restrict
+notebookcheck.net##.amaz_el
+notebookcheck.net##div[class^="incontent-column"]
+notebookcheck.net##div[class^="featured_item"]
+notebookcheck.net##div[class^="relatedarticles"]
+notebookcheck.net##div[id^="comments"]
+notebookcheck.net###contenta
+notebookcheck.net##div[id^="adngin"]
+notebookcheck.net##a[class^="comment_button"]
+notebookcheck.net##.prev_next_news
+notebookcheck.net###author
+notebookcheck.net##div[class^="social"]
+notebookcheck.net###nbc_bottombar
+notebookcheck.net###footer
+notebookcheck.net##span[class^="tag"]
 
 ! pcgamer.com
+pcgamer.com##.recent-news
+pcgamer.com##.articleBody
 pcgamer.com###affiliate-disclaimer
 pcgamer.com###comment-jump
 pcgamer.com###document-footer
@@ -535,7 +597,9 @@ theverge.com##div[class="u-hidden-text"][id="formatter-datter"]
 theverge.com##div[class^="ad__athena_internal"]
 theverge.com##section.c-nextclick
 theverge.com##section.top
-
+theverge.com##amp-youtube[data-vars-video-player="youtube"]
+theverge.com##.connatix-container
+theverge.com##.outbrain-wrapper
 
 
 ! tv9marathi.com
