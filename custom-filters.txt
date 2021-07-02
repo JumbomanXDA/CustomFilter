@@ -22,6 +22,7 @@
 !##div[class*="discussion"]
 !##div[id*="comment"]
 ##div[class*="affiliate-disclaimer"]
+##div[class*="copyright"]
 ##div[class*="tags"]
 ##div[class*="author"]
 ##div[class*="social"]
@@ -38,6 +39,7 @@
 ##amp-ima-video[data-tag^=""]
 ##div[class*="accept-cookies"]
 ##div[class*="consent-popup"]
+##div[class*="cookie-banner"]
 ##div[class*="hawk-processed"]
 ##aside[class*="hawk-processed"]
 
@@ -405,6 +407,7 @@ hpcwire.com###editorspick
 indiatoday.in###footer
 indiatoday.in##.inline-story-add
 indiatoday.in##.live-tv-ico
+indiatoday.in###crengindiv
 indiatoday.in##.may-be-suggest-container
 indiatoday.in##.nav-container-menu
 indiatoday.in##.newsltter-iframe
@@ -481,6 +484,16 @@ mysmartprice.com##div[class*="fb-like"]
 mysmartprice.com##div[class*="footer"]
 mysmartprice.com##div[class*="related_posts"]
 mysmartprice.com##div[class*="tags"]
+
+
+! nikkei.com
+nikkei.com##.cookie-banner
+nikkei.com##div[class*="market-data"]
+nikkei.com##section[class*="credit"]
+nikkei.com##div[class*="copyright"]
+nikkei.com##.gdp
+nikkei.com##.chart__info__value
+nikkei.com###gdp-value
 
 
 ! notebookcheck.net
