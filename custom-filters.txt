@@ -60,7 +60,7 @@
 ! {display:none !important;}
 
 
-! 9to5google
+! 9to5mac.com, 9to5google.com, 9to5toys.com
 9to5mac.com,9to5google.com,9to5toys.com##.order-control
 9to5mac.com,9to5google.com,9to5toys.com##aside[class="trending-wrapper"]
 9to5mac.com,9to5google.com,9to5toys.com##.site-header-inner
@@ -91,7 +91,7 @@
 ! 9to5toys.com
 9to5toys.com##.wrap-sm
 9to5toys.com##div[class="entry-cta aligncenter"]
-9to5toys.com##div[class="entry-tags entry-meta-column"]
+9to5toys.com##div[class*="entry-tags"]
 9to5toys.com##div[class="slot bg-striped slot-leaderboard"]
 
 
@@ -143,6 +143,14 @@ androidcentral.com##footer[class*="footer"]
 androidcentral.com##img[alt*="Google Ad Tracking Opt Out"]
 androidcentral.com##p[class*="disclosure"]
 
+
+
+! androidheadlines.com
+androidheadlines.com##div[class*="ad-wrapper"]
+androidheadlines.com##div[class*="row py-2"]
+
+
+
 ! apkmirror.com
 apkmirror.com##.advertisement-text
 apkmirror.com##.footer
@@ -153,7 +161,7 @@ apkmirror.com##ins[class*="adsbygoogle"]
 appletrack.com###pagination
 appletrack.com##.autoload-nav
 appletrack.com##.cmts
-appletrack.com##.fox-related-posts
+appletrack.com##div[class*="related-posts"]
 appletrack.com##.widget-area
 appletrack.com##amp-animation[id="hideAnim"]
 appletrack.com##amp-next-page[class*="next-page"]
@@ -174,7 +182,7 @@ bgr.in##.sso-toolbar
 
 ! bloomberg.com
 bloomberg.com##.unsupported-browser-notification-container
-bloomberg.com##.inline-newsletter-top
+bloomberg.com##div[class*="newsletter"]
 bloomberg.com##div[class*="share-article"]
 bloomberg.com##div[class*="blens"]
 bloomberg.com##div[class*="zipr-recirc_"]
@@ -193,7 +201,7 @@ businessinsider.in##div[class*="ads-cont"]
 businessinsider.in##div[class*="art-videos-wdgt"]
 businessinsider.in##div[class*="footer-interlining-"]
 businessinsider.in##div[class*="inarticle-wdgt"]
-businessinsider.in##div[id="newsletter_rhs_widget"][class*="newsletter_widget"]
+businessinsider.in##div[id*="newsletter"][class*="newsletter"]
 
 
 ! computerworld.com
@@ -743,8 +751,7 @@ xda-developers.com##div[class="widget-2 widget"]
 xda-developers.com##div[class="widget_text widget-1 first widget"]
 xda-developers.com##div[class*="spon_banner"]
 xda-developers.com##div[id*="footer"]
-xda-developers.com##header[class="topbar logged-out"]
-xda-developers.com##header[class="topbar"]
+xda-developers.com##header[class*="topbar"]
 xda-developers.com##section[class="readmore"]
 
 
