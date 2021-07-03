@@ -18,9 +18,9 @@
 
 
 ! Global 
-!###comments
 !##div[class*="discussion"]
-!##div[id*="comment"]
+##div[id*="comment"]
+##div[class*="comment"]
 ##div[class*="affiliate-disclaimer"]
 ##div[class*="copyright"]
 ##div[class*="tags"]
@@ -108,6 +108,7 @@
 91mobiles.com##[class*="subscribe"]
 91mobiles.com##[class*="footer"]
 
+
 ! anandtech.com
 @@||anandtech.com###comments
 anandtech.com##.fl-lt
@@ -159,6 +160,7 @@ apkmirror.com##.footer
 apkmirror.com##div[class*="copyRight"]
 apkmirror.com##ins[class*="adsbygoogle"]
 
+
 ! appletrack.com
 appletrack.com###pagination
 appletrack.com##.autoload-nav
@@ -178,6 +180,15 @@ appletrack.com##div[class*="share"]
 appletrack.com##div[class*="tag"]
 appletrack.com##footer.footer
 
+
+
+! arstechnica.com
+arstechnica.com##aside[class*="thin-divide-bottom"]
+arstechnica.com##section[class*="author"]
+arstechnica.com##footer[id*="footer"]
+
+
+
 ! bgr.in
 bgr.in##.sso-toolbar
 
@@ -192,6 +203,8 @@ bloomberg.com###paywall-banner
 bloomberg.com##div[class*="paywall-inline-tout"]
 bloomberg.com##div[class*="content__"]
 
+
+
 ! businessinsider.in
 businessinsider.in##.footer-main-cont
 businessinsider.in##.mobile_padding
@@ -204,6 +217,8 @@ businessinsider.in##div[class*="art-videos-wdgt"]
 businessinsider.in##div[class*="footer-interlining-"]
 businessinsider.in##div[class*="inarticle-wdgt"]
 businessinsider.in##div[id*="newsletter"][class*="newsletter"]
+
+
 
 
 ! computerworld.com
@@ -271,9 +286,9 @@ forum.xda-developers.com##.showthread-social
 frontpagetech.com##.zox-post-soc-stat
 frontpagetech.com##div[class*="-ad"]
 frontpagetech.com##div[class*="popup"]
-frontpagetech.com##div[class*="post-ad"]
 frontpagetech.com##div[class*="tags"]
 frontpagetech.com##div[id*="_ad_"]
+
 
 ! gadgets.ndtv.com
 gadgets.ndtv.com##div[class="langch langchange"]
@@ -403,6 +418,7 @@ hothardware.com##div[class="sharing-right patreon-button"]
 hpcwire.com##.textwidget
 hpcwire.com###editorspick
 
+
 ! indiatoday.in
 indiatoday.in###footer
 indiatoday.in##.inline-story-add
@@ -429,6 +445,7 @@ letsgodigital.org##p[class="ad__title"]
 letsgodigital.org##section[class*="footer"]
 letsgodigital.org##div[class*="author"]
 letsgodigital.org##section[class="partners-bar"]
+
 
 ! lifehacker.com
 lifehacker.com###ad-container
@@ -457,10 +474,18 @@ macrumors.com##div[class*="staffList-"]
 
 
 ! medicaldialogues.in
-medicaldialogues.in##.editor-inserted-link
+medicaldialogues.in###header_top_band_area
 medicaldialogues.in##div[class*="-ad-"]
+medicaldialogues.in##div[class*="advert"]
+medicaldialogues.in##div[class*="adv-title"]
 medicaldialogues.in##div[class*="author"]
-
+medicaldialogues.in##section[class*="author"]
+medicaldialogues.in##.editor-inserted-link
+medicaldialogues.in##div[class*="comment"]
+medicaldialogues.in##div[id*="comment"]
+medicaldialogues.in##div[id*="related_post"]
+medicaldialogues.in##div[id*="tags"]
+medicaldialogues.in##div[id*="left_level_3"]
 
 
 ! medicalreportertoday.com
@@ -476,14 +501,22 @@ medicalreportertoday.com##h4[class="related-title"]
 
 ! mysmartprice.com
 mysmartprice.com##.social-links
+mysmartprice.com##div[class*="post-sharing"]
 mysmartprice.com##aside[id="search-3"][class*="search-3"]
 mysmartprice.com##aside[id*="compare_widget-"][class*="compare_widget-"]
 mysmartprice.com##aside[id*="nav_menu-"][class*="nav_menu-"]
 mysmartprice.com##div[class*="author"]
 mysmartprice.com##div[class*="fb-like"]
-mysmartprice.com##div[class*="footer"]
+m##div[class*="footer"]
 mysmartprice.com##div[class*="related_posts"]
 mysmartprice.com##div[class*="tags"]
+mysmartprice.com##div[class*="comment"]
+mysmartprice.com##section[class*="prc-list"]
+mysmartprice.com##div[id*="popular_compares"]
+mysmartprice.com##div[class*="link-list--mlt"]
+mysmartprice.com##section[class*="sclwrpr"]
+mysmartprice.com##div[class*="cpyrght"]
+
 
 
 ! nikkei.com
@@ -513,6 +546,16 @@ notebookcheck.net##div[class*="social"]
 notebookcheck.net###nbc_bottombar
 notebookcheck.net###footer
 notebookcheck.net##span[class*="tag"]
+
+
+
+! oneplus.com
+forums.oneplus.com##div[class*="app-recommand"]
+forums.oneplus.com##a[href*="https://www.oneplus.com/account/sign-up"]
+forums.oneplus.com##div[class*="WidgetRenderer_Stats"]
+forums.oneplus.com##div[class*="analytics"]
+
+
 
 ! pcgamer.com
 pcgamer.com##.recent-news
@@ -601,6 +644,11 @@ piunikaweb.com##div[class*="share"]
 piunikaweb.com##div[class*="tags"]
 
 
+! reuters.com
+reuters.com##div[class*="OldSiteBanner"]
+reuters.com##div[class*="newsletter"]
+
+
 
 ! semiengineering.com
 semiengineering.com###sponsors
@@ -642,6 +690,7 @@ techradar.com##div[class*="popular-box"]
 techradar.com##div[class*="hawk-processed"]
 techradar.com##aside[class*="hawk-processed"]
 techradar.com##.region_redirect_popup
+
 
 ! theverge.com
 theverge.com##.c-ad-allowlist
@@ -720,6 +769,8 @@ wabetainfo.com###glt-footer
 wabetainfo.com###cookie-notice
 wabetainfo.com##div[class*="reactions"]
 wabetainfo.com##div[class*="share"]
+wabetainfo.com##div[id*="big-"]
+wabetainfo.com##div[id*="protect-"]
 
 
 ! wired.com
@@ -742,6 +793,7 @@ wsj.com##div[id="AD_G"]
 wsj.com##div[id*="right-rail"]
 wsj.com##div[id*="trending"]
 wsj.com##div[id*="footer"]
+
 
 ! xda-developers.com
 xda-developers.com##.entry_media
