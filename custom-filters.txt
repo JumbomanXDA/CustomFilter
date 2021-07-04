@@ -13,16 +13,19 @@
 ##div[class^="amp-ad"]
 ##div[class*="ads"]
 ##div[class*="adtext"]
+##iframe[src*="ads-iframe"]
+##div[class*="analytics"]
 ##amp-analytics[type^="googleanalytics"]
 ##amp-embed[width="100"][height="100"]
 
 
-! Global 
-!##div[class*="discussion"]
+! Global
+##div[class*="discussion"]
 ##div[id*="comment"]
 ##div[class*="comment"]
 ##div[class*="affiliate-disclaimer"]
 ##div[class*="copyright"]
+##div[class*="cpyrght"]
 ##div[class*="tags"]
 ##div[class*="author"]
 ##div[class*="social"]
@@ -35,21 +38,22 @@
 ##div[class*="trending"]
 ##div[class*="subscribe"]
 ##div[class*="footer"]
+##div[id*="footer"]
 ##footer[class*="footer"]
 ##amp-ima-video[data-tag^=""]
+##div[class*="hawk-processed"]
+##aside[class*="hawk-processed"]
+
+! Accept Cookies
 ##div[class*="accept-cookies"]
 ##div[class*="consent-popup"]
 ##div[class*="cookie-banner"]
-##div[class*="hawk-processed"]
-##aside[class*="hawk-processed"]
 
 
 ! Global Disqus
 ##div[class*="disqus"]
 ##div[id*="disqus"]
-###disqus_thread
 ##.dsq-brlink
-##.disqus-container
 ||disqus.com/embed.js
 ||disqus.com/embed/comments/
 
@@ -113,7 +117,7 @@
 @@||anandtech.com###comments
 anandtech.com##.fl-lt
 anandtech.com##.fl-rt
-
+anandtech.com##link[href="/Content/atfonts.css"]
 
 ! androidauthority.com
 androidauthority.com##header
