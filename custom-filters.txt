@@ -15,14 +15,15 @@
 ##div[class*="adtext"]
 ##iframe[src*="ads-iframe"]
 ##div[class*="analytics"]
+##amp-analytics
 ##amp-analytics[type^="googleanalytics"]
 ##amp-embed[width="100"][height="100"]
-
+##[class*="sponsored"]
 
 ! Global
 ##div[class*="discussion"]
-##div[id*="comment"]
-##div[class*="comment"]
+##[class*="comment"]
+##[id*="comment"]
 ##div[class*="affiliate-disclaimer"]
 ##div[class*="copyright"]
 ##div[class*="cpyrght"]
@@ -187,10 +188,7 @@ appletrack.com##footer.footer
 
 
 ! arstechnica.com
-arstechnica.com##aside[class*="thin-divide-bottom"]
-arstechnica.com##section[class*="author"]
-arstechnica.com##footer[id*="footer"]
-
+arstechnica.com##aside[class*="thin-divide-bottom"],section[class*="author"],footer[id*="footer"]
 
 
 ! bgr.in
@@ -250,6 +248,11 @@ digitaltrends.com##h4[class*="h-editors-recs"]
 ! economictimes.com
 economictimes.com##amp-ad
 
+! electronicsweekly.com
+electronicsweekly.com##ul[id="not-registered"]
+electronicsweekly.com##nav[id="main-nav"]
+electronicsweekly.com##a[rel="tag"]
+
 
 ! extremetech.com
 extremetech.com###comments
@@ -257,7 +260,6 @@ extremetech.com##.byline
 extremetech.com##.global-footer
 extremetech.com##.post-widget
 extremetech.com##.textwidget
-extremetech.com##div[class*="affiliate-text"]
 extremetech.com##div[class="row collapse"]
 
 
@@ -415,7 +417,9 @@ hothardware.com##.bottomnav
 hothardware.com##.cn-tags
 hothardware.com##.disqus-area
 hothardware.com##.footer
+hothardware.com##amp-iframe
 hothardware.com##div[class="sharing-right patreon-button"]
+hothardware.com##div[class*="Footer"]
 
 
 ! hpcwire.com
@@ -652,6 +656,11 @@ piunikaweb.com##div[class*="tags"]
 reuters.com##div[class*="OldSiteBanner"]
 reuters.com##div[class*="newsletter"]
 
+
+! sdxcentral.com
+sdxcentral.com##[class*="sponsored"]
+sdxcentral.com##[class*="_ad"]
+sdxcentral.com##section[class*="subscribe"]
 
 
 ! semiengineering.com
