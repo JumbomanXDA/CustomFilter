@@ -19,14 +19,14 @@
 ##amp-analytics[type^="googleanalytics"]
 ##amp-embed[width="100"][height="100"]
 ##[class*="sponsored"]
+##div[class*="affiliate-disclaimer"]
+##div[class*="copyright"]
+##div[class*="cpyrght"]
 
 ! Global
 ##div[class*="discussion"]
 ##[class*="comment"]
 ##[id*="comment"]
-##div[class*="affiliate-disclaimer"]
-##div[class*="copyright"]
-##div[class*="cpyrght"]
 ##div[class*="tags"]
 ##div[class*="author"]
 ##div[class*="social"]
@@ -38,9 +38,6 @@
 ##div[class*="newsletter"]
 ##div[class*="trending"]
 ##div[class*="subscribe"]
-##div[class*="footer"]
-##div[id*="footer"]
-##footer[class*="footer"]
 ##amp-ima-video[data-tag^=""]
 ##div[class*="hawk-processed"]
 ##aside[class*="hawk-processed"]
@@ -121,7 +118,8 @@ anandtech.com##.fl-rt
 anandtech.com##link[href="/Content/atfonts.css"]
 
 ! androidauthority.com
-androidauthority.com##header
+
+androidauthority.com##button
 androidauthority.com##div[data-cy="side-menu"][id="menu-holder"]
 androidauthority.com##amp-script
 androidauthority.com##.form-grid
@@ -142,12 +140,14 @@ androidauthority.com##a[href*="/tag/"]
 
 
 ! androidcentral.com
+androidcentral.com##div[class*="-ad"]
 androidcentral.com##div[class*="page-header"]
-androidcentral.com##.row
+androidcentral.com##div[class*="recommended-award"]
+androidcentral.com##div[class*="article-bio"]
+androidcentral.com##div[class*="article-shop"]
 androidcentral.com##div[class="article-token article-token--more-of"]
 androidcentral.com##div[class="sidebar__section sidebar__section--shrink"]
-androidcentral.com##div[class*="article-body__suppl_content--podcast-footer"]
-androidcentral.com##footer[class*="footer"]
+androidcentral.com##[class*="footer"]
 androidcentral.com##img[alt*="Google Ad Tracking Opt Out"]
 androidcentral.com##p[class*="disclosure"]
 
@@ -164,6 +164,7 @@ apkmirror.com##.advertisement-text
 apkmirror.com##.footer
 apkmirror.com##div[class*="copyRight"]
 apkmirror.com##ins[class*="adsbygoogle"]
+
 
 
 ! appletrack.com
@@ -426,6 +427,10 @@ hothardware.com##div[class*="Footer"]
 hpcwire.com##.textwidget
 hpcwire.com###editorspick
 
+! imgur.com
+imgur.com##div[class*="SeeImgurOIA-overlay"]
+imgur.com##div[class*="FloatingOIA-container"]
+
 
 ! indiatoday.in
 indiatoday.in###footer
@@ -643,13 +648,11 @@ phonearena.com##.widgetSidebarSubscription
 
 
 ! piunikaweb.com
+piunikaweb.com##div[class*="top-header"]
+piunikaweb.com##div[class*="hidden-header"]
 piunikaweb.com###main-footer
 piunikaweb.com##aside.sidebar
-piunikaweb.com##div[class*="comments"]
-piunikaweb.com##div[class="user-content"]
-piunikaweb.com##div[class*="copyrights"]
-piunikaweb.com##div[class*="share"]
-piunikaweb.com##div[class*="tags"]
+piunikaweb.com##div[class*="comments"],div[class="user-content"],div[class*="copyrights"],div[class*="share"],div[class*="tags"]
 
 
 ! reuters.com
@@ -683,6 +686,12 @@ semiengineering.com##li[id="tag_cloud-3"][class="sidebar_widget"]
 stackexchange.com##.privacy-policy-agreement
 stackexchange.com##div[class*="js-consent-banner"]
 stackexchange.com##div[class*="js-accept-cookies"]
+
+
+!stackoverflow.com
+stackoverflow.com##div[class*="js-consent-banner"]
+stackoverflow.com##div[class*="js-accept-cookies"]
+
 
 
 ! techradar.com
