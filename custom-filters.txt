@@ -29,7 +29,7 @@
 ##[id*="comment"]
 ##div[class*="tags"]
 ##div[class*="author"]
-##div[class*="social"]
+##[class*="social"]
 ##div[class*="share"]
 ##div[class*="related-post"]
 ##div[class*="related-stories"]
@@ -38,6 +38,7 @@
 ##div[class*="newsletter"]
 ##div[class*="trending"]
 ##div[class*="subscribe"]
+##div[id*="subscription"]
 ##amp-ima-video[data-tag^=""]
 ##div[class*="hawk-processed"]
 ##aside[class*="hawk-processed"]
@@ -168,6 +169,7 @@ apkmirror.com##ins[class*="adsbygoogle"]
 
 
 ! appletrack.com
+appletrack.com##link[href*="fonts"]
 appletrack.com###pagination
 appletrack.com##.autoload-nav
 appletrack.com##.cmts
@@ -452,17 +454,19 @@ indiatoday.in##iframe[src*="//youtube.com/embed/"]
 
 
 ! letsgodigital.org
+letsgodigital.org##a[href*="/tip-ons/"]
 letsgodigital.org##div[aria-label="cookieconsent"]
 letsgodigital.org##ins[class*="adsbygoogle"]
 letsgodigital.org##p[class="ad__title"]
-letsgodigital.org##section[class*="footer"]
-letsgodigital.org##div[class*="author"]
+letsgodigital.org##[class*="footer"]
+letsgodigital.org##[class*="social"]
 letsgodigital.org##section[class="partners-bar"]
 
 
 ! lifehacker.com
 lifehacker.com###ad-container
-lifehacker.com##.js_footer-container
+lifehacker.com##[class*="footer"]
+lifehacker.com##[class*="social"]
 lifehacker.com##div[class="js_more-below-post"]
 lifehacker.com##div[class="js_ymal-below-post"]
 lifehacker.com##div[class*="ad"]
@@ -641,7 +645,9 @@ phonearena.com##section.widgetHeadingDeals__button
 phonearena.com##section[class="widgetOffersMultiMerchant"]
 phonearena.com##section[class*="announcements"]
 phonearena.com##section[class*="shopLinks"]
+phonearena.com##section[class*="latestNews"]
 phonearena.com##.widgetSidebarSubscription
+phonearena.com##div[class*="widgetBackToTop"]
 ~phonearena.com##.section
 ~phonearena.com##div[class*="lower section material-card"]
 
@@ -751,13 +757,6 @@ tv9marathi.com##div[class*="ads"]
 
 
 
-! twitter.com
-twitter.com##.dashboard-right.dashboard
-twitter.com##.module.DashboardProfileCard
-twitter.com##.trends.Trends.module
-twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Реклама' or text()='Promocionado'or text()='Sponsorisé']/../../../../..)
-twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама|Promocionado|Sponsorisé/):xpath(..)
-
 
 
 ! wccftech.com
@@ -784,16 +783,15 @@ wccftech.com##ul[class*="share"]
 
 
 ! wabetainfo.com
-wabetainfo.com##.adsBanner
+wabetainfo.com##link[id="wp-block-library-css"]
+wabetainfo.com##style[id="wp-block-library-inline-css"]
 wabetainfo.com###glt-translate-trigger
 wabetainfo.com###glt-toolbar
 wabetainfo.com###glt-footer
 wabetainfo.com###cookie-notice
 wabetainfo.com##div[class*="reactions"]
 wabetainfo.com##div[class*="share"]
-wabetainfo.com##div[id*="big-"]
-wabetainfo.com##div[id*="protect-"]
-
+wabetainfo.com##div[tabindex="-1"]
 
 ! wired.com
 wired.com##aside[class*="paywall-bar"]
