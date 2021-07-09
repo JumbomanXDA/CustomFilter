@@ -11,7 +11,8 @@
 ##div[id^="div-gpt-ads"]
 ##div[class^="div-gpt-ad"]
 ##div[class^="amp-ad"]
-##div[class*="ads"]
+! dont use class*="ads" as it breaks class containg 'downloads' word, instead use ^
+##div[class^="ads"]
 ##div[class*="adtext"]
 ##iframe[src*="ads-iframe"]
 ##div[class*="analytics"]
@@ -28,6 +29,7 @@
 ##[class*="comment"]
 ##[id*="comment"]
 ##div[class*="tags"]
+##div[id*="tags"]
 ##div[class*="author"]
 ##[class*="social"]
 ##div[class*="share"]
@@ -113,13 +115,14 @@
 
 
 ! anandtech.com
-@@||anandtech.com###comments
 anandtech.com##.fl-lt
 anandtech.com##.fl-rt
 anandtech.com##link[href="/Content/atfonts.css"]
+anandtech.com##[class*="footer"]
+anandtech.com##[id*="_ad"]
+
 
 ! androidauthority.com
-
 androidauthority.com##button
 androidauthority.com##div[data-cy="side-menu"][id="menu-holder"]
 androidauthority.com##amp-script
@@ -159,8 +162,16 @@ androidheadlines.com##div[class*="ad-wrapper"]
 androidheadlines.com##div[class*="row py-2"]
 
 
+! androidpolice.com
+! androidpolice.com##div[class*="ads"]  it breaks website
+androidpolice.com##div[class*="footer"]
+androidpolice.com##div[id*="ezoic-pub-ad-placeholder"]
+androidpolice.com##div[class*="below_post_body"]
+androidpolice.com###sbar
+androidpolice.com##img[src*="https://sb.scorecardresearch.com/"]
 
 ! apkmirror.com
+apkmirror.com##script
 apkmirror.com##.advertisement-text
 apkmirror.com##.footer
 apkmirror.com##div[class*="copyRight"]
@@ -246,6 +257,22 @@ digitaltrends.com##amp-ad
 digitaltrends.com##div[class*="b-grid b-single__grid"]
 digitaltrends.com##footer[class*="foot"]
 digitaltrends.com##h4[class*="h-editors-recs"]
+
+
+! digitimes.com
+digitimes.com##div[id*="adspace"]
+digitimes.com##div[class*="gotop"]
+digitimes.com##div[class*="realtime-news"]
+digitimes.com##div[class*="swiper-container"]
+digitimes.com##div[class*="swiper-slide"]
+digitimes.com##div[class*="fb-like"]
+digitimes.com##div[class*="tag"]
+digitimes.com##div[class*="related-frame"]
+digitimes.com##div[class*="-ad"]
+digitimes.com##[class*="footer"]
+
+
+
 
 
 ! economictimes.com
@@ -403,6 +430,11 @@ gsmarena.com##a[href="search.php3"]
 gsmarena.com##p[class="switch-desktop"]
 
 
+! healthline.com
+healthline.com##aside
+healthline.com##hl-newsletter-cta
+healthline.com##div[data-adbridg-ad-class*=""]
+
 
 ! hindustantimes.com
 hindustantimes.com##.htSlider
@@ -480,10 +512,13 @@ lifehacker.com##div[class*="share-tools-static"]
 
 
 ! macrumors.com
+macrumors.com##ul[id*="roundups-desktop"]
 macrumors.com###comments
 macrumors.com##.linkback
+macrumors.com##.secondaryNavigation
 macrumors.com##div[class*="colLinks-"]
-macrumors.com##div[class*="footer-"]
+macrumors.com##div[class*="footer"]
+macrumors.com##div[id*="footer"]
 macrumors.com##div[class*="footerBottom-"]
 macrumors.com##div[class*="social-"]
 macrumors.com##div[class*="staffList-"]
@@ -606,6 +641,8 @@ pcmag.com##div[class="inteditions"]
 
 
 ! phonearena.com
+phonearena.com##div[class="layout__page_main_header_metadata"]
+phonearena.com##a[data-href="#comments"]
 phonearena.com###adOverlay
 phonearena.com###popular-container
 phonearena.com###related-container
@@ -661,10 +698,28 @@ piunikaweb.com##aside.sidebar
 piunikaweb.com##div[class*="comments"],div[class="user-content"],div[class*="copyrights"],div[class*="share"],div[class*="tags"]
 
 
+! reddit.com
+!reddit.com##div[class*="NavFrame"]
+!reddit.com##div[class*="XPromoPopup"]
+
+
 ! reuters.com
 reuters.com##div[class*="OldSiteBanner"]
 reuters.com##div[class*="newsletter"]
 
+
+! sammobile.com
+sammobile.com###related
+sammobile.com##div[id*="_Ad"]
+sammobile.com##div[class*="-ad-"]
+sammobile.com##div[id*="-ad-"]
+sammobile.com##[class*="category-widget"]
+sammobile.com##div[id*="modelinfo"]
+sammobile.com##div[id*="SM_Bottom"]
+sammobile.com##div[id*="commentsSection"]
+sammobile.com##footer
+sammobile.com##div[id*="footer"]
+sammobile.com###SM_Sticky_Desktop
 
 ! sdxcentral.com
 sdxcentral.com##[class*="sponsored"]
@@ -686,6 +741,18 @@ semiengineering.com##div[style="width:auto;float:rightl"]
 semiengineering.com##h3[class="widget_title newsletter-title"]
 semiengineering.com##li[id="recent-comments-2"][class="sidebar_widget"]
 semiengineering.com##li[id="tag_cloud-3"][class="sidebar_widget"]
+
+
+! smartprix.com
+smartprix.com##div[class*="relatedposts"]
+smartprix.com##div[class*="related_posts"]
+smartprix.com##div[class*="footer"]
+smartprix.com##div[class*="scroll-up"]
+
+
+
+
+
 
 
 ! stackexchange.com
