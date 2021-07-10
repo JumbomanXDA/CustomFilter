@@ -1,5 +1,5 @@
 ! IMPORTANT NOTES
-! Most probably Global BLOCK level elements blocking (e.g. ##footer, ##amp-ad ) don't work
+! Most probably Global BLOCK level elements blocking (e.g. ##footer, ##amp-ad ) doesn't work
 ! Instead use per website rule (e.g. google.com##footer )
 
 ! Dont use class*="ads" as it breaks any Class containg 'downloads' string,
@@ -29,6 +29,7 @@
 ##div[class*="_ad"]
 ##div[id*="_ad"]
 ##div[class*="adtext"]
+##p[class*="adtext"]
 ##div[class*="analytics"]
 ##div[class*="sponsor"]
 ##div[class*="disclaimer"]
@@ -216,15 +217,23 @@ arstechnica.com##aside[class*="thin-divide-bottom"],footer[id*="footer"]
 
 
 ! bgr.in
+bgr.in##.execphpwidget
+bgr.in##.greyDarkBg
 bgr.in##.sso-toolbar
-
+bgr.in##.add-box
+bgr.in##div[data-tb-region="FEATURED PHONES"]
+bgr.in##div[data-tb-region="Hindi mobile news"]
+bgr.in##.newFooter
+bgr.in##.discus
+bgr.in##h2[class*="hdh2"]
+bgr.in##a[data-event-sub-cat*="NEW ARRIVALS"]
+bgr.in##section[class*="upcoming-mp"]
 
 ! bgr.com
 bgr.com##section[class*="filmstrip"]
 bgr.com##[class*="dont-miss"]
 bgr.com##footer
 bgr.com##div[class*="pmc-links"]
-
 
 ! bloomberg.com
 ! if paywall popup comes, use "Reader mode" to read the page
@@ -693,15 +702,8 @@ smartprix.com##div[class*="footer"]
 smartprix.com##div[class*="scroll-up"]
 
 
-! stackexchange.com
-stackexchange.com##form
-
-! stackoverflow.com
-stackoverflow.com##form
-
-! superuser.com
-superuser.com##form
-
+! stackexchange.com,stackoverflow.com,superuser.com
+stackexchange.com,stackoverflow.com,superuser.com##form
 
 
 ! techradar.com
