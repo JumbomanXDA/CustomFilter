@@ -1,8 +1,8 @@
-! imp notes
-! most probably Globsl block elements blocking (e.g. ##footer, ##amp-ad ) don't work
-! Instead use per website rule (e.g. google com##footer )
+! IMPORTANT NOTES
+! Most probably Global BLOCK level elements blocking (e.g. ##footer, ##amp-ad ) don't work
+! Instead use per website rule (e.g. google.com##footer )
 
-! dont use class*="ads" as it breaks class containg 'downloads' string,
+! Dont use class*="ads" as it breaks any Class containg 'downloads' string,
 !  instead use ^ (e.g class^="ads" )
 
 ! Global ad filter
@@ -14,10 +14,13 @@
 ##amp-sticky-ad[layout="nodisplay"]
 ##amp-lightbox-gallery[layout="nodisplay"]
 ##amp-lightbox-gallery[id="amp-lightbox-gallery"]
+##amp-analytics[type^="googleanalytics"]
+##amp-embed[width="100"][height="100"]
 ##[id^="div-gpt-ads"]
 ##[class^="div-gpt-ad"]
 ##[class^="amp-ad"]
 ##[class^="ads"]
+##[class*="advert"]
 ##[class*="adv-"]
 ##[class*="adv_"]
 ##[class*="ad-unit"]
@@ -25,13 +28,15 @@
 ##[id*="-ad"]
 ##[class*="_ad"]
 ##[id*="_ad"]
+##[class*="adSpot"]
 ##[class*="adtext"]
 ##iframe[src*="ads-iframe"]
 ##[class*="analytics"]
-##amp-analytics[type^="googleanalytics"]
-##amp-embed[width="100"][height="100"]
 ##[class*="sponsored"]
-##[class*="affiliate-disclaimer"]
+##[class*="affiliate"]
+##[id*="affiliate"]
+##[class*="disclaimer"]
+##[id*="disclaimer"]
 ##[class*="copyright"]
 ##[class*="cpyrght"]
 
@@ -40,9 +45,9 @@
 ##[class*="comment"]
 ##[id*="comment"]
 ##[class*="fb-like"]
-##div[class*="tags"]
-##div[id*="tags"]
-##div[class*="author"]
+##[class*="tags"]
+##[id*="tags"]
+##[class*="author"]
 ##[class*="social"]
 ##[class*="share"]
 ##[class*="sharing"]
@@ -57,6 +62,7 @@
 ##[id*="newsletter"]
 ##[data-nc*="newsletter"]
 ##[data-nc*="deals"]
+##[class*="deals"]
 ##[class*="trending"]
 ##[class*="subscribe"]
 ##[id*="subscription"]
@@ -93,11 +99,7 @@
 9to5mac.com,9to5google.com,9to5toys.com##.site-header-inner
 9to5mac.com,9to5google.com,9to5toys.com##.wp-block-image
 9to5mac.com,9to5google.com,9to5toys.com##div[class*="video-wrapper"]
-9to5mac.com,9to5google.com,9to5toys.com###after_disclaimer_placement
 9to5mac.com,9to5google.com,9to5toys.com##.consent-wrapper
-9to5mac.com,9to5google.com,9to5toys.com##.ad-disclaimer-container
-9to5mac.com,9to5google.com,9to5toys.com##.bottom-ad
-9to5mac.com,9to5google.com,9to5toys.com##.leaderboard-ad
 9to5mac.com,9to5google.com,9to5toys.com##.post-cats
 9to5mac.com,9to5google.com,9to5toys.com##div[class*="entry-related"]
 9to5mac.com,9to5google.com,9to5toys.com##[class*="footer"]
@@ -173,7 +175,6 @@ androidpolice.com##img[src*="https://sb.scorecardresearch.com/"]
 
 ! apkmirror.com
 apkmirror.com##script
-apkmirror.com##.advertisement-text
 apkmirror.com##.footer
 apkmirror.com##div[class*="copyRight"]
 
@@ -472,7 +473,6 @@ macrumors.com##div[class*="staffList-"]
 
 ! medicaldialogues.in
 medicaldialogues.in###header_top_band_area
-medicaldialogues.in##div[class*="advert"]
 medicaldialogues.in##.editor-inserted-link
 medicaldialogues.in##div[id*="left_level_3"]
 
@@ -528,14 +528,12 @@ notebookcheck.net##span[class*="tag"]
 forums.oneplus.com##div[class*="app-recommand"]
 forums.oneplus.com##a[href*="https://www.oneplus.com/account/sign-up"]
 forums.oneplus.com##div[class*="WidgetRenderer_Stats"]
-forums.oneplus.com##div[class*="analytics"]
 
 
 
 ! pcgamer.com
 pcgamer.com##.recent-news
 pcgamer.com##.articleBody
-pcgamer.com###affiliate-disclaimer
 pcgamer.com###document-footer
 pcgamer.com###sidebar
 pcgamer.com##.fancy-box
@@ -583,9 +581,7 @@ phonearena.com##div[class="layout__page_sidebar_rightSecond sticky-container"]
 phonearena.com##div[class="modal fade"]
 phonearena.com##div[class="pricing widget"]
 phonearena.com##div[class="sidebar-bottom sticky"]
-phonearena.com##div[class*="adSpot"]
 phonearena.com##div[class*="hot-phones"]
-phonearena.com##div[class*="spot_disclaimer"]
 phonearena.com##div[class*="type-popular"]
 phonearena.com##div[data-trigger="paginator"]
 phonearena.com##footer.layout__footer
@@ -752,7 +748,6 @@ wsj.com##div[id*="footer"]
 xda-developers.com##.entry_media
 xda-developers-forum.blogspot.com##.post-share-buttons
 xda-developers.com###about-author-wrapper
-xda-developers.com###affiliate-warning
 xda-developers.com##.amp-active
 xda-developers.com##amp-iframe
 xda-developers.com##amp-sticky-ad
