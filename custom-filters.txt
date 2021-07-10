@@ -3,84 +3,94 @@
 ! Instead use per website rule (e.g. google.com##footer )
 
 ! Dont use class*="ads" as it breaks any Class containg 'downloads' string,
-!  instead use ^ (e.g class^="ads" )
+! Instead use ^ (e.g class^="ads" )
+
 
 ! Global ad filter
 ###ad-container
 ###amp-iframe
-##[class*="adsbygoogle"]
-##amp-ad[type="adsense"]
-##amp-ad[type="doubleclick"]
+##amp-ad[type*="adsense"]
+##amp-ad[type*="doubleclick"]
 ##amp-sticky-ad[layout="nodisplay"]
 ##amp-lightbox-gallery[layout="nodisplay"]
-##amp-lightbox-gallery[id="amp-lightbox-gallery"]
-##amp-analytics[type^="googleanalytics"]
+##amp-lightbox-gallery[id"="amp-lightbox-gallery"]
+##amp-analytics[type*="googleanalytics"]
 ##amp-embed[width="100"][height="100"]
-##[id^="div-gpt-ads"]
-##[class^="div-gpt-ad"]
-##[class^="amp-ad"]
-##[class^="ads"]
-##[class*="advert"]
-##[class*="adv-"]
-##[class*="adv_"]
-##[class*="ad-unit"]
-##[class*="-ad"]
-##[id*="-ad"]
-##[class*="_ad"]
-##[id*="_ad"]
-##[class*="adSpot"]
-##[class*="adtext"]
+##amp-ima-video[data-tag^=""]
 ##iframe[src*="ads-iframe"]
-##[class*="analytics"]
-##[class*="sponsored"]
-##[class*="affiliate"]
-##[id*="affiliate"]
-##[class*="disclaimer"]
-##[id*="disclaimer"]
-##[class*="copyright"]
-##[class*="cpyrght"]
+##div[class*="adsbygoogle"]
+##ins[class*="adsbygoogle"]
+##div[id*="div-gpt-ad"]
+##div[class*="div-gpt-ad"]
+##div[class^="amp-ad"]
+##div[class*="adv-"]
+##div[class*="adv_"]
+##div[class*="ad-unit"]
+##div[class*="_ad"]
+##div[id*="_ad"]
+##div[class*="adtext"]
+##div[class*="analytics"]
+##div[class*="sponsor"]
+##div[class*="disclaimer"]
+##div[class*="affiliate"]
+##div[class*="copyright"]
+##div[class*="cpyrght"]
 
 ! Global
-##[class*="discussion"]
-##[class*="comment"]
-##[id*="comment"]
-##[class*="fb-like"]
-##[class*="tags"]
-##[id*="tags"]
-##[class*="author"]
-##[class*="social"]
-##[class*="share"]
-##[class*="sharing"]
-##[id*="sharing"]
-##[class*="related-post"]
-##[class*="related_post"]
-##[class*="related-stories"]
-##[class*="related-articles"]
-##[class*="related-guides"]
-##[class*="related-topics"]
-##[class*="newsletter"]
-##[id*="newsletter"]
-##[data-nc*="newsletter"]
-##[data-nc*="deals"]
-##[class*="deals"]
-##[class*="trending"]
-##[class*="subscribe"]
-##[id*="subscription"]
-##[class*="email"]
-##[class^="footer"]
-##[id^="footer"]
-##amp-ima-video[data-tag^=""]
-##[class*="hawk-processed"]
+##div[class*="discussion"]
+##div[class*="comment"]
+##div[id*="comment"]
+##div[class*="fb-like"]
+##div[class*="tags"]
+##div[id*="tags"]
+##div[class*="author"]
+##div[class*="social"]
+##div[class*="share"]
+##div[class*="sharing"]
+##div[id*="sharing"]
+##div[class*="related-post"]
+##div[class*="related_post"]
+##div[class*="related-stories"]
+##div[class*="related-articles"]
+##div[class*="related-guides"]
+##div[class*="related-topics"]
+##div[class*="newsletter"]
+##div[id*="newsletter"]
+##div[data-nc*="newsletter"]
+##div[data-nc*="deals"]
+##div[class*="deals"]
+##div[class*="trending"]
+##div[class*="subscribe"]
+##div[id*="subscription"]
+##div[class*="email"]
+##div[class*="footer"]
+##div[id*="footer"]
+##footer[class*="footer"]
+##footer[id*="footer"]
+##section[class*="footer"]
+##section[id*="footer"]
+##div[class*="hawk-processed"]
 
 ! Accept Cookies
-##[class*="consent-"]
-##[class*="cookie"]
-##[id*="cookie"]
+##div[class*="consent"]
+##div[id*="consent"]
+##div[class*="gdpr"]
+##div[id*="gdpr"]
+##div[class*="cookie"]
+##div[id*="cookie"]
+##div[class^="privacy_policy"]
+##div[id^="privacy_policy"]
+##div[class^="privacy-"]
+##div[id^="privacy-"]
+##div[class^="-privacy"]
+##div[id^="-privacy"]
+##div[class^="_privacy"]
+##div[id^="_privacy"]
 
 
 ! Global Disqus
-##[class*="disqus"]
-##[id*="disqus"]
+##div[class*="disqus"]
+##div[id*="disqus"]
 ##.dsq-brlink
 ||disqus.com/embed.js
 ||disqus.com/embed/comments/
@@ -99,7 +109,11 @@
 9to5mac.com,9to5google.com,9to5toys.com##.site-header-inner
 9to5mac.com,9to5google.com,9to5toys.com##.wp-block-image
 9to5mac.com,9to5google.com,9to5toys.com##div[class*="video-wrapper"]
+9to5mac.com,9to5google.com,9to5toys.com###after_disclaimer_placement
 9to5mac.com,9to5google.com,9to5toys.com##.consent-wrapper
+9to5mac.com,9to5google.com,9to5toys.com##.ad-disclaimer-container
+9to5mac.com,9to5google.com,9to5toys.com##.bottom-ad
+9to5mac.com,9to5google.com,9to5toys.com##.leaderboard-ad
 9to5mac.com,9to5google.com,9to5toys.com##.post-cats
 9to5mac.com,9to5google.com,9to5toys.com##div[class*="entry-related"]
 9to5mac.com,9to5google.com,9to5toys.com##[class*="footer"]
@@ -144,12 +158,12 @@ androidauthority.com##amp-state
 androidauthority.com##amp-web-push
 androidauthority.com##amp-web-push-widget
 androidauthority.com##a[href="/newsletters/"]
-androidauthority.com##div[data-nc="nc-deals-large"]
 androidauthority.com##a[href="/versus/"]
 androidauthority.com##a[href*="/tag/"]
 
 
 ! androidcentral.com
+androidcentral.com##div[class*="-ad"]
 androidcentral.com##div[class*="page-header"]
 androidcentral.com##div[class*="recommended-award"]
 androidcentral.com##div[class*="article-bio"]
@@ -170,11 +184,13 @@ androidheadlines.com##div[class*="row py-2"]
 ! androidpolice.com
 androidpolice.com##div[class*="footer"]
 androidpolice.com##div[class*="below_post_body"]
+androidpolice.com##div[id*="ezoic-pub-ad-placeholder"]
 androidpolice.com###sbar
 androidpolice.com##img[src*="https://sb.scorecardresearch.com/"]
 
 ! apkmirror.com
 apkmirror.com##script
+apkmirror.com##.advertisement-text
 apkmirror.com##.footer
 apkmirror.com##div[class*="copyRight"]
 
@@ -206,19 +222,19 @@ bgr.in##.sso-toolbar
 
 ! bgr.com
 bgr.com##section[class*="filmstrip"]
-bgr.com##[class*="deals"]
 bgr.com##[class*="dont-miss"]
 bgr.com##footer
 bgr.com##div[class*="pmc-links"]
 
 
 ! bloomberg.com
+! if paywall popup comes, use "Reader mode" to read the page
 bloomberg.com##.unsupported-browser-notification-container
 bloomberg.com##div[class*="blens"]
 bloomberg.com##div[class*="zipr-recirc_"]
-bloomberg.com###paywall-banner
-bloomberg.com##div[class*="paywall-inline-tout"]
+bloomberg.com##div[id*="banner-container"]
 bloomberg.com##div[class*="content__"]
+bloomberg.com##[class*="footer"]
 
 
 
@@ -227,6 +243,7 @@ businessinsider.in##.mobile_padding
 businessinsider.in##.right_content
 businessinsider.in##.msme-art-widget
 businessinsider.in##div[class="scl_panel clearfix"]
+businessinsider.in##.article-ad-container
 businessinsider.in##div[class*="ads-cont"]
 businessinsider.in##div[class*="art-videos-wdgt"]
 businessinsider.in##div[class*="footer-interlining-"]
@@ -259,6 +276,7 @@ digitimes.com##div[class*="realtime-news"]
 digitimes.com##div[class*="swiper-container"]
 digitimes.com##div[class*="swiper-slide"]
 digitimes.com##div[class*="related-frame"]
+digitimes.com##div[class*="-ad"]
 digitimes.com##[class*="footer"]
 
 
@@ -289,6 +307,7 @@ forbes.com##amp-geo
 forbes.com##amp-consent
 forbes.com##fbs-ad
 forbes.com##fbs-video
+forbes.com##div[class*="fbs-ad"]
 forbes.com##div[class*="amp-player"]
 forbes.com##a[class*="embed-base"]
 forbes.com##div[class*="contrib"]
@@ -302,6 +321,7 @@ forum.xda-developers.com###thread-header-social
 
 ! frontpagetech.com
 frontpagetech.com##.zox-post-soc-stat
+frontpagetech.com##div[class*="-ad"]
 frontpagetech.com##div[class*="popup"]
 frontpagetech.com##footer
 frontpagetech.com##div[class*="back-to-top"]
@@ -394,6 +414,8 @@ gsmarena.com##footer.grid_12
 gsmarena.com##h2[class="lower section material-card"]
 gsmarena.com##a[href="search.php3"]
 gsmarena.com##p[class="switch-desktop"]
+gsmarena.com##footer
+
 
 
 ! healthline.com
@@ -457,8 +479,9 @@ letsgodigital.org##section[class="partners-bar"]
 lifehacker.com##[class*="footer"]
 lifehacker.com##div[class="js_more-below-post"]
 lifehacker.com##div[class="js_ymal-below-post"]
-lifehacker.com##div[class*="ad"]
 lifehacker.com##div[class*="video-sticky"]
+lifehacker.com##div[class*="js_commerce"]
+lifehacker.com##aside[class*="inset--story"]
 
 
 
@@ -472,7 +495,9 @@ macrumors.com##div[class*="staffList-"]
 
 
 ! medicaldialogues.in
+medicaldialogues.in##div[class*="-ad-"]
 medicaldialogues.in###header_top_band_area
+medicaldialogues.in##div[class*="advert"]
 medicaldialogues.in##.editor-inserted-link
 medicaldialogues.in##div[id*="left_level_3"]
 
@@ -528,12 +553,14 @@ notebookcheck.net##span[class*="tag"]
 forums.oneplus.com##div[class*="app-recommand"]
 forums.oneplus.com##a[href*="https://www.oneplus.com/account/sign-up"]
 forums.oneplus.com##div[class*="WidgetRenderer_Stats"]
+forums.oneplus.com##div[class*="analytics"]
 
 
 
 ! pcgamer.com
 pcgamer.com##.recent-news
 pcgamer.com##.articleBody
+pcgamer.com###affiliate-disclaimer
 pcgamer.com###document-footer
 pcgamer.com###sidebar
 pcgamer.com##.fancy-box
@@ -581,7 +608,9 @@ phonearena.com##div[class="layout__page_sidebar_rightSecond sticky-container"]
 phonearena.com##div[class="modal fade"]
 phonearena.com##div[class="pricing widget"]
 phonearena.com##div[class="sidebar-bottom sticky"]
+phonearena.com##div[class*="adSpot"]
 phonearena.com##div[class*="hot-phones"]
+phonearena.com##div[class*="spot_disclaimer"]
 phonearena.com##div[class*="type-popular"]
 phonearena.com##div[data-trigger="paginator"]
 phonearena.com##footer.layout__footer
@@ -595,8 +624,6 @@ phonearena.com##section[class*="shopLinks"]
 phonearena.com##section[class*="latestNews"]
 phonearena.com##.widgetSidebarSubscription
 phonearena.com##div[class*="widgetBackToTop"]
-~phonearena.com##.section
-~phonearena.com##div[class*="lower section material-card"]
 
 
 
@@ -608,19 +635,25 @@ piunikaweb.com##aside.sidebar
 piunikaweb.com##div[class="user-content"]
 
 
-! reddit.com
-!reddit.com##div[class*="NavFrame"]
-!reddit.com##div[class*="XPromoPopup"]
+! quora.com
+quora.com##.modal_signup_background
+quora.com##div[id$="_modal_signup_wrapper"]
+quora.com##.blurred_para
+quora.com##div[class*="open_in_app"]
+quora.com##div[style="position: fixed; left: 0px; right: 0px; bottom: 0px; z-index: 300; height: 50px;"]
+quora.com##div[class*="q-box qu-mt--small"]
+
 
 
 ! reuters.com
 reuters.com##div[class*="OldSiteBanner"]
 
 
-
 ! sammobile.com
 sammobile.com###related
 sammobile.com##div[id*="_Ad"]
+sammobile.com##div[class*="-ad-"]
+sammobile.com##div[id*="-ad-"]
 sammobile.com##[class*="category-widget"]
 sammobile.com##div[id*="modelinfo"]
 sammobile.com##div[id*="SM_Bottom"]
@@ -655,17 +688,14 @@ slashleaks.com##[class*="footer"]
 
 
 
-
 ! smartprix.com
 smartprix.com##div[class*="relatedposts"]
 smartprix.com##div[class*="footer"]
 smartprix.com##div[class*="scroll-up"]
 
 
-
 ! stackexchange.com
 stackexchange.com##.privacy-policy-agreement
-
 
 
 ! techradar.com
@@ -679,6 +709,7 @@ techradar.com##.region_redirect_popup
 
 
 ! theverge.com
+theverge.com##.c-ad-allowlist
 theverge.com##.c-footer
 theverge.com##.c-recirc-module
 theverge.com##div[class="u-hidden-text"][id="formatter-datter"]
@@ -710,20 +741,12 @@ wccftech.com##nav[class="clearfix"]
 wccftech.com##.topics
 wccftech.com##.wccf-stock-wrap
 wccftech.com##p[class*="disclosure"]
+wccftech.com##div[class*="-ad"]
 wccftech.com##div[class*="wccf-products"]
-wccftech.com##aside[class*="deals"]
 wccftech.com##div[data-nosnippet=""]
 wccftech.com##footer[data-nosnippet=""]
 
 
-! wabetainfo.com
-wabetainfo.com##link[id="wp-block-library-css"]
-wabetainfo.com##style[id="wp-block-library-inline-css"]
-wabetainfo.com###glt-translate-trigger
-wabetainfo.com###glt-toolbar
-wabetainfo.com###glt-footer
-wabetainfo.com##div[class*="reactions"]
-wabetainfo.com##div[tabindex="-1"]
 
 ! wired.com
 wired.com##aside[class*="paywall-bar"]
@@ -748,6 +771,7 @@ wsj.com##div[id*="footer"]
 xda-developers.com##.entry_media
 xda-developers-forum.blogspot.com##.post-share-buttons
 xda-developers.com###about-author-wrapper
+xda-developers.com###affiliate-warning
 xda-developers.com##.amp-active
 xda-developers.com##amp-iframe
 xda-developers.com##amp-sticky-ad
@@ -765,7 +789,9 @@ xda-developers.com##section[class="readmore"]
 
 
 ! zdnet.com
+zdnet.com##div[class*="-ad-"]
 zdnet.com##div[class*="breaking-news"]
 zdnet.com##div[class*="relatedContent"]
 zdnet.com###myfinance-bottom
+
 
