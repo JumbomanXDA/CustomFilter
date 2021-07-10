@@ -13,7 +13,7 @@
 ##amp-ad[type*="doubleclick"]
 ##amp-sticky-ad[layout="nodisplay"]
 ##amp-lightbox-gallery[layout="nodisplay"]
-##amp-lightbox-gallery[id"="amp-lightbox-gallery"]
+##amp-lightbox-gallery[id*="amp-lightbox-gallery"]
 ##amp-analytics[type*="googleanalytics"]
 ##amp-embed[width="100"][height="100"]
 ##amp-ima-video[data-tag^=""]
@@ -37,7 +37,6 @@
 ##div[class*="cpyrght"]
 
 ! Global
-##div[class*="discussion"]
 ##div[class*="comment"]
 ##div[id*="comment"]
 ##div[class*="fb-like"]
@@ -695,7 +694,14 @@ smartprix.com##div[class*="scroll-up"]
 
 
 ! stackexchange.com
-stackexchange.com##.privacy-policy-agreement
+stackexchange.com##form
+
+! stackoverflow.com
+stackoverflow.com##form
+
+! superuser.com
+superuser.com##form
+
 
 
 ! techradar.com
