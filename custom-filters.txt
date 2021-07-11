@@ -33,13 +33,17 @@
 ##div[class*="analytics"]
 ##div[class*="sponsor"]
 ##div[class*="disclaimer"]
+##div[id*="disclaimer"]
+##p[class*="disclaimer"]
 ##div[class*="affiliate"]
+##div[id*="affiliate"]
 ##div[class*="copyright"]
 ##div[class*="cpyrght"]
 
 ! Global
 ##div[class*="comment"]
 ##div[id*="comment"]
+##section[id*="comment"]
 ##div[class*="fb-like"]
 ##div[class*="tags"]
 ##div[id*="tags"]
@@ -91,9 +95,12 @@
 ! Global Disqus
 ##div[class*="disqus"]
 ##div[id*="disqus"]
+##div[id*="disqus_thread"]
 ##.dsq-brlink
 ||disqus.com/embed.js
 ||disqus.com/embed/comments/
+||c.disquscdn.com/next/embed/
+||disquscdn.com/next/embed/
 
 ! Remove adblocker disable message
 ##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
@@ -109,9 +116,7 @@
 9to5mac.com,9to5google.com,9to5toys.com##.site-header-inner
 9to5mac.com,9to5google.com,9to5toys.com##.wp-block-image
 9to5mac.com,9to5google.com,9to5toys.com##div[class*="video-wrapper"]
-9to5mac.com,9to5google.com,9to5toys.com###after_disclaimer_placement
 9to5mac.com,9to5google.com,9to5toys.com##.consent-wrapper
-9to5mac.com,9to5google.com,9to5toys.com##.ad-disclaimer-container
 9to5mac.com,9to5google.com,9to5toys.com##.bottom-ad
 9to5mac.com,9to5google.com,9to5toys.com##.leaderboard-ad
 9to5mac.com,9to5google.com,9to5toys.com##.post-cats
@@ -289,6 +294,14 @@ digitimes.com##[class*="footer"]
 
 
 
+! droid-life.com
+droid-life.com##div[class="jump-button-wrapper"]
+droid-life.com##nav[class="site__priNav"]
+droid-life.com##div[class="entry-taxonomies"]
+droid-life.com##aside[class*="post-carousel__suggested-posts"]
+droid-life.com##aside[class*="post-carousel__youtube"]
+droid-life.com##footer
+
 
 
 ! economictimes.com
@@ -325,6 +338,12 @@ forbes.com##amp-lightbox
 
 ! forum.xda-developers.com
 forum.xda-developers.com###thread-header-social
+forum.xda-developers.com##div[class="uix_noticeIcon"]
+forum.xda-developers.com##div[class="notice-content"]
+forum.xda-developers.com##div[class*="noticeScrollContainer"]
+forum.xda-developers.com##div[uix_component*="MainSidebar"][class="p-body-sidebar"]
+forum.xda-developers.com##div[class*="similarContents"]
+
 
 
 ! frontpagetech.com
@@ -561,14 +580,16 @@ notebookcheck.net##span[class*="tag"]
 forums.oneplus.com##div[class*="app-recommand"]
 forums.oneplus.com##a[href*="https://www.oneplus.com/account/sign-up"]
 forums.oneplus.com##div[class*="WidgetRenderer_Stats"]
-forums.oneplus.com##div[class*="analytics"]
+forums.oneplus.com##div[class*="publicControls"]
+forums.oneplus.com##div[id*="likes-post"]
+forums.oneplus.com##div[class*="editDate"]
+forums.oneplus.com##abbr[class*="DateTime"]
 
 
 
 ! pcgamer.com
 pcgamer.com##.recent-news
 pcgamer.com##.articleBody
-pcgamer.com###affiliate-disclaimer
 pcgamer.com###document-footer
 pcgamer.com###sidebar
 pcgamer.com##.fancy-box
@@ -618,7 +639,6 @@ phonearena.com##div[class="pricing widget"]
 phonearena.com##div[class="sidebar-bottom sticky"]
 phonearena.com##div[class*="adSpot"]
 phonearena.com##div[class*="hot-phones"]
-phonearena.com##div[class*="spot_disclaimer"]
 phonearena.com##div[class*="type-popular"]
 phonearena.com##div[data-trigger="paginator"]
 phonearena.com##footer.layout__footer
@@ -667,6 +687,7 @@ sammobile.com##div[id*="modelinfo"]
 sammobile.com##div[id*="SM_Bottom"]
 sammobile.com##footer
 sammobile.com##div[id*="footer"]
+sammobile.com##a[id="loadMoreButton"]
 sammobile.com###SM_Sticky_Desktop
 
 
@@ -692,7 +713,10 @@ slashleaks.com##div[id*="contributor"]
 slashleaks.com##div[id*="statistics"]
 slashleaks.com##div[class*="statistics"]
 slashleaks.com##div[id*="bottom"]
+slashleaks.com##div[id*="disqus_thread"]
 slashleaks.com##[class*="footer"]
+slashleaks.com##div[class="widget"][id="gallery-widget"]
+slashleaks.com##div[class="entry-ad-banner"]
 
 
 
@@ -740,6 +764,7 @@ tomsguide.com,tomshardware.com##[class*="popular-box"]
 tv9marathi.com##div[class*="ads"]
 
 
+
 ! wccftech.com
 wccftech.com##.logo
 wccftech.com##.search-toggle
@@ -750,9 +775,11 @@ wccftech.com##.topics
 wccftech.com##.wccf-stock-wrap
 wccftech.com##p[class*="disclosure"]
 wccftech.com##div[class*="-ad"]
+wccftech.com##div[style="margin: 25px auto"][class="ad"]
 wccftech.com##div[class*="wccf-products"]
 wccftech.com##div[data-nosnippet=""]
 wccftech.com##footer[data-nosnippet=""]
+wccftech.com##aside[class="aside-deals"]
 
 
 
@@ -779,7 +806,6 @@ wsj.com##div[id*="footer"]
 xda-developers.com##.entry_media
 xda-developers-forum.blogspot.com##.post-share-buttons
 xda-developers.com###about-author-wrapper
-xda-developers.com###affiliate-warning
 xda-developers.com##.amp-active
 xda-developers.com##amp-iframe
 xda-developers.com##amp-sticky-ad
