@@ -178,6 +178,7 @@ androidcentral.com##div[class="sidebar__section sidebar__section--shrink"]
 androidcentral.com##[class*="footer"]
 androidcentral.com##img[alt*="Google Ad Tracking Opt Out"]
 androidcentral.com##p[class*="disclosure"]
+androidcentral.com##div[class*="article-body"][data-award=""]
 
 
 
