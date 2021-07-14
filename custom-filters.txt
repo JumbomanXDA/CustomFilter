@@ -116,8 +116,13 @@
 9to5mac.com,9to5google.com,9to5toys.com##.site-header-inner
 9to5mac.com,9to5google.com,9to5toys.com##.wp-block-image
 9to5mac.com,9to5google.com,9to5toys.com##div[class*="video-wrapper"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class*="disclaimer"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class*="related-guides"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class*="author-bio"]
+9to5mac.com,9to5google.com,9to5toys.com##div[id*="related-post"]
 9to5mac.com,9to5google.com,9to5toys.com##.consent-wrapper
 9to5mac.com,9to5google.com,9to5toys.com##.bottom-ad
+9to5mac.com,9to5google.com,9to5toys.com##amp-ad
 9to5mac.com,9to5google.com,9to5toys.com##.leaderboard-ad
 9to5mac.com,9to5google.com,9to5toys.com##.post-cats
 9to5mac.com,9to5google.com,9to5toys.com##div[class*="entry-related"]
@@ -179,7 +184,7 @@ androidcentral.com##[class*="footer"]
 androidcentral.com##img[alt*="Google Ad Tracking Opt Out"]
 androidcentral.com##p[class*="disclosure"]
 androidcentral.com##div[class*="article-body"][data-award=""]
-
+androidcentral.com##footer
 
 
 ! androidheadlines.com
@@ -229,17 +234,23 @@ bgr.in##.sso-toolbar
 bgr.in##.add-box
 bgr.in##div[data-tb-region="FEATURED PHONES"]
 bgr.in##div[data-tb-region="Hindi mobile news"]
+bgr.in##section[class="blksidebar blksimilar"]
 bgr.in##.newFooter
 bgr.in##.discus
 bgr.in##h2[class*="hdh2"]
 bgr.in##a[data-event-sub-cat*="NEW ARRIVALS"]
 bgr.in##section[class*="upcoming-mp"]
+bgr.in##p[class="copyRight"]
+
+
+
 
 ! bgr.com
 bgr.com##section[class*="filmstrip"]
 bgr.com##[class*="dont-miss"]
 bgr.com##footer
 bgr.com##div[class*="pmc-links"]
+bgr.com##[class*="product-callout"]
 
 ! bloomberg.com
 ! if paywall popup comes, use "Reader mode" to read the page
@@ -274,6 +285,19 @@ computerworld.com##section[class="about"]
 computerworld.com##section[class="brand"]
 
 
+! dailystar.co.uk
+dailystar.co.uk##div[role="list"]
+dailystar.co.uk##div[class="tag-list"]
+dailystar.co.uk##[class*="skinny-signup"]
+dailystar.co.uk##section[class*="read-more-group"]
+dailystar.co.uk##aside[class*="read-more-links"]
+dailystar.co.uk##amp-list[class*="read-next"]
+dailystar.co.uk##aside[class="more-on"]
+dailystar.co.uk##div[class="html-embed"][data-mod="htmlEmbed"]
+dailystar.co.uk##footer
+
+
+
 ! digitaltrends.com
 digitaltrends.com##.h-editors-recs
 digitaltrends.com##div[class*="ads"]
@@ -292,6 +316,7 @@ digitimes.com##div[class*="swiper-slide"]
 digitimes.com##div[class*="related-frame"]
 digitimes.com##div[class*="-ad"]
 digitimes.com##[class*="footer"]
+digitimes.com##[class*="tag-frame"]
 
 
 
@@ -307,12 +332,21 @@ droid-life.com##footer
 
 ! economictimes.com
 economictimes.com##amp-ad
+economictimes.com##a[href*="https://play.google.com/store/apps/details?id=com.et.reader.activities"]
+economictimes.com##footer
+economictimes.com##div[class*="adContainer"]
+economictimes.com##div[data-name="art-cmnt"]
 
 
 ! electronicsweekly.com
 electronicsweekly.com##ul[id="not-registered"]
 electronicsweekly.com##nav[id="main-nav"]
+electronicsweekly.com##[class="post-tag"]
 electronicsweekly.com##a[rel="tag"]
+electronicsweekly.com##[id="related_posts"]
+electronicsweekly.com##div[class="widget-top"]
+electronicsweekly.com##div[class="widget-container"]
+electronicsweekly.com##aside[class="sidebar-narrow"]
 
 
 ! extremetech.com
@@ -778,6 +812,7 @@ wccftech.com##p[class*="disclosure"]
 wccftech.com##div[class*="-ad"]
 wccftech.com##div[style="margin: 25px auto"][class="ad"]
 wccftech.com##div[class*="wccf-products"]
+wccftech.com##[class*="wccf_related_post"]
 wccftech.com##div[data-nosnippet=""]
 wccftech.com##footer[data-nosnippet=""]
 wccftech.com##aside[class="aside-deals"]
