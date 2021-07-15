@@ -302,6 +302,18 @@ computerworld.com##section[class="about"]
 computerworld.com##section[class="brand"]
 
 
+
+! cultofmac.com
+cultofmac.com##[class*="social"]
+cultofmac.com##[class*="subscribe"]
+cultofmac.com##[id*="ezoic"]
+cultofmac.com##[class*="ezoic"]
+cultofmac.com##[class*="author"]
+cultofmac.com##[class*="tags"]
+cultofmac.com##[class*="infscr-loading"]
+
+
+
 ! dailystar.co.uk
 dailystar.co.uk##div[role="list"]
 dailystar.co.uk##div[class="tag-list"]
@@ -567,6 +579,12 @@ lifehacker.com##div[class*="js_commerce"]
 lifehacker.com##aside[class*="inset--story"]
 
 
+! lokmat.com
+epaper.lokmat.com##div[class*="epaper-feedback"]
+epaper.lokmat.com##div[class*="carouselMain"]
+
+
+
 
 ! macrumors.com
 macrumors.com##ul[id*="roundups-desktop"]
@@ -805,6 +823,14 @@ theverge.com##section.top
 theverge.com##amp-youtube[data-vars-video-player="youtube"]
 theverge.com##.connatix-container
 theverge.com##.outbrain-wrapper
+
+
+! timesofindia.com
+timesofindia.com##div[class*=""][style="height:undefined"]
+timesofindia.com##div[class*="ad_"]
+
+
+
 
 
 ! tomsguide.com, tomshardware.com
