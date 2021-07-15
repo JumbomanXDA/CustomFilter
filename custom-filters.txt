@@ -7,6 +7,7 @@
 
 
 ! Global ad filter
+||/advertisement.js
 ###ad-container
 ###amp-iframe
 ##amp-ad[type*="adsense"]
@@ -76,12 +77,14 @@
 ##div[class*="hawk-processed"]
 
 ! Accept Cookies
+||/cookie-prompt.js
 ##div[class*="consent"]
 ##div[id*="consent"]
 ##div[class*="gdpr"]
 ##div[id*="gdpr"]
 ##div[class*="cookie"]
 ##div[id*="cookie"]
+##form[class*="cookie"]
 ##div[class^="privacy_policy"]
 ##div[id^="privacy_policy"]
 ##div[class^="privacy-"]
@@ -90,7 +93,11 @@
 ##div[id^="-privacy"]
 ##div[class^="_privacy"]
 ##div[id^="_privacy"]
-
+##announcement-banner[class*="cookie"]
+##.smartbanner
+###smartbanner
+##.app-banner
+###app-banner
 
 ! Global Disqus
 ##div[class*="disqus"]
@@ -109,6 +116,15 @@
 ! To know which filters are blocked successfully on website.
 ! Search for below code in page source of website
 ! {display:none !important;}
+
+
+! 1mg.com
+1mg.com##div[class*="temp-install-class"]
+1mg.com##div[class*="HomeCareplanSticky"]
+1mg.com##section[class*="style__pharmaHeader"]
+1mg.com##div[class*="style__quick-buy"]
+1mg.com##div[class*="style__rx-button"]
+
 
 
 ! 9to5mac.com, 9to5google.com, 9to5toys.com
@@ -173,6 +189,7 @@ androidauthority.com##a[href*="/tag/"]
 
 
 ! androidcentral.com
+androidcentral.com##div[class*="top-alert-bar"]
 androidcentral.com##div[class*="-ad"]
 androidcentral.com##div[class*="page-header"]
 androidcentral.com##div[class*="recommended-award"]
@@ -420,6 +437,7 @@ gizchina.com##div[class*="widget_text"]
 gizchina.com##footer[class*="footer"]
 
 
+
 ! gizmochina.com
 gizmochina.com###taboola-below-article
 gizmochina.com###wpfront-notification-bar-spacer
@@ -431,6 +449,9 @@ gizmochina.com##.td-related-row
 gizmochina.com##div[class*="footer"]
 gizmochina.com##h4[class="td-related-title"]
 gizmochina.com##ul[class="sxc-follow-buttons"]
+gizmochina.com##div[id*="cliSettingsPopup"]
+gizmochina.com##div[class*="td-scroll-up"]
+
 
 
 ! gizmodo.com
@@ -652,7 +673,6 @@ phonearena.com##a[data-href="#comments"]
 phonearena.com###adOverlay
 phonearena.com###popular-container
 phonearena.com###related-container
-phonearena.com##.adSpot
 phonearena.com##.auth
 phonearena.com##.carousel-headline
 phonearena.com##.carousel-slider
@@ -672,18 +692,18 @@ phonearena.com##div[class="layout__page_sidebar_rightSecond sticky-container"]
 phonearena.com##div[class="modal fade"]
 phonearena.com##div[class="pricing widget"]
 phonearena.com##div[class="sidebar-bottom sticky"]
-phonearena.com##div[class*="adSpot"]
+phonearena.com##[class*="adSpot"]
 phonearena.com##div[class*="hot-phones"]
 phonearena.com##div[class*="type-popular"]
 phonearena.com##div[data-trigger="paginator"]
 phonearena.com##footer.layout__footer
 phonearena.com##footer[class="container"]
-phonearena.com##li[class="price-banner"]
+phonearena.com##[class="price-banner"]
 phonearena.com##nav[aria-label="navigation"]
 phonearena.com##[class*="Deals"]
-phonearena.com##section[class="widgetOffersMultiMerchant"]
-phonearena.com##section[class*="announcements"]
-phonearena.com##section[class*="shopLinks"]
+phonearena.com##[class*="widgetOffers"]
+phonearena.com##[class*="announcements"]
+phonearena.com##[class*="shopLinks"]
 phonearena.com##section[class*="latestNews"]
 phonearena.com##.widgetSidebarSubscription
 phonearena.com##div[class*="widgetBackToTop"]
