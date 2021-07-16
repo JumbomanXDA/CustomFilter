@@ -272,8 +272,6 @@ bgr.com##[class*="product-callout"]
 ! bloomberg.com
 ! if paywall popup comes, use "Reader mode" to read the page
 bloomberg.com##.unsupported-browser-notification-container
-bloomberg.com##div[class*="blens"]
-bloomberg.com##div[class*="zipr-recirc_"]
 bloomberg.com##div[id*="banner-container"]
 bloomberg.com##div[class*="content__"]
 bloomberg.com##[class*="footer"]
@@ -384,6 +382,12 @@ extremetech.com##.global-footer
 extremetech.com##.post-widget
 extremetech.com##.textwidget
 extremetech.com##div[class="row collapse"]
+
+
+! firstpost.com
+firstpost.com##[class*="horizontal-share"]
+firstpost.com##[class*="ad-center"]
+firstpost.com##[id*="mc_embed_signup"]
 
 
 
