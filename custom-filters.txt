@@ -120,11 +120,17 @@
 
 ! 1mg.com
 1mg.com##div[class*="temp-install-class"]
+1mg.com##div[class*="AppDownloadBottomSheet"]
 1mg.com##div[class*="HomeCareplanSticky"]
 1mg.com##section[class*="style__pharmaHeader"]
 1mg.com##div[class*="style__quick-buy"]
 1mg.com##div[class*="style__rx-button"]
-
+1mg.com##section[class^="style__contentSection"]
+1mg.com##div[class*="VideoPlayer"]
+1mg.com##div[class*="Authenticity"]
+1mg.com##div[class*="ReportProblem"]
+1mg.com##img[src*="https://assets.1mg.com/pwa-app/production/1.1.5/static/images/svgs/icons/report_problem.svg"]
+1mg.com##footer[id*="footer"]
 
 
 ! 9to5mac.com, 9to5google.com, 9to5toys.com
@@ -389,6 +395,10 @@ firstpost.com##[class*="horizontal-share"]
 firstpost.com##[class*="ad-center"]
 firstpost.com##[id*="mc_embed_signup"]
 
+
+
+! flipkart
+flipkart.com##a[href*="flipkart.com/fk4india-page-store"]
 
 
 ! forbes.com
@@ -906,6 +916,13 @@ xda-developers.com##div[class*="spon_banner"]
 xda-developers.com##div[id*="footer"]
 xda-developers.com##header[class*="topbar"]
 xda-developers.com##section[class="readmore"]
+xda-developers.com##[class="product-cta"]
+
+
+! xiaomi.eu
+xiaomi.eu##[class*="notices"]
+xiaomi.eu##[class*="scrollButtons"]
+
 
 
 ! zdnet.com
