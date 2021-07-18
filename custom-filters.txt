@@ -902,6 +902,16 @@ wired.com##div[data-testid="ContentFooterBottom"]
 wired.com##div[class*="footer"]
 
 
+! wired.co.uk
+wired.co.uk##div[class*="GenericCalloutWrapper"]
+wired.co.uk##div[class*="StickyBoxWrapper"]
+wired.co.uk##div[class*="AdWrapper"]
+wired.co.uk##div[class*="ad__slot"]
+wired.co.uk##div[class*="ContributorBio"]
+wired.co.uk##div[class*="Footer"]
+
+
+
 ! wsj.com
 wsj.com##div[aria-label="Markets summary"]
 wsj.com##div[class*="login-buttons"]
