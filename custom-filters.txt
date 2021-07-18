@@ -10,14 +10,17 @@
 ||/advertisement.js
 ###ad-container
 ###amp-iframe
-##amp-ad[type*="adsense"]
-##amp-ad[type*="doubleclick"]
+
 ##amp-sticky-ad[layout="nodisplay"]
 ##amp-lightbox-gallery[layout="nodisplay"]
 ##amp-lightbox-gallery[id*="amp-lightbox-gallery"]
-##amp-analytics[type*="googleanalytics"]
 ##amp-embed[width="100"][height="100"]
 ##amp-ima-video[data-tag^=""]
+
+##amp-analytics[type*="googleanalytics"]
+##div[class*="analytics"]
+##amp-ad[type*="adsense"]
+##amp-ad[type*="doubleclick"]
 ##iframe[src*="ads-iframe"]
 ##div[class*="adsbygoogle"]
 ##ins[class*="adsbygoogle"]
@@ -31,7 +34,7 @@
 ##div[id*="_ad"]
 ##div[class*="adtext"]
 ##p[class*="adtext"]
-##div[class*="analytics"]
+
 ##div[class*="sponsor"]
 ##div[class*="disclaimer"]
 ##div[id*="disclaimer"]
@@ -45,35 +48,42 @@
 ##div[class*="comment"]
 ##div[id*="comment"]
 ##section[id*="comment"]
-##div[class*="fb-like"]
-##div[class*="tags"]
-##div[id*="tags"]
+
 ##div[class*="author"]
 ##div[class*="social"]
 ##div[class*="share"]
 ##div[class*="sharing"]
 ##div[id*="sharing"]
+##div[class*="tags"]
+##div[id*="tags"]
+
 ##div[class*="related-post"]
 ##div[class*="related_post"]
 ##div[class*="related-stories"]
 ##div[class*="related-articles"]
 ##div[class*="related-guides"]
 ##div[class*="related-topics"]
+##div[class*="trending"]
+
+##div[data-nc*="deals"]
+##div[class*="deals"]
+
 ##div[class*="newsletter"]
 ##div[id*="newsletter"]
 ##div[data-nc*="newsletter"]
-##div[data-nc*="deals"]
-##div[class*="deals"]
-##div[class*="trending"]
 ##div[class*="subscribe"]
 ##div[id*="subscription"]
 ##div[class*="email"]
+
 ##div[class*="footer"]
 ##div[id*="footer"]
 ##footer[class*="footer"]
 ##footer[id*="footer"]
 ##section[class*="footer"]
 ##section[id*="footer"]
+
+##div[class*="fb-like"]
+##div[class*="fb-root"]
 ##div[class*="hawk-processed"]
 
 ! Accept Cookies
@@ -160,6 +170,8 @@
 
 
 ! 91mobiles.com
+91mobiles.com##div[id*="se_notification"]
+91mobiles.com##div[class*="shopengage_"]
 91mobiles.com##.mashsb-box
 91mobiles.com##.mashsb-buttons
 91mobiles.com##[class*="next-prev"]
@@ -415,6 +427,7 @@ forbes.com##amp-lightbox
 
 
 ! forum.xda-developers.com
+! ##div[class*=footer"] blocking "Search This Thread" functionality in xda-forum
 forum.xda-developers.com###thread-header-social
 forum.xda-developers.com##div[class="uix_noticeIcon"]
 forum.xda-developers.com##div[class="notice-content"]
@@ -908,10 +921,6 @@ xda-developers.com##amp-sticky-ad
 xda-developers.com##.nanobox-topofpage
 xda-developers.com##.nonamp-link
 xda-developers.com##div[class*="alert_message"]
-xda-developers.com##div[class="col col_3_of_12 sidebar sidebar_area"]
-xda-developers.com##div[class="full_meta clearfix"]
-xda-developers.com##div[class="widget-2 widget"]
-xda-developers.com##div[class="widget_text widget-1 first widget"]
 xda-developers.com##div[class*="spon_banner"]
 xda-developers.com##div[id*="footer"]
 xda-developers.com##header[class*="topbar"]
