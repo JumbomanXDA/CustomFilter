@@ -946,8 +946,11 @@ xiaomi.eu##[class*="scrollButtons"]
 
 ! zdnet.com
 zdnet.com##div[class*="-ad-"]
+zdnet.com##section[class*="related-topics"]
+zdnet.com##section[class*="related-stories"]
 zdnet.com##div[class*="breaking-news"]
 zdnet.com##div[class*="relatedContent"]
 zdnet.com###myfinance-bottom
+zdnet.com##div[id*="postComments"]
 
 
