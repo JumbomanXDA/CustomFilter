@@ -1,9 +1,13 @@
 ! IMPORTANT NOTES
 ! Most probably Global BLOCK level elements blocking (e.g. ##footer, ##amp-ad ) doesn't work
 ! Instead use per website rule (e.g. google.com##footer )
+! keep Global level filter to minimum
 
-! Dont use class*="ads" as it breaks any Class containg 'downloads' string,
-! Instead use ^ (e.g class^="ads" )
+
+! Don't use
+! class*="_ad"
+! class*="sharing"
+! class*="ads" as it breaks any Class containg 'downloads' string, Instead use ^ (e.g class^="ads" )
 
 
 ! Global ad filter
@@ -30,8 +34,6 @@
 ##div[class*="adv-"]
 ##div[class*="adv_"]
 ##div[class*="ad-unit"]
-##div[class*="_ad"]
-##div[id*="_ad"]
 ##div[class*="adtext"]
 ##p[class*="adtext"]
 
@@ -48,12 +50,10 @@
 ##div[class*="comment"]
 ##div[id*="comment"]
 ##section[id*="comment"]
-
 ##div[class*="author"]
 ##div[class*="social"]
 ##div[class*="share"]
-##div[class*="sharing"]
-##div[id*="sharing"]
+
 ##div[class*="tags"]
 ##div[id*="tags"]
 
@@ -129,6 +129,9 @@
 
 
 ! 1mg.com
+1mg.com##div[class*="banner-slider"]
+1mg.com##div[class*="adunitContainer"]
+1mg.com##div[class*="adBox"]
 1mg.com##div[class*="temp-install-class"]
 1mg.com##div[class*="AppDownloadBottomSheet"]
 1mg.com##div[class*="HomeCareplanSticky"]
@@ -306,6 +309,13 @@ businessinsider.in##div[class*="ads-cont"]
 businessinsider.in##div[class*="art-videos-wdgt"]
 businessinsider.in##div[class*="footer-interlining-"]
 businessinsider.in##div[class*="inarticle-wdgt"]
+
+
+! cnet.com
+cnet.com##div[data-ad*="mobile"]
+cnet.com##div[class*="ad-slot"]
+cnet.com##div[class*="subtext-iframe"]
+
 
 
 
@@ -650,6 +660,10 @@ mysmartprice.com##div[id*="popular_compares"]
 mysmartprice.com##div[class*="link-list--mlt"]
 mysmartprice.com##section[class*="sclwrpr"]
 mysmartprice.com##div[class*="cpyrght"]
+mysmartprice.com##amp-addthis
+mysmartprice.com##amp-social-share
+mysmartprice.com##div[class*="relatedpost"]
+mysmartprice.com##[id*="scrollToTopButton"]
 
 
 
@@ -763,6 +777,18 @@ piunikaweb.com##aside.sidebar
 piunikaweb.com##div[class="user-content"]
 
 
+! pocketnow.com
+pocketnow.com##[id*="alert_bar"]
+pocketnow.com##[class*="pn_collectionboxtopofpage"]
+pocketnow.com##[class*="archive-related"]
+pocketnow.com##[class*="rsswidget"]
+pocketnow.com##[class*="rss-date"]
+pocketnow.com##[class*="widget_search"]
+pocketnow.com##[class*="powerkit_widget_posts"]
+pocketnow.com##[class*="pk-toc"]
+
+
+
 ! quora.com
 quora.com##.modal_signup_background
 quora.com##div[id$="_modal_signup_wrapper"]
@@ -870,6 +896,14 @@ tomsguide.com,tomshardware.com##[class*="popular-box"]
 
 ! tv9marathi.com
 tv9marathi.com##div[class*="ads"]
+
+
+
+! venturebeat.com
+venturebeat.com##div[class*="vb_image_source"]
+venturebeat.com##div[class*="boilerplate-before"]
+venturebeat.com##div[class*="boilerplate-after"]
+venturebeat.com##div[class*="Footer"]
 
 
 
