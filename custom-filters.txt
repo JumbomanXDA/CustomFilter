@@ -8,7 +8,7 @@
 ! class*="_ad"
 ! class*="sharing"
 ! class*="ads" as it breaks any Class containg 'downloads' string, Instead use ^ (e.g class^="ads" )
-
+! class*="share" it blocks androidpolice
 
 ! Global ad filter
 ||/advertisement.js
@@ -52,7 +52,6 @@
 ##section[id*="comment"]
 ##div[class*="author"]
 ##div[class*="social"]
-##div[class*="share"]
 
 ##div[class*="tags"]
 ##div[id*="tags"]
@@ -236,6 +235,9 @@ androidpolice.com##div[class*="below_post_body"]
 androidpolice.com##div[id*="ezoic-pub-ad-placeholder"]
 androidpolice.com###sbar
 androidpolice.com##img[src*="https://sb.scorecardresearch.com/"]
+androidpolice.com##div[class^="share-box"]
+androidpolice.com##div[class="categories"]
+
 
 ! apkmirror.com
 apkmirror.com##script
@@ -259,6 +261,8 @@ appletrack.com##.r-pf
 appletrack.com##.srp
 appletrack.com##div[class*="amp-ad"]
 appletrack.com##div[class*="related"]
+appletrack.com##div[id*="share"]
+appletrack.com##div[class*="share"]
 
 
 ! arstechnica.com
@@ -282,13 +286,13 @@ bgr.in##p[class="copyRight"]
 
 
 
-
 ! bgr.com
 bgr.com##section[class*="filmstrip"]
 bgr.com##[class*="dont-miss"]
 bgr.com##footer
 bgr.com##div[class*="pmc-links"]
 bgr.com##[class*="product-callout"]
+
 
 ! bloomberg.com
 ! if paywall popup comes, use "Reader mode" to read the page
@@ -541,6 +545,7 @@ gsmarena.com##.section
 gsmarena.com##div[class*="buyers-guide-notification"]
 gsmarena.com##div[class*="secondary-menu container_12"]
 gsmarena.com##div[class="amp-related material-card"]
+gsmarena.com##div[class*="share-buttons"]
 gsmarena.com##nav[class="alpha"]
 gsmarena.com##footer.grid_12
 gsmarena.com##h2[class="lower section material-card"]
@@ -668,6 +673,8 @@ mysmartprice.com##[id*="scrollToTopButton"]
 
 
 ! nikkei.com
+nikkei.com##div[id*="share-"]
+nikkei.com##div[class*="share-"]
 nikkei.com##div[class*="market-data"]
 nikkei.com##section[class*="credit"]
 nikkei.com##.gdp
@@ -763,9 +770,13 @@ phonearena.com##[class*="Deals"]
 phonearena.com##[class*="widgetOffers"]
 phonearena.com##[class*="announcements"]
 phonearena.com##[class*="shopLinks"]
+phonearena.com##[class*="widgetPhoneShopLinks"]
 phonearena.com##section[class*="latestNews"]
 phonearena.com##.widgetSidebarSubscription
 phonearena.com##div[class*="widgetBackToTop"]
+phonearena.com##div[class*="spot_disclaimer"]
+phonearena.com##div[class*="layout__page_main_header_tags"]
+phonearena.com##div[class*="top-adv"]
 
 
 
@@ -920,9 +931,18 @@ wccftech.com##div[class*="-ad"]
 wccftech.com##div[style="margin: 25px auto"][class="ad"]
 wccftech.com##div[class*="wccf-products"]
 wccftech.com##[class*="wccf_related_post"]
+wccftech.com##div[class*="share"]
 wccftech.com##div[data-nosnippet=""]
 wccftech.com##footer[data-nosnippet=""]
 wccftech.com##aside[class="aside-deals"]
+
+
+! windowscentral.com
+windowscentral.com##div[class*="_suppl_content"]
+windowscentral.com##div[class*="inline-cta-ad"]
+windowscentral.com##div[class="ad i1 "]
+windowscentral.com##div[class*="article-token--more-of"]
+windowscentral.com##footer
 
 
 
@@ -986,5 +1006,4 @@ zdnet.com##div[class*="breaking-news"]
 zdnet.com##div[class*="relatedContent"]
 zdnet.com###myfinance-bottom
 zdnet.com##div[id*="postComments"]
-
 
