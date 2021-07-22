@@ -230,13 +230,15 @@ androidheadlines.com##div[class*="row py-2"]
 
 
 ! androidpolice.com
-androidpolice.com##div[class*="footer"]
 androidpolice.com##div[class*="below_post_body"]
 androidpolice.com##div[id*="ezoic-pub-ad-placeholder"]
 androidpolice.com###sbar
 androidpolice.com##img[src*="https://sb.scorecardresearch.com/"]
 androidpolice.com##div[class^="share-box"]
 androidpolice.com##div[class="categories"]
+androidpolice.com##amp-addthis
+androidpolice.com##div[class*="footer"]
+
 
 
 ! apkmirror.com
