@@ -8,7 +8,7 @@
 ! class*="_ad"
 ! class*="sharing"
 ! class*="ads" as it breaks any Class containg 'downloads' string, Instead use ^ (e.g class^="ads" )
-! class*="share" it blocks androidpolice
+! class*="share" it blocks androidpolice use ^share
 
 ! Global ad filter
 ||/advertisement.js
@@ -52,7 +52,7 @@
 ##section[id*="comment"]
 ##div[class*="author"]
 ##div[class*="social"]
-
+##div[class^="share"]
 ##div[class*="tags"]
 ##div[id*="tags"]
 
@@ -73,6 +73,7 @@
 ##div[class*="subscribe"]
 ##div[id*="subscription"]
 ##div[class*="email"]
+##[class*="signup"]
 
 ##div[class*="footer"]
 ##div[id*="footer"]
@@ -464,6 +465,12 @@ frontpagetech.com##div[class*="back-to-top"]
 
 ! gadgets.ndtv.com
 gadgets.ndtv.com##div[class="langch langchange"]
+gadgets.ndtv.com##div[class*="_wbswdgtsl"]
+gadgets.ndtv.com##[class*="social-share"]
+gadgets.ndtv.com##div[class="_ad"]
+gadgets.ndtv.com##div[class="_adholder"]
+gadgets.ndtv.com##div[class="_trndw"]
+gadgets.ndtv.com##[class*="scrollToTop"]
 gadgets.ndtv.com##p[class="about_authors"]
 gadgets.ndtv.com##h4[class="innerContainer"]
 gadgets.ndtv.com##ul[class="newslist"]
