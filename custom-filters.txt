@@ -21,8 +21,10 @@
 ##amp-embed[width="100"][height="100"]
 ##amp-ima-video[data-tag^=""]
 
+##amp-ad
 ##amp-analytics[type*="googleanalytics"]
 ##div[class*="analytics"]
+##[class*="amp-ad"]
 ##amp-ad[type*="adsense"]
 ##amp-ad[type*="doubleclick"]
 ##iframe[src*="ads-iframe"]
@@ -30,7 +32,6 @@
 ##ins[class*="adsbygoogle"]
 ##div[id*="div-gpt-ad"]
 ##div[class*="div-gpt-ad"]
-##div[class^="amp-ad"]
 ##div[class*="adv-"]
 ##div[class*="adv_"]
 ##div[class*="ad-unit"]
@@ -81,7 +82,6 @@
 ##footer[id*="footer"]
 ##section[class*="footer"]
 ##section[id*="footer"]
-
 ##div[class*="fb-like"]
 ##div[class*="fb-root"]
 ##div[class*="hawk-processed"]
@@ -324,8 +324,6 @@ cnet.com##div[class*="ad-slot"]
 cnet.com##div[class*="subtext-iframe"]
 
 
-
-
 ! computerworld.com
 computerworld.com##.content-copy
 computerworld.com##.empty-div
@@ -543,6 +541,9 @@ gizmodo.com##div[class*="video-wrapper"]
 
 
 ! gsmarena.com
+gsmarena.com##div[class*="adv-top"]
+gsmarena.com##div[class*="top-adv"]
+gsmarena.com##amp-ad
 gsmarena.com##li[id="search-button"]
 gsmarena.com##div[class="search-field"]
 gsmarena.com##details[class="pricing inline widget"]
@@ -643,7 +644,8 @@ macrumors.com##.linkback
 macrumors.com##.secondaryNavigation
 macrumors.com##div[class*="colLinks-"]
 macrumors.com##div[class*="staffList-"]
-
+macrumors.com##div[class*="amp-ad"]
+macrumors.com##amp-ad
 
 
 ! medicaldialogues.in
@@ -669,6 +671,7 @@ mysmartprice.com##aside[id="search-3"][class*="search-3"]
 mysmartprice.com##aside[id*="compare_widget-"][class*="compare_widget-"]
 mysmartprice.com##aside[id*="nav_menu-"][class*="nav_menu-"]
 mysmartprice.com##div[class*="footer"]
+mysmartprice.com##div[class*="post-sharing-top"]
 mysmartprice.com##section[class*="prc-list"]
 mysmartprice.com##div[id*="popular_compares"]
 mysmartprice.com##div[class*="link-list--mlt"]
@@ -867,9 +870,12 @@ slashleaks.com##div[class="entry-ad-banner"]
 
 
 ! smartprix.com
+smartprix.com##div[class*="post-sharing-top"]
+smartprix.com##div[class*="post-sharing-bottom"]
 smartprix.com##div[class*="relatedposts"]
 smartprix.com##div[class*="footer"]
 smartprix.com##div[class*="scroll-up"]
+smartprix.com##footer
 
 
 ! stackexchange.com,stackoverflow.com,superuser.com
