@@ -253,7 +253,7 @@ apkmirror.com##script
 apkmirror.com##.advertisement-text
 apkmirror.com##.footer
 apkmirror.com##div[class*="copyRight"]
-
+apkmirror.com##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
 
 
 ! appletrack.com
@@ -799,7 +799,7 @@ phonearena.com##div[class*="layout__page_main_header_tags"]
 phonearena.com##div[class*="top-adv"]
 ! remove adblock warning
 phonearena.com##div[style*="bottom: 0px; left: 0px; position: fixed; width:"]
-
+phonearena.com##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
 
 
 ! piunikaweb.com
@@ -1034,7 +1034,7 @@ xda-developers.com###thread-header-social
 xda-developers.com##div[class="uix_noticeIcon"]
 xda-developers.com##div[class="notice-content"]
 xda-developers.com##div[class*="noticeScrollContainer"]
-xda-developers.com##div[uix_component*="MainSidebar"][class="p-body-sidebar"]
+xda-developers.com##div[uix_component="MainSidebar"][class="p-body-sidebar"]
 xda-developers.com##div[class*="block--similarContents"]
 xda-developers.com##div[data-widget-key="top_voted"][data-widget-definition="xdatopvotedpostswidget"]
 xda-developers.com##div[data-widget-key="newPosts"][data-widget-definition="new_posts"]
