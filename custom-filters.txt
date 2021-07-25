@@ -21,7 +21,6 @@
 ##amp-embed[width="100"][height="100"]
 ##amp-ima-video[data-tag^=""]
 
-##amp-ad
 ##amp-analytics[type*="googleanalytics"]
 ##div[class*="analytics"]
 ##[class*="amp-ad"]
@@ -76,12 +75,7 @@
 ##div[class*="email"]
 ##[class*="signup"]
 
-##div[class*="footer"]
-##div[id*="footer"]
-##footer[class*="footer"]
-##footer[id*="footer"]
-##section[class*="footer"]
-##section[id*="footer"]
+
 ##div[class*="fb-like"]
 ##div[class*="fb-root"]
 ##div[class*="hawk-processed"]
@@ -455,6 +449,7 @@ forum.xda-developers.com##div[class*="similarContents"]
 ! frontpagetech.com
 frontpagetech.com##.zox-post-soc-stat
 frontpagetech.com##div[class*="-ad"]
+frontpagetech.com##div[class="adthrive"]
 frontpagetech.com##div[class*="popup"]
 frontpagetech.com##footer
 frontpagetech.com##div[class*="back-to-top"]
@@ -624,10 +619,13 @@ letsgodigital.org##section[class="partners-bar"]
 
 ! lifehacker.com
 lifehacker.com##[class*="footer"]
-lifehacker.com##div[class="js_more-below-post"]
-lifehacker.com##div[class="js_ymal-below-post"]
+lifehacker.com##div[class*="js_more-below-post"]
+lifehacker.com##div[class*="js_movable_ad_slot"]
+lifehacker.com##div[class*="js_ymal-below-post"]
+lifehacker.com##div[class*="js_related-stories-inset"]
 lifehacker.com##div[class*="video-sticky"]
 lifehacker.com##div[class*="js_commerce"]
+lifehacker.com##div[class*="ad-container"]
 lifehacker.com##aside[class*="inset--story"]
 
 
@@ -646,7 +644,8 @@ macrumors.com##div[class*="colLinks-"]
 macrumors.com##div[class*="staffList-"]
 macrumors.com##div[class*="amp-ad"]
 macrumors.com##amp-ad
-
+macrumors.com##div[class*="footer"]
+macrumors.com##div[id*="comments"]
 
 ! medicaldialogues.in
 medicaldialogues.in##div[class*="-ad-"]
@@ -692,7 +691,8 @@ nikkei.com##section[class*="credit"]
 nikkei.com##.gdp
 nikkei.com##.chart__info__value
 nikkei.com###gdp-value
-
+nikkei.com##div[class*="article__footer"]
+nikkei.com##div[class*="footer__main"]
 
 ! notebookcheck.net
 notebookcheck.net##.introa_loading_info
@@ -789,6 +789,8 @@ phonearena.com##div[class*="widgetBackToTop"]
 phonearena.com##div[class*="spot_disclaimer"]
 phonearena.com##div[class*="layout__page_main_header_tags"]
 phonearena.com##div[class*="top-adv"]
+! remove adblock warning
+phonearena.com##div[style*="bottom: 0px; left: 0px; position: fixed; width:"]
 
 
 
@@ -798,6 +800,10 @@ piunikaweb.com##div[class*="hidden-header"]
 piunikaweb.com###main-footer
 piunikaweb.com##aside.sidebar
 piunikaweb.com##div[class="user-content"]
+piunikaweb.com##div[class="post-share"]
+piunikaweb.com##div[class="facebook-comments"]
+piunikaweb.com##div[class="go-up"]
+piunikaweb.com##div[class*="page-navigation"]
 
 
 ! pocketnow.com
@@ -880,6 +886,7 @@ smartprix.com##footer
 
 ! stackexchange.com,stackoverflow.com,superuser.com
 stackexchange.com,stackoverflow.com,superuser.com##form
+stackexchange.com,stackoverflow.com,superuser.com##[class="footer"]
 
 
 ! techradar.com
