@@ -434,18 +434,6 @@ forbes.com##div[class*="contrib"]
 forbes.com##amp-lightbox
 
 
-
-! forum.xda-developers.com
-! ##div[class*=footer"] blocking "Search This Thread" functionality in xda-forum
-forum.xda-developers.com###thread-header-social
-forum.xda-developers.com##div[class="uix_noticeIcon"]
-forum.xda-developers.com##div[class="notice-content"]
-forum.xda-developers.com##div[class*="noticeScrollContainer"]
-forum.xda-developers.com##div[uix_component*="MainSidebar"][class="p-body-sidebar"]
-forum.xda-developers.com##div[class*="similarContents"]
-
-
-
 ! frontpagetech.com
 frontpagetech.com##.zox-post-soc-stat
 frontpagetech.com##div[class*="-ad"]
@@ -1021,6 +1009,18 @@ xda-developers.com##div[id*="footer"]
 xda-developers.com##header[class*="topbar"]
 xda-developers.com##section[class="readmore"]
 xda-developers.com##[class="product-cta"]
+
+! forum.xda-developers.com
+! ##div[class*=footer"] blocking "Search This Thread" functionality in xda-forum
+xda-developers.com###thread-header-social
+xda-developers.com##div[class="uix_noticeIcon"]
+xda-developers.com##div[class="notice-content"]
+xda-developers.com##div[class*="noticeScrollContainer"]
+xda-developers.com##div[uix_component*="MainSidebar"][class="p-body-sidebar"]
+xda-developers.com##div[class*="block--similarContents"]
+xda-developers.com##div[data-widget-key="top_voted"][data-widget-definition="xdatopvotedpostswidget"]
+xda-developers.com##div[data-widget-key="newPosts"][data-widget-definition="new_posts"]
+xda-developers.com##footer[class="p-footer"][id="footer"]
 
 
 ! xiaomi.eu
