@@ -1030,6 +1030,7 @@ xiaomi.eu##[class*="scrollButtons"]
 
 
 ! zdnet.com
+zdnet.com##[id="zd-logo"]
 zdnet.com##div[class*="-ad-"]
 zdnet.com##section[class*="related-topics"]
 zdnet.com##section[class*="related-stories"]
@@ -1037,4 +1038,10 @@ zdnet.com##div[class*="breaking-news"]
 zdnet.com##div[class*="relatedContent"]
 zdnet.com###myfinance-bottom
 zdnet.com##div[id*="postComments"]
+zdnet.com##div[class="connect"]
+zdnet.com##[class="copyright"]
+zdnet.com##div[class="col-2 alpha"]
+zdnet.com##div[class="col-2 beta"]
+zdnet.com##div[class="col-2 gamma"]
+
 
