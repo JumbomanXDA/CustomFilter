@@ -1034,10 +1034,7 @@ xda-developers.com###thread-header-social
 xda-developers.com##div[class="uix_noticeIcon"]
 xda-developers.com##div[class="notice-content"]
 xda-developers.com##div[class*="noticeScrollContainer"]
-xda-developers.com##div[uix_component="MainSidebar"][class="p-body-sidebar"]
-xda-developers.com##div[class*="block--similarContents"]
-xda-developers.com##div[data-widget-key="top_voted"][data-widget-definition="xdatopvotedpostswidget"]
-xda-developers.com##div[data-widget-key="newPosts"][data-widget-definition="new_posts"]
+xda-developers.com##div[uix_component="MainSidebar"]
 xda-developers.com##footer[class="p-footer"][id="footer"]
 
 
