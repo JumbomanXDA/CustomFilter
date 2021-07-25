@@ -857,6 +857,15 @@ semiengineering.com##div[style="width:auto;float:rightl"]
 semiengineering.com##li[id="tag_cloud-3"][class="sidebar_widget"]
 
 
+! slashgear.com
+slashgear.com##section[class="gridify"]
+slashgear.com##div[class="sgbadge"]
+slashgear.com##aside[class="sidebar"]
+slashgear.com##div[id="footer-wrapper"]
+slashgear.com##div[id="footer"]
+
+
+
 ! slashleaks.com
 slashleaks.com##h3[class*="sl-title-bar"]
 slashleaks.com##div[id*="trust-score-buttons"]
