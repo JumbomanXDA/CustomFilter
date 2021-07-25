@@ -45,6 +45,7 @@
 ##div[id*="affiliate"]
 ##div[class*="copyright"]
 ##div[class*="cpyrght"]
+##p[class*="copyright"]
 
 ! Global
 ##div[class*="comment"]
@@ -268,6 +269,9 @@ appletrack.com##div[class*="amp-ad"]
 appletrack.com##div[class*="related"]
 appletrack.com##div[id*="share"]
 appletrack.com##div[class*="share"]
+appletrack.com##div[class*="ad-container"]
+appletrack.com##div[class*="fox-ad"]
+appletrack.com##div[id="backtotop"]
 
 
 ! arstechnica.com
