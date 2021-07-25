@@ -1,9 +1,9 @@
 ! IMPORTANT NOTES
 ! Most probably Global BLOCK level elements blocking (e.g. ##footer, ##amp-ad ) doesn't work
 ! Instead use per website rule (e.g. google.com##footer )
-! keep Global level filter to minimum
+! Keep Global level filters to minimum
 
-
+##footer
 ! Don't use
 ! class*="_ad"
 ! class*="sharing"
