@@ -231,6 +231,9 @@ androidcentral.com##footer
 ! androidheadlines.com
 androidheadlines.com##div[class*="ad-wrapper"]
 androidheadlines.com##div[class*="row py-2"]
+androidheadlines.com##a[href*="join-our-team"]
+androidheadlines.com##a[href*="best-cell-phone-deals"]
+androidheadlines.com##div[id="wrapper-footer"]
 
 
 ! androidpolice.com
@@ -279,6 +282,7 @@ arstechnica.com##aside[class*="thin-divide-bottom"],footer[id*="footer"]
 
 
 ! bgr.in
+bgr.in##div[class="widget_footer"]
 bgr.in##.execphpwidget
 bgr.in##.greyDarkBg
 bgr.in##.sso-toolbar
