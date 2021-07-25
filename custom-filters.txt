@@ -64,6 +64,14 @@
 ##div[class*="related-topics"]
 ##div[class*="trending"]
 
+##div[class="footer"]
+##div[class="Footer"]
+##div[class="p-footer"]
+##div[id="footer"]
+##footer[class="footer"]
+##footer[class="p-footer"]
+##footer[id="footer"]
+
 ##div[data-nc*="deals"]
 ##div[class*="deals"]
 
@@ -1024,9 +1032,10 @@ xda-developers.com##footer[class="p-footer"][id="footer"]
 
 
 ! xiaomi.eu
+xiaomi.eu##div[class*="TapatalkBanner"]
 xiaomi.eu##[class*="notices"]
 xiaomi.eu##[class*="scrollButtons"]
-
+xiaomi.eu##footer[class="p-footer"][id="footer"]
 
 
 ! zdnet.com
