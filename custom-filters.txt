@@ -332,6 +332,8 @@ businessinsider.in##div[class*="inarticle-wdgt"]
 cnet.com##div[data-ad*="mobile"]
 cnet.com##div[class*="ad-slot"]
 cnet.com##div[class*="subtext-iframe"]
+cnet.com##footer[class="c-footer"]
+cnet.com##div[section="shortcodeGallery"]
 
 
 ! computerworld.com
@@ -341,6 +343,10 @@ computerworld.com##div[class*="ad"]
 computerworld.com##div[id*="amazon-"]
 computerworld.com##section[class="about"]
 computerworld.com##section[class="brand"]
+computerworld.com##aside[class="fakesidebar"]
+computerworld.com##div[class="tease-promo"]
+computerworld.com##div[class="article-intercept"]
+computerworld.com##footer
 
 
 
