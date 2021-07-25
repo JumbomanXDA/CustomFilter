@@ -395,7 +395,6 @@ digitimes.com##[class*="footer"]
 digitimes.com##[class*="tag-frame"]
 
 
-
 ! droid-life.com
 droid-life.com##div[class="jump-button-wrapper"]
 droid-life.com##nav[class="site__priNav"]
@@ -403,7 +402,6 @@ droid-life.com##div[class="entry-taxonomies"]
 droid-life.com##aside[class*="post-carousel__suggested-posts"]
 droid-life.com##aside[class*="post-carousel__youtube"]
 droid-life.com##footer
-
 
 
 ! economictimes.com
@@ -644,8 +642,6 @@ epaper.lokmat.com##div[class*="epaper-feedback"]
 epaper.lokmat.com##div[class*="carouselMain"]
 
 
-
-
 ! macrumors.com
 macrumors.com##ul[id*="roundups-desktop"]
 macrumors.com##.linkback
@@ -656,6 +652,7 @@ macrumors.com##div[class*="amp-ad"]
 macrumors.com##amp-ad
 macrumors.com##div[class*="footer"]
 macrumors.com##div[id*="comments"]
+
 
 ! medicaldialogues.in
 medicaldialogues.in##div[class*="-ad-"]
@@ -703,6 +700,7 @@ nikkei.com##.chart__info__value
 nikkei.com###gdp-value
 nikkei.com##div[class*="article__footer"]
 nikkei.com##div[class*="footer__main"]
+
 
 ! notebookcheck.net
 notebookcheck.net##.introa_loading_info
@@ -837,7 +835,6 @@ quora.com##div[style="position: fixed; left: 0px; right: 0px; bottom: 0px; z-ind
 quora.com##div[class*="q-box qu-mt--small"]
 
 
-
 ! reuters.com
 reuters.com##div[class*="OldSiteBanner"]
 
@@ -950,13 +947,11 @@ tomsguide.com,tomshardware.com##[class*="popular-box"]
 tv9marathi.com##div[class*="ads"]
 
 
-
 ! venturebeat.com
 venturebeat.com##div[class*="vb_image_source"]
 venturebeat.com##div[class*="boilerplate-before"]
 venturebeat.com##div[class*="boilerplate-after"]
 venturebeat.com##div[class*="Footer"]
-
 
 
 ! wccftech.com
@@ -1031,6 +1026,7 @@ xda-developers.com##div[id*="footer"]
 xda-developers.com##header[class*="topbar"]
 xda-developers.com##section[class="readmore"]
 xda-developers.com##[class="product-cta"]
+
 
 ! forum.xda-developers.com
 ! ##div[class*=footer"] blocking "Search This Thread" functionality in xda-forum
