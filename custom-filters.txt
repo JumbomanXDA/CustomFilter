@@ -625,6 +625,9 @@ imore.com##div[class*="inline-cta-ad"]
 imore.com##div[class*="article-token--more-of"]
 imore.com##aside
 imore.com##div[id="banneradspace"]
+imore.com##footer
+imore.com##section[class*="article-footer"]
+imore.com##div[id="fb-root"]
 
 
 ! letsgodigital.org
