@@ -532,12 +532,18 @@ gizmodo.com##div[class*="video-wrapper"]
 
 ! gsmarena.com
 gsmarena.com##div[class*="adv-top"]
+gsmarena.com##div[class*="adv-bottom"]
 gsmarena.com##div[class*="top-adv"]
 gsmarena.com##span[class*="ad-label"]
+gsmarena.com##div[class="adv-mid"]
+gsmarena.com##div[class^="div-gpt-ad-"]
+gsmarena.com##div[id^="div-gpt-ad-"]
 gsmarena.com##amp-ad
 gsmarena.com##li[id="search-button"]
 gsmarena.com##div[class="search-field"]
-gsmarena.com##details[class="pricing inline widget"]
+gsmarena.com##[class="pricing inline widget"]
+gsmarena.com##details[class="pricing widget"]
+gsmarena.com##[class="price-banner"]
 gsmarena.com###all-opinions
 gsmarena.com###related-news-container
 gsmarena.com###wrapper-brands
