@@ -617,6 +617,16 @@ indiatoday.in##iframe[data-src*="https://www.indiatodaygroup.com/newsletter-subs
 indiatoday.in##iframe[src*="//youtube.com/embed/"]
 
 
+! imore.com
+imore.com##div[class*="header-top-alert-bar"]
+imore.com##div[class*="pencil-ad"]
+imore.com##div[class*="adunit"]
+imore.com##div[class*="inline-cta-ad"]
+imore.com##div[class*="article-token--more-of"]
+imore.com##aside
+imore.com##div[id="banneradspace"]
+
+
 ! letsgodigital.org
 letsgodigital.org##a[href*="/tip-ons/"]
 letsgodigital.org##div[aria-label="cookieconsent"]
