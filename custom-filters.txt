@@ -168,7 +168,6 @@
 9to5mac.com,9to5google.com,9to5toys.com##div[class="posts-carousel inner-wrap"]
 
 
-
 ! 9to5toys.com
 9to5toys.com##.wrap-sm
 9to5toys.com##div[class="entry-cta aligncenter"]
@@ -247,7 +246,6 @@ androidpolice.com##amp-addthis
 androidpolice.com##div[class*="footer"]
 
 
-
 ! apkmirror.com
 apkmirror.com##script
 apkmirror.com##.advertisement-text
@@ -298,7 +296,6 @@ bgr.in##section[class*="upcoming-mp"]
 bgr.in##p[class="copyRight"]
 
 
-
 ! bgr.com
 bgr.com##section[class*="filmstrip"]
 bgr.com##[class*="dont-miss"]
@@ -313,7 +310,6 @@ bloomberg.com##.unsupported-browser-notification-container
 bloomberg.com##div[id*="banner-container"]
 bloomberg.com##div[class*="content__"]
 bloomberg.com##[class*="footer"]
-
 
 
 ! businessinsider.in
@@ -349,7 +345,6 @@ computerworld.com##div[class="article-intercept"]
 computerworld.com##footer
 
 
-
 ! cultofmac.com
 cultofmac.com##[class*="social"]
 cultofmac.com##[class*="subscribe"]
@@ -358,7 +353,6 @@ cultofmac.com##[class*="ezoic"]
 cultofmac.com##[class*="author"]
 cultofmac.com##[class*="tags"]
 cultofmac.com##[class*="infscr-loading"]
-
 
 
 ! dailystar.co.uk
@@ -371,7 +365,6 @@ dailystar.co.uk##amp-list[class*="read-next"]
 dailystar.co.uk##aside[class="more-on"]
 dailystar.co.uk##div[class="html-embed"][data-mod="htmlEmbed"]
 dailystar.co.uk##footer
-
 
 
 ! digitaltrends.com
@@ -437,7 +430,6 @@ firstpost.com##[class*="ad-center"]
 firstpost.com##[id*="mc_embed_signup"]
 
 
-
 ! flipkart
 flipkart.com##a[href*="flipkart.com/fk4india-page-store"]
 
@@ -461,7 +453,6 @@ frontpagetech.com##div[class="adthrive"]
 frontpagetech.com##div[class*="popup"]
 frontpagetech.com##footer
 frontpagetech.com##div[class*="back-to-top"]
-
 
 
 ! gadgets.ndtv.com
@@ -500,7 +491,6 @@ gizchina.com##div[class*="widget_text"]
 gizchina.com##footer[class*="footer"]
 
 
-
 ! gizmochina.com
 gizmochina.com###taboola-below-article
 gizmochina.com###wpfront-notification-bar-spacer
@@ -514,7 +504,6 @@ gizmochina.com##h4[class="td-related-title"]
 gizmochina.com##ul[class="sxc-follow-buttons"]
 gizmochina.com##div[id*="cliSettingsPopup"]
 gizmochina.com##div[class*="td-scroll-up"]
-
 
 
 ! gizmodo.com
@@ -542,7 +531,6 @@ gizmodo.com##div[class*="video-sticky"]
 gizmodo.com##div[class*="video-wrapper"]
 
 
-
 ! gsmarena.com
 gsmarena.com##div[class*="adv-top"]
 gsmarena.com##div[class*="top-adv"]
@@ -567,7 +555,6 @@ gsmarena.com##p[class="switch-desktop"]
 gsmarena.com##footer
 
 
-
 ! healthline.com
 healthline.com##aside
 healthline.com##div[data-adbridg-ad-class*=""]
@@ -580,7 +567,6 @@ hindustantimes.com##.storyAd
 hindustantimes.com##div[class*="ads"]
 hindustantimes.com##div[class*="adHeight"]
 hindustantimes.com##div[class*="storyAd"]
-
 
 
 ! hothardware.com
@@ -618,6 +604,7 @@ indiatoday.in##iframe[src*="//youtube.com/embed/"]
 
 
 ! imore.com
+imore.com##div[class*="header__disclosure"]
 imore.com##div[class*="header-top-alert-bar"]
 imore.com##div[class*="pencil-ad"]
 imore.com##div[class*="adunit"]
@@ -625,9 +612,11 @@ imore.com##div[class*="inline-cta-ad"]
 imore.com##div[class*="article-token--more-of"]
 imore.com##aside
 imore.com##div[id="banneradspace"]
+imore.com##div[class="cta shop"]
 imore.com##footer
 imore.com##section[class*="article-footer"]
 imore.com##div[id="fb-root"]
+imore.com##div[class^="article-bio"]
 
 
 ! letsgodigital.org
@@ -684,7 +673,6 @@ medicalreportertoday.com##div[class*="widget_custom"]
 medicalreportertoday.com##h4[class="related-title"]
 
 
-
 ! mysmartprice.com
 mysmartprice.com##aside[id="search-3"][class*="search-3"]
 mysmartprice.com##aside[id*="compare_widget-"][class*="compare_widget-"]
@@ -700,7 +688,6 @@ mysmartprice.com##amp-addthis
 mysmartprice.com##amp-social-share
 mysmartprice.com##div[class*="relatedpost"]
 mysmartprice.com##[id*="scrollToTopButton"]
-
 
 
 ! nikkei.com
@@ -730,7 +717,6 @@ notebookcheck.net###nbc_bottombar
 notebookcheck.net##span[class*="tag"]
 
 
-
 ! oneplus.com
 forums.oneplus.com##div[class*="app-recommand"]
 forums.oneplus.com##a[href*="https://www.oneplus.com/account/sign-up"]
@@ -739,7 +725,6 @@ forums.oneplus.com##div[class*="publicControls"]
 forums.oneplus.com##div[id*="likes-post"]
 forums.oneplus.com##div[class*="editDate"]
 forums.oneplus.com##abbr[class*="DateTime"]
-
 
 
 ! pcgamer.com
@@ -838,7 +823,6 @@ pocketnow.com##[class*="powerkit_widget_posts"]
 pocketnow.com##[class*="pk-toc"]
 
 
-
 ! quora.com
 quora.com##.modal_signup_background
 quora.com##div[id$="_modal_signup_wrapper"]
@@ -866,7 +850,6 @@ sammobile.com##a[id="loadMoreButton"]
 sammobile.com###SM_Sticky_Desktop
 
 
-
 ! semiengineering.com
 semiengineering.com###sponsors
 semiengineering.com##.tag_list
@@ -883,7 +866,6 @@ slashgear.com##div[class="sgbadge"]
 slashgear.com##aside[class="sidebar"]
 slashgear.com##div[id="footer-wrapper"]
 slashgear.com##div[id="footer"]
-
 
 
 ! slashleaks.com
@@ -945,9 +927,6 @@ timesofindia.com##div[class*=""][style="height:undefined"]
 timesofindia.com##div[class*="ad_"]
 
 
-
-
-
 ! tomsguide.com, tomshardware.com
 tomsguide.com,tomshardware.com##div[class*="leaderboard-container"]
 tomsguide.com,tomshardware.com##div[class*="slot-"]
@@ -994,7 +973,6 @@ windowscentral.com##div[class*="article-token--more-of"]
 windowscentral.com##footer
 
 
-
 ! wired.com
 wired.com##aside[class*="paywall-bar"]
 wired.com##div[data-testid="Contributors"]
@@ -1012,7 +990,6 @@ wired.co.uk##div[class*="AdWrapper"]
 wired.co.uk##div[class*="ad__slot"]
 wired.co.uk##div[class*="ContributorBio"]
 wired.co.uk##div[class*="Footer"]
-
 
 
 ! wsj.com
@@ -1075,5 +1052,4 @@ zdnet.com##[class="copyright"]
 zdnet.com##div[class="col-2 alpha"]
 zdnet.com##div[class="col-2 beta"]
 zdnet.com##div[class="col-2 gamma"]
-
 
