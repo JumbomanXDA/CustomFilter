@@ -881,9 +881,9 @@ smartprix.com##div[class*="scroll-up"]
 smartprix.com##footer
 
 
-! stackexchange.com,stackoverflow.com,superuser.com, askubuntu.com
-stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##form[id="post-form"]
-stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##[class="footer"]
+! stackexchange.com,stackoverflow.com,superuser.com, askubuntu.com, serverfault.com
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##form[id="post-form"]
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##[class="footer"]
 
 
 ! techradar.com
