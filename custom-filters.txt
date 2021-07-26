@@ -534,6 +534,7 @@ gizmodo.com##div[class*="video-wrapper"]
 ! gsmarena.com
 gsmarena.com##div[class*="adv-top"]
 gsmarena.com##div[class*="top-adv"]
+gsmarena.com##span[class*="ad-label"]
 gsmarena.com##amp-ad
 gsmarena.com##li[id="search-button"]
 gsmarena.com##div[class="search-field"]
@@ -754,6 +755,8 @@ pcmag.com##div[class="inteditions"]
 ! phonearena.com
 phonearena.com##[class*="widgetHeader__list_social"]
 phonearena.com##[class*="Deals"]
+phonearena.com##div[class*="widgetSurvey"]
+phonearena.com##div[id*="pa-survey-modal"]
 phonearena.com##[class="viewMoreOffers"]
 phonearena.com##[class*="widgetOffers"]
 phonearena.com##[class*="announcements"]
