@@ -26,6 +26,7 @@
 ##[class*="amp-ad"]
 ##amp-ad[type*="adsense"]
 ##amp-ad[type*="doubleclick"]
+##amp-auto-ads[type="adsense"]
 ##iframe[src*="ads-iframe"]
 ##div[class*="adsbygoogle"]
 ##ins[class*="adsbygoogle"]
@@ -272,6 +273,7 @@ appletrack.com##div[class*="share"]
 appletrack.com##div[class*="ad-container"]
 appletrack.com##div[class*="fox-ad"]
 appletrack.com##div[id="backtotop"]
+appletrack.com##div[class*="amp_widget_above_the_footer"]
 
 
 ! arstechnica.com
