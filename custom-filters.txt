@@ -882,7 +882,7 @@ smartprix.com##footer
 
 
 ! stackexchange.com,stackoverflow.com,superuser.com, askubuntu.com
-stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##form
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##form[id="post-form"]
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##[class="footer"]
 
 
