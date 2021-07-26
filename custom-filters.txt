@@ -98,14 +98,14 @@
 ##div[class*="cookie"]
 ##div[id*="cookie"]
 ##form[class*="cookie"]
-##div[class^="privacy_policy"]
-##div[id^="privacy_policy"]
-##div[class^="privacy-"]
-##div[id^="privacy-"]
-##div[class^="-privacy"]
-##div[id^="-privacy"]
-##div[class^="_privacy"]
-##div[id^="_privacy"]
+##div[class*="privacy_policy"]
+##div[id*="privacy_policy"]
+##div[class*="privacy-"]
+##div[id*="privacy-"]
+##div[class*="-privacy"]
+##div[id*="-privacy"]
+##div[class*="_privacy"]
+##div[id*="_privacy"]
 ##announcement-banner[class*="cookie"]
 ##.smartbanner
 ###smartbanner
@@ -115,7 +115,6 @@
 ! Global Disqus
 ##div[class*="disqus"]
 ##div[id*="disqus"]
-##div[id*="disqus_thread"]
 ##.dsq-brlink
 ||disqus.com/embed.js
 ||disqus.com/embed/comments/
@@ -882,9 +881,9 @@ smartprix.com##div[class*="scroll-up"]
 smartprix.com##footer
 
 
-! stackexchange.com,stackoverflow.com,superuser.com
-stackexchange.com,stackoverflow.com,superuser.com##form
-stackexchange.com,stackoverflow.com,superuser.com##[class="footer"]
+! stackexchange.com,stackoverflow.com,superuser.com, askubuntu.com
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##form
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##[class="footer"]
 
 
 ! techradar.com
