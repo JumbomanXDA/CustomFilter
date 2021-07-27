@@ -66,10 +66,10 @@
 ##div[class*="related-topics"]
 ##div[class*="trending"]
 
-##div[class="^footer"]
-##div[class="^Footer"]
+##div[class^="footer"]
+##div[class^="Footer"]
 ##div[class="p-footer"]
-##div[id="^footer"]
+##div[id^="footer"]
 ##footer[class^="footer"]
 ##footer[class="p-footer"]
 ##footer[id^="footer"]
@@ -841,6 +841,7 @@ quora.com##div[class*="q-box qu-mt--small"]
 
 
 ! reuters.com
+reuters.com##header
 reuters.com##div[class*="OldSiteBanner"]
 reuters.com##div[class*="_footer_"]
 
