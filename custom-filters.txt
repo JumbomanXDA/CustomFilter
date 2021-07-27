@@ -66,13 +66,13 @@
 ##div[class*="related-topics"]
 ##div[class*="trending"]
 
-##div[class="footer"]
-##div[class="Footer"]
+##div[class="^footer"]
+##div[class="^Footer"]
 ##div[class="p-footer"]
-##div[id="footer"]
-##footer[class="footer"]
+##div[id="^footer"]
+##footer[class^="footer"]
 ##footer[class="p-footer"]
-##footer[id="footer"]
+##footer[id^="footer"]
 
 ##div[data-nc*="deals"]
 ##div[class*="deals"]
