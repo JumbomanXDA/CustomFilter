@@ -698,6 +698,18 @@ mysmartprice.com##div[class*="relatedpost"]
 mysmartprice.com##[id*="scrollToTopButton"]
 
 
+! newindianexpress.com
+newindianexpress.com##div[class*="sensex"]
+newindianexpress.com##div[id^="div-gpt-ad-"]
+newindianexpress.com##div[class*="Social"]
+newindianexpress.com##span[class="scc-span"]
+newindianexpress.com##div[id*="section_content_check"]
+newindianexpress.com##div[class="ArticleComments"]
+newindianexpress.com##[class="foot_head"]
+newindianexpress.com##div[class^="footer"]
+newindianexpress.com##div[class^="mobile_share"]
+
+
 ! nikkei.com
 nikkei.com##div[id*="share-"]
 nikkei.com##div[class*="share-"]
@@ -822,12 +834,15 @@ quora.com##.modal_signup_background
 quora.com##div[id$="_modal_signup_wrapper"]
 quora.com##.blurred_para
 quora.com##div[class*="open_in_app"]
+quora.com##span[data-nosnippet="true"]
+quora.com##div[style*="ans_frontend_assets.images.use_app.png"]
 quora.com##div[style="position: fixed; left: 0px; right: 0px; bottom: 0px; z-index: 300; height: 50px;"]
 quora.com##div[class*="q-box qu-mt--small"]
 
 
 ! reuters.com
 reuters.com##div[class*="OldSiteBanner"]
+reuters.com##div[class*="_footer_"]
 
 
 ! sammobile.com
