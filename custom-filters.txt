@@ -846,6 +846,7 @@ quora.com##div[class*="q-box qu-mt--small"]
 ! reuters.com
 reuters.com##header
 reuters.com##div[class*="OldSiteBanner"]
+reuters.com##div[class*="RegularArticleLayout__newsletter"]
 reuters.com##div[class*="_footer_"]
 
 
@@ -1028,20 +1029,27 @@ wsj.com##div[id*="footer"]
 
 
 ! xda-developers.com
-xda-developers.com##.entry_media
-xda-developers-forum.blogspot.com##.post-share-buttons
+xda-developers.com##header[class*="topbar"]
 xda-developers.com###about-author-wrapper
+xda-developers.com##span[class*="meta_format"]
+xda-developers.com##span[class*="meta_date"]
+xda-developers.com##span[class*="meta_comments"]
+xda-developers.com##span[class*="meta_comments"]
+xda-developers.com##span[class*="meta_author"]
+xda-developers.com##.entry_media
 xda-developers.com##.amp-active
 xda-developers.com##amp-iframe
 xda-developers.com##amp-sticky-ad
 xda-developers.com##.nanobox-topofpage
 xda-developers.com##.nonamp-link
+xda-developers.com##[data-freestar-ad*=""]
+xda-developers.com##[id*="affiliate-warning"]
+xda-developers.com##[id*="xda_alert_bar"]
 xda-developers.com##div[class*="alert_message"]
 xda-developers.com##div[class*="spon_banner"]
-xda-developers.com##div[id*="footer"]
-xda-developers.com##header[class*="topbar"]
-xda-developers.com##section[class="readmore"]
 xda-developers.com##[class="product-cta"]
+xda-developers.com##section[class="readmore"]
+
 
 
 ! forum.xda-developers.com
