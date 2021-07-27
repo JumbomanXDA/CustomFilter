@@ -66,13 +66,13 @@
 ##div[class*="related-topics"]
 ##div[class*="trending"]
 
-##div[class^="footer"]
-##div[class^="Footer"]
+##div[class="footer"]
+##div[class="Footer"]
 ##div[class="p-footer"]
-##div[id^="footer"]
-##footer[class^="footer"]
+##div[id="footer"]
+##footer[class="footer"]
 ##footer[class="p-footer"]
-##footer[id^="footer"]
+##footer[id="footer"]
 
 ##div[data-nc*="deals"]
 ##div[class*="deals"]
@@ -89,6 +89,9 @@
 ##div[class*="fb-like"]
 ##div[class*="fb-root"]
 ##div[class*="hawk-processed"]
+
+##[class*="scroll-up"]
+##[id*="scroll-up"]
 
 ! Accept Cookies
 ||/cookie-prompt.js
@@ -918,6 +921,19 @@ techradar.com##div[class*="read-more"]
 techradar.com##footer
 techradar.com##div[class*="popular-box"]
 techradar.com##.region_redirect_popup
+
+
+! thenextweb.com
+thenextweb.com##div[class*="channel__logos"]
+thenextweb.com##div[class*="c-share"]
+thenextweb.com##div[class*="ica-"]
+thenextweb.com##section[id="newslettersignup"]
+thenextweb.com##section[class*="showcasePartner"]
+thenextweb.com##[class="alsoTaggedIn"]
+thenextweb.com##[class*="tags"]
+thenextweb.com##[data-event-action="Back to top"]
+thenextweb.com##div[id="react-related"]
+thenextweb.com##footer[class^="footer"]
 
 
 ! theverge.com
