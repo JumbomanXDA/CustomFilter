@@ -104,7 +104,7 @@
 
 ! Accept Cookies
 ||/cookie-prompt.js
-##div[class*="consent"]
+
 ##div[id*="consent"]
 ##div[class*="gdpr"]
 ##div[id*="gdpr"]
@@ -723,6 +723,7 @@ mysmartprice.com##section[class*="sclwrpr"]
 mysmartprice.com##div[class*="cpyrght"]
 mysmartprice.com##amp-addthis
 mysmartprice.com##amp-social-share
+mysmartprice.com##div[class*="post-sharing-bottom"]
 mysmartprice.com##div[class*="relatedpost"]
 mysmartprice.com##[id*="scrollToTopButton"]
 
@@ -789,6 +790,7 @@ pcgamer.com##nav[class="box"][id*="Tag"]
 
 
 ! pcmag.com
+pcmag.com##div[class*="article_ads"]
 pcmag.com##div[class="zad billboard"]
 pcmag.com###affiliationDisclaimer
 pcmag.com##div[data-pbs-root="true"]
