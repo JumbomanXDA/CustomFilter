@@ -9,6 +9,8 @@
 ! class*="sharing"
 ! class*="ads" as it breaks any Class containg 'downloads' string, Instead use ^ (e.g class^="ads" )
 ! class*="share" it blocks androidpolice use ^share
+! class^=footer blocks : footer, footer bottom, footer-menu, bottom-footer-menu, menu-footer [as per documentation it should not block last 2, but dont know it blocks]
+! class$=footer blocks : footer, footer-menu but dont block : menu-footer, footer_menu
 
 ! Global ad filter
 ||/advertisement.js
@@ -21,6 +23,7 @@
 ##amp-embed[width="100"][height="100"]
 ##amp-ima-video[data-tag^=""]
 
+! ads
 ##amp-analytics[type*="googleanalytics"]
 ##div[class*="analytics"]
 ##[class*="amp-ad"]
@@ -38,7 +41,7 @@
 ##div[class*="adtext"]
 ##p[class*="adtext"]
 
-##div[class*="sponsor"]
+! warning
 ##div[class*="disclaimer"]
 ##div[id*="disclaimer"]
 ##p[class*="disclaimer"]
@@ -48,7 +51,7 @@
 ##div[class*="cpyrght"]
 ##p[class*="copyright"]
 
-! Global
+! Like share Comments tags
 ##div[class*="comment"]
 ##div[id*="comment"]
 ##section[id*="comment"]
@@ -58,6 +61,7 @@
 ##div[class*="tags"]
 ##div[id*="tags"]
 
+! Related Posts
 ##div[class*="related-post"]
 ##div[class*="related_post"]
 ##div[class*="related-stories"]
@@ -66,17 +70,21 @@
 ##div[class*="related-topics"]
 ##div[class*="trending"]
 
-##div[class="footer"]
-##div[class="Footer"]
+! footer menu
+##div[class|="footer"]
+##div[class|="Footer"]
 ##div[class="p-footer"]
-##div[id="footer"]
-##footer[class="footer"]
+##div[id|="footer"]
+##footer[class|="footer"]
 ##footer[class="p-footer"]
-##footer[id="footer"]
+##footer[id|="footer"]
 
+! Hot deals
+##div[class*="sponsor"]
 ##div[data-nc*="deals"]
 ##div[class*="deals"]
 
+! Signup newsletter
 ##div[class*="newsletter"]
 ##div[id*="newsletter"]
 ##div[data-nc*="newsletter"]
@@ -90,6 +98,7 @@
 ##div[class*="fb-root"]
 ##div[class*="hawk-processed"]
 
+! Go to top of page
 ##[class*="scroll-up"]
 ##[id*="scroll-up"]
 
@@ -116,7 +125,7 @@
 ##.app-banner
 ###app-banner
 
-! Global Disqus
+! Disqus
 ##div[class*="disqus"]
 ##div[id*="disqus"]
 ##.dsq-brlink
@@ -922,6 +931,13 @@ techradar.com##div[class*="read-more"]
 techradar.com##footer
 techradar.com##div[class*="popular-box"]
 techradar.com##.region_redirect_popup
+
+
+! thehindu.com
+thehindu.com##[class^="editvalue"]
+thehindu.com##[id^="relatedmoreintopics"]
+thehindu.com##[class^="footer"]
+thehindu.com##div[class="back-top"]
 
 
 ! thenextweb.com
