@@ -71,13 +71,13 @@
 ##div[class*="trending"]
 
 ! footer menu
-##div[class|="footer"]
-##div[class|="Footer"]
+##div[class="footer"]
+##div[class="Footer"]
 ##div[class="p-footer"]
-##div[id|="footer"]
-##footer[class|="footer"]
+##div[id="footer"]
+##footer[class="footer"]
 ##footer[class="p-footer"]
-##footer[id|="footer"]
+##footer[id="footer"]
 
 ! Hot deals
 ##div[class*="sponsor"]
@@ -691,6 +691,23 @@ medicalreportertoday.com##div[class*="footer"]
 medicalreportertoday.com##div[class*="single-post"]
 medicalreportertoday.com##div[class*="widget_custom"]
 medicalreportertoday.com##h4[class="related-title"]
+
+
+! mobilesyrup.com
+mobilesyrup.com##ul[class="social-links"]
+mobilesyrup.com##div[class*="ad-container"]
+mobilesyrup.com##div[class="desktop-banner"]
+mobilesyrup.com##div[class="mobile-banner"]
+mobilesyrup.com##div[class*="sidebar-ad"]
+mobilesyrup.com##div[class*="ad-goes-here"]
+mobilesyrup.com##div[class*="newsletter-signup"]
+mobilesyrup.com##div[id^="div-gpt-ad-"]
+mobilesyrup.com##div[id*="embed_signup"]
+mobilesyrup.com##p[class="meta-comments"]
+mobilesyrup.com##div[class^="featured-posts"]
+mobilesyrup.com##div[class="wide-feature-article"]
+mobilesyrup.com##div[class^="callout-a"]
+mobilesyrup.com##footer[class="footer"]
 
 
 ! mysmartprice.com
