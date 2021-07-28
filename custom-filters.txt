@@ -104,8 +104,6 @@
 
 ! Accept Cookies
 ||/cookie-prompt.js
-
-##div[id*="consent"]
 ##div[class*="gdpr"]
 ##div[id*="gdpr"]
 ##div[class*="cookie"]
@@ -940,6 +938,8 @@ smartprix.com##footer
 ! stackexchange.com,stackoverflow.com,superuser.com, askubuntu.com, serverfault.com
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##form[id="post-form"]
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##[class="footer"]
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##div[class*="js-post-menu"],div[class="user-info"],div[class="user-details"],div[class="user-action-time"]
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##aside[class*="s-notice"],div[class*="js-consent-banner"]
 
 
 ! techradar.com
