@@ -909,6 +909,26 @@ sammobile.com##a[id="loadMoreButton"]
 sammobile.com###SM_Sticky_Desktop
 
 
+! semianalysis.com
+semianalysis.com##div[class="news-bar"]
+semianalysis.com##nav[id="site-navigation"][class*="main-navigation"]
+semianalysis.com##div[class*="sd-sharing-enabled"]
+semianalysis.com##amp-social-share
+semianalysis.com##div[id="comments"]
+semianalysis.com##footer[id="colophon"]
+semianalysis.substack.com##div[class="intro-popup default-intro-popup"]
+semianalysis.substack.com##div[class="subscribe-widget "]
+semianalysis.substack.com##p[class="button-wrapper"]
+semianalysis.substack.com##table[class="post-meta big  custom"]
+semianalysis.substack.com##div[class="page-nav"]
+semianalysis.substack.com##div[class="single-post-section"]
+semianalysis.substack.com##div[class="subscribe-footer"]
+semianalysis.substack.com##div[class="footer"]
+semianalysis.substack.com##div[class="footer-cta-blurb"]
+semianalysis.substack.com##form[class*="signup"]
+semianalysis.substack.com##div[class="home-sitemap-links"]
+
+
 ! semiengineering.com
 semiengineering.com###sponsors
 semiengineering.com##.tag_list
