@@ -56,7 +56,6 @@
 ##div[id*="comment"]
 ##section[id*="comment"]
 ##div[class*="author"]
-##div[class*="social"]
 ##div[class^="share"]
 ##div[class*="tags"]
 ##div[id*="tags"]
@@ -380,7 +379,7 @@ dailystar.co.uk##footer
 
 ! digitaltrends.com
 digitaltrends.com##.h-editors-recs
-digitaltrends.com##div[class*="ads"]
+digitaltrends.com##div[class*="dtads-slot"]
 digitaltrends.com##amp-ad
 digitaltrends.com##div[class*="b-grid b-single__grid"]
 digitaltrends.com##footer[class*="foot"]
@@ -503,18 +502,24 @@ gizchina.com##footer[class*="footer"]
 
 
 ! gizmochina.com
-gizmochina.com###taboola-below-article
-gizmochina.com###wpfront-notification-bar-spacer
-gizmochina.com##.e-widget-wrapper
-gizmochina.com##.item-details
-gizmochina.com##.td-module-thumb
-gizmochina.com##.td-post-next-prev-content
-gizmochina.com##.td-related-row
-gizmochina.com##div[class*="footer"]
-gizmochina.com##h4[class="td-related-title"]
-gizmochina.com##ul[class="sxc-follow-buttons"]
-gizmochina.com##div[id*="cliSettingsPopup"]
+gizmochina.com##[class*="td-social-sharing"]
+gizmochina.com##div[id="wpfront-notification-bar-spacer"]
+gizmochina.com##ins[class="adsbygoogle"]
 gizmochina.com##div[class*="td-scroll-up"]
+gizmochina.com##div[class="item-details"]
+gizmochina.com##div[class="td-mobile-footer-wrap"]
+gizmochina.com##div[class="td-mobile-sub-footer-wrap"]
+gizmochina.com##div[id="cookie-law-info-bar"]
+gizmochina.com##div[id="cookie-law-info-again"]
+gizmochina.com##div[id="cliSettingsPopup"]
+gizmochina.com##iframe[id*="_ytid_"]
+gizmochina.com##div[id="comments-anchor"]
+gizmochina.com##div[class="td-post-source-tags"]
+gizmochina.com##div[class="td-post-sharing-bottom"]
+gizmochina.com##div[id="td_social_sharing_article_bottom"]
+gizmochina.com##div[class*="td-post-next-prev"]
+gizmochina.com##div[class="author-box-wrap"]
+gizmochina.com##footer
 
 
 ! gizmodo.com
@@ -576,6 +581,7 @@ gsmarena.com##footer
 ! healthline.com
 healthline.com##aside
 healthline.com##div[data-adbridg-ad-class*=""]
+healthline.com##div[id="ccpa-banner"]
 
 
 ! hindustantimes.com
@@ -655,6 +661,20 @@ lifehacker.com##div[class*="video-sticky"]
 lifehacker.com##div[class*="js_commerce"]
 lifehacker.com##div[class*="ad-container"]
 lifehacker.com##aside[class*="inset--story"]
+
+
+! livestrong.com
+livestrong.com##div[class*="homepage-expert"]
+livestrong.com##div[class="component-myplate-calorie-tracker"]
+livestrong.com##div[class="component-section-myplate-module"]
+livestrong.com##div[class*="component-article-citations"]
+livestrong.com##div[class="component-article-section-inline-ad"]
+livestrong.com##div[class*="component-ads-by-google"]
+livestrong.com##div[class*="end-of-article-ads"]
+livestrong.com##div[data-ad-logic="adhesion"]
+livestrong.com##div[class="ad-infinite-scroll"]
+livestrong.com##div[class*="related-content"]
+livestrong.com##footer[class*="footer"]
 
 
 ! lokmat.com
