@@ -642,6 +642,25 @@ imore.com##div[id="fb-root"]
 imore.com##div[class^="article-bio"]
 
 
+! itnews.com.au
+itnews.com.au##div[id="gdpr-alert"]
+itnews.com.au##div[id="follow-us"]
+itnews.com.au##div[class="news-tip"]
+itnews.com.au##div[class="newsletter-subscribe-container"]
+itnews.com.au##div[id="article-source"]
+itnews.com.au##div[id="article-tag-container"]
+itnews.com.au##div[class*="resource-links"]
+itnews.com.au##div[id="article-details"]
+itnews.com.au##div[class^="article-share"]
+itnews.com.au##div[id^="article-mostread"]
+itnews.com.au##div[id="disqus-container"]
+itnews.com.au##section[id="latest-comments"]
+itnews.com.au##section[id="events-container"]
+itnews.com.au##footer
+itnews.com.au##div[id="footer-top-level"]
+itnews.com.au##div[id="footer-bottom-level"]
+
+
 ! letsgodigital.org
 letsgodigital.org##a[href*="/tip-ons/"]
 letsgodigital.org##div[aria-label="cookieconsent"]
@@ -1045,6 +1064,18 @@ venturebeat.com##div[class*="vb_image_source"]
 venturebeat.com##div[class*="boilerplate-before"]
 venturebeat.com##div[class*="boilerplate-after"]
 venturebeat.com##div[class*="Footer"]
+
+
+! vice.com
+vice.com##div[class^="topic-callout"]
+vice.com##div[data-component="RelatedArticleBlock"]
+vice.com##div[class^="adph"]
+vice.com##div[class^="ac-w-ph"]
+vice.com##div[class="article__tagged"]
+vice.com##div[class="tags"]
+vice.com##div[class="vice-ad"]
+vice.com##div[class="recirc-footer"]
+vice.com##footer[class="page-footer"]
 
 
 ! wccftech.com
