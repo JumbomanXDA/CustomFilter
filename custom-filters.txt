@@ -110,12 +110,6 @@
 ##form[class*="cookie"]
 ##div[class*="privacy_policy"]
 ##div[id*="privacy_policy"]
-##div[class*="privacy-"]
-##div[id*="privacy-"]
-##div[class*="-privacy"]
-##div[id*="-privacy"]
-##div[class*="_privacy"]
-##div[id*="_privacy"]
 ##announcement-banner[class*="cookie"]
 ##.smartbanner
 ###smartbanner
