@@ -718,6 +718,7 @@ medicaldialogues.in###header_top_band_area
 medicaldialogues.in##div[class*="advert"]
 medicaldialogues.in##.editor-inserted-link
 medicaldialogues.in##div[id*="left_level_3"]
+medicaldialogues.in##a[id="top"]
 
 
 ! medicalreportertoday.com
@@ -727,6 +728,7 @@ medicalreportertoday.com##div[class*="footer"]
 medicalreportertoday.com##div[class*="single-post"]
 medicalreportertoday.com##div[class*="widget_custom"]
 medicalreportertoday.com##h4[class="related-title"]
+medicalreportertoday.com##a[class="scrollup"]
 
 
 ! mobilesyrup.com
@@ -761,6 +763,9 @@ mysmartprice.com##amp-addthis
 mysmartprice.com##amp-social-share
 mysmartprice.com##div[class*="post-sharing-bottom"]
 mysmartprice.com##div[class*="relatedpost"]
+mysmartprice.com##div[class*="fb-like"]
+mysmartprice.com##section[class="social-links"]
+mysmartprice.com##div[class="comments"]
 mysmartprice.com##[id*="scrollToTopButton"]
 
 
