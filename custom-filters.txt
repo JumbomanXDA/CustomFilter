@@ -999,6 +999,19 @@ stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com#
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##aside[class*="s-notice"],div[class*="js-consent-banner"]
 
 
+! techinsights.com
+techinsights.com##ins[class="adsbygoogle"]
+techinsights.com##ins[class="adsbyadop"]
+techinsights.com##div[class="product-search-bar"]
+techinsights.com##div[class*="blockrecent-news-and-blogs"]
+techinsights.com##div[style*="background: #ffffff;border-top:5px solid"]
+techinsights.com##div[class*="block-pardot-contact-us-block"]
+techinsights.com##div[class*="blocknodeproductfield-"]
+techinsights.com##div[class*="block-subscription-block"]
+techinsights.com##section[class="subscription-block"]
+techinsights.com##footer[class="site-footer"]
+
+
 ! techradar.com
 techradar.com##div[class*="ad-unit"]
 techradar.com##span[class*="rating"]
