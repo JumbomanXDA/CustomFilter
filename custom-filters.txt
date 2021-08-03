@@ -108,6 +108,8 @@
 ##div[class*="cookie"]
 ##div[id*="cookie"]
 ##form[class*="cookie"]
+##div[class*="privacy-policy"]
+##div[id*="privacy-policy"]
 ##div[class*="privacy_policy"]
 ##div[id*="privacy_policy"]
 ##announcement-banner[class*="cookie"]
@@ -1077,6 +1079,7 @@ theverge.com##section.top
 theverge.com##amp-youtube[data-vars-video-player="youtube"]
 theverge.com##.connatix-container
 theverge.com##.outbrain-wrapper
+theverge.com##div[class="adblock-allowlist-messaging__article-wrapper"]
 
 
 ! timesofindia.com
@@ -1191,7 +1194,8 @@ xda-developers.com##div[class*="alert_message"]
 xda-developers.com##div[class*="spon_banner"]
 xda-developers.com##[class="product-cta"]
 xda-developers.com##section[class="readmore"]
-
+xda-developers.com##div[class^="et_social_inline"]
+xda-developers.com##div[id="footer"]
 
 
 ! forum.xda-developers.com
