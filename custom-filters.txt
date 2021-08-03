@@ -336,6 +336,17 @@ cnet.com##footer[class="c-footer"]
 cnet.com##div[section="shortcodeGallery"]
 
 
+! cnn.com
+cnn.com##div[id="featured-ribbon-markets-section"]
+cnn.com##div[id="featured-ribbon-markets-section"]
+cnn.com##div[class*="_featured-video"]
+cnn.com##div[id*="cn-featured-"]
+cnn.com##form[action="/search"]
+cnn.com##div[data-test="social-follow-bar"]
+cnn.com##div[id="footer-wrap"]
+cnn.com##a[href*="CNN?sub_confirmation"]
+
+
 ! computerworld.com
 computerworld.com##.content-copy
 computerworld.com##.empty-div
@@ -447,6 +458,9 @@ forbes.com##div[class*="fbs-ad"]
 forbes.com##div[class*="amp-player"]
 forbes.com##a[class*="embed-base"]
 forbes.com##div[class*="contrib"]
+forbes.com##div[class="recirc-module shopping"]
+forbes.com##fbs-pricing
+forbes.com##span[class^="fbs-pricing"]
 forbes.com##amp-lightbox
 
 
@@ -832,9 +846,12 @@ pcmag.com##div[data-pbs-root="true"]
 pcmag.com##.related
 pcmag.com##.morelikethis
 pcmag.com##div[class="wrapper bottom"]
-pcmag.com##div[class*="footer"]
-pcmag.com##[id*="footer"]
 pcmag.com##div[class="inteditions"]
+pcmag.com##aside[class^="zmgad-full-width"]
+pcmag.com##div[x-data^="window.newsletters"][x-show^="showEmailSignUp"]
+pcmag.com##[id*="footer"]
+pcmag.com##div[class*="footer"]
+pcmag.com##footer
 
 
 ! phonearena.com
