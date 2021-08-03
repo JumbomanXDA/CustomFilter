@@ -328,6 +328,14 @@ businessinsider.in##div[class*="footer-interlining-"]
 businessinsider.in##div[class*="inarticle-wdgt"]
 
 
+! cnbc.com
+cnbc.com##span[class="HighlightShare"]
+cnbc.com##div[class^="RelatedQuotes"]
+cnbc.com##div[data-test="VideoPlaceHolder"]
+cnbc.com##div[class="InlineVideo-videoEmbed"]
+cnbc.com##footer[class="CNBCFooter-container"]
+
+
 ! cnet.com
 cnet.com##div[data-ad*="mobile"]
 cnet.com##div[class*="ad-slot"]
