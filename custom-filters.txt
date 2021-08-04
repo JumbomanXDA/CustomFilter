@@ -170,6 +170,12 @@
 9to5mac.com,9to5google.com,9to5toys.com##a[href^="https://www.youtube.com/c/9to5google?sub_confirmation=1"]
 9to5mac.com,9to5google.com,9to5toys.com##div[class="author-bio-container"]
 9to5mac.com,9to5google.com,9to5toys.com##a[href^="https://wpvip.com/?utm_source=vip_powered_wpcom"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class="fluid-width-video-wrapper"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class*="related-guides-"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class="bottom-ad"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class*="author-bio-container"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class="posts-carousel inner-wrap"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class="amp-wp-footer"]
 !9to5mac.com,9to5google.com,9to5toys.com##script[id="loop-template"]
 9to5mac.com,9to5google.com,9to5toys.com##div[class^="infinite-wrap"][id^="infinite-view-"]
 
@@ -1119,6 +1125,10 @@ timesofindia.com##div[class*="ad_"]
 
 
 ! tomsguide.com, tomshardware.com
+tomsguide.com,tomshardware.com##ul[class="nav-list"]
+tomsguide.com,tomshardware.com##aside[id="affiliateDisclaimer"]
+tomsguide.com,tomshardware.com##div[data-amp-bind-class*="deals"]
+tomsguide.com,tomshardware.com##div[class="recent-news"]
 tomsguide.com,tomshardware.com##div[class*="leaderboard-container"]
 tomsguide.com,tomshardware.com##div[class*="slot-"]
 tomsguide.com,tomshardware.com##div[class*="van_vid_carousel"]
