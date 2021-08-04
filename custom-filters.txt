@@ -211,6 +211,8 @@ androidauthority.com##amp-iframe[src*="js.wpenginepowered.com"]
 androidauthority.com##amp-state
 androidauthority.com##amp-web-push
 androidauthority.com##amp-web-push-widget
+androidauthority.com##div[data-amp-bind-class^="id"]
+androidauthority.com##a[href="/news/"]
 androidauthority.com##a[href="/newsletters/"]
 androidauthority.com##a[href="/versus/"]
 androidauthority.com##a[href*="/tag/"]
@@ -224,11 +226,15 @@ androidcentral.com##div[class*="recommended-award"]
 androidcentral.com##div[class*="article-bio"]
 androidcentral.com##div[class*="article-shop"]
 androidcentral.com##div[class="article-token article-token--more-of"]
+androidcentral.com##div[class*="article-body__section--wide-desktop"]
+androidcentral.com##div[class^="adunit"]
 androidcentral.com##div[class="sidebar__section sidebar__section--shrink"]
 androidcentral.com##[class*="footer"]
 androidcentral.com##img[alt*="Google Ad Tracking Opt Out"]
 androidcentral.com##p[class*="disclosure"]
 androidcentral.com##div[class*="article-body"][data-award=""]
+androidcentral.com##footer[class^="article-meta"]
+androidcentral.com##ul[class^="article-meta-tags"]
 androidcentral.com##footer
 
 
