@@ -474,6 +474,13 @@ forbes.com##span[class^="fbs-pricing"]
 forbes.com##amp-lightbox
 
 
+! fortune.com
+fortune.com##amp-video-iframe
+fortune.com##div[class^="plea-block"]
+fortune.com##footer[class="amp-wp-footer"]
+fortune.com##div[class^="footer"]
+
+
 ! frontpagetech.com
 frontpagetech.com##.zox-post-soc-stat
 frontpagetech.com##div[class*="-ad"]
