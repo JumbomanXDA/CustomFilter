@@ -9,7 +9,7 @@
 ! class*="sharing"
 ! class*="ads" as it breaks any Class containg 'downloads' string, Instead use ^ (e.g class^="ads" )
 ! class*="share" it blocks androidpolice use ^share
-! class^=footer blocks : footer, footer bottom, footer-menu, bottom-footer-menu, menu-footer [as per documentation it should not block last 2, but dont know it blocks]
+! class^=footer blocks : footer, footer bottom, footer-menu, bottom-footer-menu, menu-footer [as per documentation it should not block last 2, but dont know how it blocks]
 ! class$=footer blocks : footer, footer-menu but dont block : menu-footer, footer_menu
 
 ! Global ad filter
