@@ -413,7 +413,6 @@ digitimes.com##div[class*="gotop"]
 digitimes.com##div[class*="realtime-news"]
 digitimes.com##div[class*="swiper-container"]
 digitimes.com##div[class*="swiper-slide"]
-digitimes.com##div[class*="related-frame"]
 digitimes.com##div[class*="-ad"]
 digitimes.com##[class*="footer"]
 digitimes.com##[class*="tag-frame"]
@@ -822,6 +821,8 @@ nikkei.com##.chart__info__value
 nikkei.com###gdp-value
 nikkei.com##div[class*="article__footer"]
 nikkei.com##div[class*="footer__main"]
+nikkei.com##div[data-ga-category^="MDLimitSoon"]
+nikkei.com##div[class="pw-widget__inner"]
 
 
 ! notebookcheck.net
