@@ -155,13 +155,23 @@
 
 
 ! 9to5mac.com, 9to5google.com, 9to5toys.com
-
-
-
-! 9to5toys.com
-9to5toys.com##.wrap-sm
-9to5toys.com##div[class="entry-cta aligncenter"]
-9to5toys.com##div[class="slot bg-striped slot-leaderboard"]
+9to5mac.com,9to5google.com,9to5toys.com##nav[id^="primary-menu"][class^="primary-menu"]
+9to5mac.com,9to5google.com,9to5toys.com##span[id^="more-"]
+9to5mac.com,9to5google.com,9to5toys.com##ins[class^="adsbygoogle"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class="post-social-mobile"]
+9to5mac.com,9to5google.com,9to5toys.com##div[id^="div-gpt-ad-"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class*="ad-container-"]
+9to5mac.com,9to5google.com,9to5toys.com##amp-ad
+9to5mac.com,9to5google.com,9to5toys.com##.leaderboard-ad
+9to5mac.com,9to5google.com,9to5toys.com##aside[class="trending-wrapper"]
+9to5mac.com,9to5google.com,9to5toys.com##div[id="comments"]
+9to5mac.com,9to5google.com,9to5toys.com##div[id="disqus_thread"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class="ad-disclaimer-container"]
+9to5mac.com,9to5google.com,9to5toys.com##a[href^="https://www.youtube.com/c/9to5google?sub_confirmation=1"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class="author-bio-container"]
+9to5mac.com,9to5google.com,9to5toys.com##a[href^="https://wpvip.com/?utm_source=vip_powered_wpcom"]
+!9to5mac.com,9to5google.com,9to5toys.com##script[id="loop-template"]
+9to5mac.com,9to5google.com,9to5toys.com##div[class^="infinite-wrap"][id^="infinite-view-"]
 
 
 ! 91mobiles.com
