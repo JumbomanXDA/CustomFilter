@@ -155,22 +155,7 @@
 
 
 ! 9to5mac.com, 9to5google.com, 9to5toys.com
-9to5mac.com,9to5google.com,9to5toys.com##.order-control
-9to5mac.com,9to5google.com,9to5toys.com##.site-header-inner
-9to5mac.com,9to5google.com,9to5toys.com##.wp-block-image
-9to5mac.com,9to5google.com,9to5toys.com##div[class*="video-wrapper"]
-9to5mac.com,9to5google.com,9to5toys.com##div[class*="disclaimer"]
-9to5mac.com,9to5google.com,9to5toys.com##div[class*="related-guides"]
-9to5mac.com,9to5google.com,9to5toys.com##div[class*="author-bio"]
-9to5mac.com,9to5google.com,9to5toys.com##div[id*="related-post"]
-9to5mac.com,9to5google.com,9to5toys.com##.consent-wrapper
-9to5mac.com,9to5google.com,9to5toys.com##.bottom-ad
-9to5mac.com,9to5google.com,9to5toys.com##amp-ad
-9to5mac.com,9to5google.com,9to5toys.com##.leaderboard-ad
-9to5mac.com,9to5google.com,9to5toys.com##.post-cats
-9to5mac.com,9to5google.com,9to5toys.com##div[class*="entry-related"]
-9to5mac.com,9to5google.com,9to5toys.com##[class*="footer"]
-9to5mac.com,9to5google.com,9to5toys.com##div[class="posts-carousel inner-wrap"]
+
 
 
 ! 9to5toys.com
@@ -329,11 +314,20 @@ businessinsider.in##.mobile_padding
 businessinsider.in##.right_content
 businessinsider.in##.msme-art-widget
 businessinsider.in##div[class="scl_panel clearfix"]
+businessinsider.in##div[class*="art-videos-wdgt"]
+businessinsider.in##div[class*="inarticle-wdgt"]
 businessinsider.in##.article-ad-container
 businessinsider.in##div[class*="ads-cont"]
-businessinsider.in##div[class*="art-videos-wdgt"]
+businessinsider.in##div[class="amazon_ad"]
+businessinsider.in##span[class="ad-brdr-top"]
+businessinsider.in##hr[class="ad-brdr-btm"]
+businessinsider.in##div[class^="ads-cont"]
+businessinsider.in##figure[class="article-ad-container"]
+businessinsider.in##div[class="article-ad-fc"]
+businessinsider.in##div[class="clearfix"][data-articleshowajax-status="loaded"]
 businessinsider.in##div[class*="footer-interlining-"]
-businessinsider.in##div[class*="inarticle-wdgt"]
+businessinsider.in##div[data-widget="tgp_footer"][class="footer-main-cont"]
+businessinsider.in##div[class="sub_footer"]
 
 
 ! cnbc.com
@@ -414,9 +408,9 @@ digitimes.com##div[class*="realtime-news"]
 digitimes.com##div[class*="swiper-container"]
 digitimes.com##div[class*="swiper-slide"]
 digitimes.com##div[class*="-ad"]
-digitimes.com##[class*="footer"]
+digitimes.com##div[id="startupnav"]
 digitimes.com##[class*="tag-frame"]
-
+digitimes.com##[class*="footer"]
 
 ! droid-life.com
 droid-life.com##div[class="jump-button-wrapper"]
@@ -838,6 +832,19 @@ notebookcheck.net##.prev_next_news
 notebookcheck.net###author
 notebookcheck.net###nbc_bottombar
 notebookcheck.net##span[class*="tag"]
+
+
+! nytimes.com
+nytimes.com##a[href="https://www.nytimes.com/subscription"]
+nytimes.com##div[class*="sale_apple-pay-dock"]
+nytimes.com##div[id^="story-ad-"]
+nytimes.com##div[id^="NYT_MAIN_CONTENT_"]
+nytimes.com##div[data-testid="share-toolbar"]
+nytimes.com##div[data-testid="recirculation"]
+nytimes.com##div[aria-labelledby="storyline-latest-updates"]
+nytimes.com##section[aria-labelledby="newsletter-section-header"]
+nytimes.com##nav[data-testid="site-index"]
+nytimes.com##footer[role="contentinfo"]
 
 
 ! oneplus.com
