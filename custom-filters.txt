@@ -113,6 +113,8 @@
 ##div[class*="privacy_policy"]
 ##div[id*="privacy_policy"]
 ##announcement-banner[class*="cookie"]
+##div[class^="consent-popup"]
+##div[class^="consent-banner"]
 ##.smartbanner
 ###smartbanner
 ##.app-banner
@@ -1086,6 +1088,16 @@ techradar.com##div[class*="popular-box"]
 techradar.com##.region_redirect_popup
 
 
+! theguardian.com
+theguardian.com##div[class*="site-message--on-top"]
+theguardian.com##div[data-component="rich-link"]
+theguardian.com##div[id="most-viewed-footer"]
+theguardian.com##div[data-link-name="most-popular"]
+theguardian.com##div[id^="dfp-ad-"][class^="js-ad-slot"]
+theguardian.com##div[id="sub-nav-root"]
+theguardian.com##footer[data-link-name="footer"]
+
+
 ! thehindu.com
 thehindu.com##[class^="editvalue"]
 thehindu.com##[id^="relatedmoreintopics"]
@@ -1260,6 +1272,19 @@ xiaomi.eu##footer[class="p-footer"][id="footer"]
 
 
 ! zdnet.com
+zdnet.com##section[class*="mobile_banner"]
+zdnet.com##div[data-ad="mobile-mpu"]
+zdnet.com##section[class*="sharethrough-top"]
+zdnet.com##div[data-ad*="mobile-sharethrough-top"]
+zdnet.com##div[class="share-bar-wrapper"]
+zdnet.com##div[class="social-links"]
+zdnet.com##div[class="author-avatars"]
+zdnet.com##div[class="byline"]
+zdnet.com##div[class^="newsletter-terms-of-service"]
+zdnet.com##div[class="authentication"]
+zdnet.com##div[id^="newsletter-widget"]
+zdnet.com##div[class="newsletters"]
+zdnet.com##footer[class="footer-main"]
 zdnet.com##[id="zd-logo"]
 zdnet.com##div[class*="-ad-"]
 zdnet.com##section[class*="related-topics"]
