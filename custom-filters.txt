@@ -178,6 +178,7 @@
 9to5mac.com,9to5google.com,9to5toys.com##div[class*="author-bio-container"]
 9to5mac.com,9to5google.com,9to5toys.com##div[class="posts-carousel inner-wrap"]
 9to5mac.com,9to5google.com,9to5toys.com##div[class="amp-wp-footer"]
+9to5mac.com,9to5google.com,9to5toys.com##figure[class^="wp-block-embed"]
 !9to5mac.com,9to5google.com,9to5toys.com##script[id="loop-template"]
 9to5mac.com,9to5google.com,9to5toys.com##div[class^="infinite-wrap"][id^="infinite-view-"]
 
@@ -317,6 +318,13 @@ bgr.com##[class*="dont-miss"]
 bgr.com##footer
 bgr.com##div[class*="pmc-links"]
 bgr.com##[class*="product-callout"]
+
+
+! bhaskar.com
+bhaskar.com##div[id="APP_INSTALL_POPUP_CONTAINER_ID"]
+bhaskar.com##a[href*="dainik-b-alternate.app.link"]
+bhaskar.com##div[id^="Ad--"]
+bhaskar.com##div[style*="overflow:hidden;min-height:"]
 
 
 ! bloomberg.com
@@ -660,6 +668,33 @@ hpcwire.com###editorspick
 ! imgur.com
 imgur.com##div[class*="SeeImgurOIA-overlay"]
 imgur.com##div[class*="FloatingOIA-container"]
+
+
+! indianexpress.com
+indianexpress.com##div[class="ads-container"]
+indianexpress.com##div[class="unitimg"]
+indianexpress.com##div[class="top-ads-amp"]
+indianexpress.com##div[class="custom_read_button"]
+indianexpress.com##amp-live-list
+indianexpress.com##div[amp-access*="ALLOW_ACCESS"]
+indianexpress.com##div[class="pune-related-widget"]
+indianexpress.com##div[data-city=""][data-state=""]
+indianexpress.com##iframe[class="iframe-lazy"][src*="https://open.spotify.com/embed-podcast"]
+indianexpress.com##div[class="amp-readinapp"]
+indianexpress.com##div[id="id_newsletter_subscription"]
+indianexpress.com##div[class="newsletter_section"]
+indianexpress.com##div[class="mid-ads-mobile"]
+indianexpress.com##div[class*="ev-meter-content"]
+indianexpress.com##p[class^="appstext"]
+indianexpress.com##div[class="tags"]
+indianexpress.com##div[class^="app-btn"]
+indianexpress.com##span[class="app-btn__link"]
+indianexpress.com##div[class="pdsc-related-modify"]
+indianexpress.com##div[class="pdsc-related-txt"]
+indianexpress.com##ul[class="pdsc-related-list"]
+indianexpress.com##footer[class="hide_utm_paytm_phonepe"]
+indianexpress.com##div[class*="-footer-"]
+indianexpress.com##div[id="append_breaking_box"]
 
 
 ! indiatoday.in
