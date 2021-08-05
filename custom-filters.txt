@@ -458,6 +458,17 @@ electronicsweekly.com##div[class="widget-container"]
 electronicsweekly.com##aside[class="sidebar-narrow"]
 
 
+! engadget.com
+engadget.com##div[id="MOBILE-TOP_ATF"]
+engadget.com##div[class="ads-cont"]
+engadget.com##div[data-component="NewsletterCard"]
+engadget.com##div[data-component="JacAd"]
+engadget.com##section[data-component="PopularStreamHorizontal"]
+engadget.com##div[data-component="SpotIM"]
+engadget.com##div[id="MOBILE-BOTTOM_BTF"]
+engadget.com##footer[id="Footer"]
+
+
 ! extremetech.com
 extremetech.com##.byline
 extremetech.com##.global-footer
