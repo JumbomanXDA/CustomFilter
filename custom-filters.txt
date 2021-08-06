@@ -546,6 +546,9 @@ gadgets.ndtv.com##div[class="_ftlascl center"]
 gadgets.ndtv.com##div[class="_flscl"]
 gadgets.ndtv.com##div[class="_ftdapp"]
 gadgets.ndtv.com##div[class="_ftcpytxt"]
+gadgets.ndtv.com##div[class*="newshindiwgt"]
+gadgets.ndtv.com##ul[class="newslist"]
+gadgets.ndtv.com##div[class*="_kptstk"]
 
 
 ! gizchina.com
