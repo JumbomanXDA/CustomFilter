@@ -21,7 +21,6 @@
 ##amp-lightbox-gallery[layout="nodisplay"]
 ##amp-lightbox-gallery[id*="amp-lightbox-gallery"]
 ##amp-embed[width="100"][height="100"]
-##amp-ima-video[data-tag^=""]
 
 ! ads
 ##amp-analytics[type*="googleanalytics"]
@@ -71,10 +70,12 @@
 
 ! footer menu
 ##div[class="footer"]
+##div[class^="footer-"]
 ##div[class="Footer"]
 ##div[class="p-footer"]
 ##div[id="footer"]
 ##footer[class="footer"]
+##footer[class^="footer-"]
 ##footer[class="p-footer"]
 ##footer[id="footer"]
 
