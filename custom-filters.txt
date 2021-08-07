@@ -537,7 +537,6 @@ gadgets.ndtv.com##div[class="_trndw"]
 gadgets.ndtv.com##[class*="scrollToTop"]
 gadgets.ndtv.com##p[class="about_authors"]
 gadgets.ndtv.com##h4[class="innerContainer"]
-gadgets.ndtv.com##ul[class="newslist"]
 gadgets.ndtv.com##div[class="_flx"]
 gadgets.ndtv.com##div[class="_flst _brnd"]
 gadgets.ndtv.com##div[class="_ftstry"]
@@ -549,6 +548,16 @@ gadgets.ndtv.com##div[class="_ftdapp"]
 gadgets.ndtv.com##div[class="_ftcpytxt"]
 gadgets.ndtv.com##div[class*="newshindiwgt"]
 gadgets.ndtv.com##div[class*="_kptstk"]
+
+
+! galaxyclub.nl
+galaxyclub.nl##a[class="resp-sharing-button__link"]
+galaxyclub.nl##div[class*="related-posts"]
+galaxyclub.nl##[class="comment-respond"]
+galaxyclub.nl##aside[class*="widget-area"][role="complementary"]
+galaxyclub.nl##footer[class="entry-footer"]
+galaxyclub.nl##div[class="footer-widgets"]
+galaxyclub.nl##footer[class="site-footer"]
 
 
 ! gizchina.com
