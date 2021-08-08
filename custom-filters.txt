@@ -4,7 +4,6 @@
 ! Keep Global level filters to minimum
 
 
-
 ! Don't use
 ! class*="_ad"
 ! class*="sharing"
@@ -12,6 +11,8 @@
 ! class*="share" it blocks androidpolice use ^share
 ! class^=footer blocks : footer, footer bottom, footer-menu, bottom-footer-menu, menu-footer [as per documentation it should not block last 2, but dont know how it blocks]
 ! class$=footer blocks : footer, footer-menu but dont block : menu-footer, footer_menu
+! Concatenating multiple procedural selectors in one filter is not supported in ublock origin
+! example.com##span[id^="more-"],div[class="value"]
 
 ! Global ad filter
 ||/advertisement.js
@@ -198,7 +199,9 @@
 ! anandtech.com
 anandtech.com##.fl-lt
 anandtech.com##.fl-rt
-anandtech.com##link[href="/Content/atfonts.css"]
+!anandtech.com##link[href="/Content/atfonts.css"]
+~anandtech.com##div[class*="comment"]
+~anandtech.com##div[id*="comment"]
 anandtech.com##[class*="footer"]
 
 
