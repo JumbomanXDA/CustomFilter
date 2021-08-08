@@ -200,8 +200,8 @@
 anandtech.com##.fl-lt
 anandtech.com##.fl-rt
 !anandtech.com##link[href="/Content/atfonts.css"]
-~anandtech.com##div[class*="comment"]
-~anandtech.com##div[id*="comment"]
+anandtech.com#@#div[class*="comment"]
+anandtech.com#@#div[id*="comment"]
 anandtech.com##[class*="footer"]
 
 
@@ -965,6 +965,15 @@ pcmag.com##div[class*="footer"]
 pcmag.com##footer
 
 
+! phandroid.com
+phandroid.com##div[class^="further-reading-container"]
+phandroid.com##section[class^="android-phones recent-news"]
+phandroid.com##section[class^="further-reading fr-recent-news"]
+phandroid.com##div[class*="fr-sidebar-cards"]
+phandroid.com##footer[class^="page-footer"]
+phandroid.com##div[class="preloader-container"]
+
+
 ! phonearena.com
 phonearena.com##[class*="widgetHeader__list_social"]
 phonearena.com##[class*="Deals"]
@@ -1010,6 +1019,25 @@ piunikaweb.com##div[class="post-share"]
 piunikaweb.com##div[class="facebook-comments"]
 piunikaweb.com##div[class="go-up"]
 piunikaweb.com##div[class*="page-navigation"]
+
+
+! pocket-lint.com
+pocket-lint.com##div[class^="block"][class$="block-ad"]
+pocket-lint.com##div[id^="top-skin-ad"]
+pocket-lint.com##nav[class="topics"]
+pocket-lint.com##form[action="/search"][class="mobile-search"]
+pocket-lint.com##p[class^="pre-phrase"]
+pocket-lint.com##div[class="social"]
+pocket-lint.com##nav[class="social"]
+pocket-lint.com##div[class="share"]
+pocket-lint.com##div[class*="block-mpu-middle-text"]
+pocket-lint.com##div[id^="Article-Unit"]
+pocket-lint.com##div[id="adStopper"]
+pocket-lint.com##div[id="hub"]
+pocket-lint.com##div[class="writting-authors"]
+pocket-lint.com##div[class="tags"]
+pocket-lint.com##div[class="popular"]
+pocket-lint.com##footer[id="footer"]
 
 
 ! pocketnow.com
