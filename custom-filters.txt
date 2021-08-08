@@ -564,6 +564,22 @@ galaxyclub.nl##div[class="footer-widgets"]
 galaxyclub.nl##footer[class="site-footer"]
 
 
+! gizbot.com
+gizbot.com##span[class="oiad-txt"]
+gizbot.com##div[data-slotid^="div-gpt-ad-"]
+gizbot.com##div[class="one-head-share-block"]
+gizbot.com##div[id="fwnNewWdg"]
+gizbot.com##fw-storyblock[channel="gizbot"]
+gizbot.com##div[class="gadgetfinder-content"]
+gizbot.com##div[class="slider-article-list-wrap"]
+gizbot.com##div[class="best-mobiles"]
+gizbot.com##div[class="gadgetfinder-right-bestlinks"]
+gizbot.com##div[class^="gallery-embed-container"]
+gizbot.com##div[id="gotoTop"]
+gizbot.com##footer
+gizbot.com##div[style*="bottom: 0px; left: 0px; position: fixed; width:"]
+
+
 ! gizchina.com
 gizchina.com###taboola-below-article-thumbnails
 gizchina.com##.ctaText
