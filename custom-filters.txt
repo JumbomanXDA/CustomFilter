@@ -642,6 +642,17 @@ gizmodo.com##div[class*="video-sticky"]
 gizmodo.com##div[class*="video-wrapper"]
 
 
+! giznext.com
+giznext.com##div[class="hm-top-bar"]
+giznext.com##div[class="hm-social-menu"]
+giznext.com##nav[class^="navigation"][role="navigation"][aria-label="Posts"]
+giznext.com##aside[id="secondary"][class="widget-area"][role="complementary"]
+giznext.com##section[id^="text"][class*="widget_text"]
+giznext.com##section[id^="hitmag_single_category_posts"][class*="widget_hitmag_single_category_posts"]
+giznext.com##footer[class="entry-footer"]
+giznext.com##footer[id="colophon"][class="site-footer"]
+
+
 ! gsmarena.com
 gsmarena.com##div[class*="adv-top"]
 gsmarena.com##div[class*="adv-bottom"]
@@ -895,6 +906,8 @@ mysmartprice.com##[id*="scrollToTopButton"]
 ! ndtv.com
 ndtv.com##div[class^="breaking_alert"]
 ndtv.com##div[class^="articleWdgt"]
+ndtv.com##section[class^="add-section"]
+ndtv.com##span[class="add__txt"]
 ndtv.com##div[id="jiosaavn-widget"]
 ndtv.com##div[id="_shopngwgtmid"]
 ndtv.com##section[id="other"][class*="latest-stories-38"]
