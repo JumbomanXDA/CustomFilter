@@ -892,7 +892,19 @@ mysmartprice.com##div[class="comments"]
 mysmartprice.com##[id*="scrollToTopButton"]
 
 
-!news18.com
+! ndtv.com
+ndtv.com##div[class^="breaking_alert"]
+ndtv.com##div[class^="articleWdgt"]
+ndtv.com##div[id="jiosaavn-widget"]
+ndtv.com##div[id="_shopngwgtmid"]
+ndtv.com##section[id="other"][class*="latest-stories-38"]
+ndtv.com##div[id="LatestStories"][class*="list-head"]
+ndtv.com##div[class^="back-to-top"]
+ndtv.com##div[class="story_ft-nav"]
+ndtv.com##div[class="story__social"]
+
+
+! news18.com
 news18.com##ul[class$="article_socials"]
 news18.com##figure[class^="ad_container"][id^="new_ad"]
 news18.com##div[class="adBanner"]
