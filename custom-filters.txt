@@ -184,6 +184,9 @@
 9to5mac.com,9to5google.com,9to5toys.com##figure[class^="wp-block-embed"]
 !9to5mac.com,9to5google.com,9to5toys.com##script[id="loop-template"]
 9to5mac.com,9to5google.com,9to5toys.com##div[class^="infinite-wrap"][id^="infinite-view-"]
+9to5mac.com,9to5google.com,9to5toys.com##div[id='jp-carousel-loading-overlay]
+9to5mac.com,9to5google.com,9to5toys.com##script[id='disqus_count-js-extra'']
+9to5mac.com,9to5google.com,9to5toys.com##script[id='disqus_embed-js-extra']
 
 
 ! 91mobiles.com
