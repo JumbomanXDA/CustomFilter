@@ -892,6 +892,30 @@ mysmartprice.com##div[class="comments"]
 mysmartprice.com##[id*="scrollToTopButton"]
 
 
+!news18.com
+news18.com##ul[class$="article_socials"]
+news18.com##figure[class^="ad_container"][id^="new_ad"]
+news18.com##div[class="adBanner"]
+news18.com##div[class^="closestickybtn"]
+news18.com##div[class^="stky-ad-footer"]
+news18.com##div[class="nw18-dfp-ad"]
+news18.com##div[class="lazyAds"]
+news18.com##div[data-srno="2"],div[data-srno="3"],div[data-srno="4"],div[data-srno="5"],div[data-srno="6"]
+news18.com##div[style*="padding:10px 0;background:#"][class^="jsx-"]
+news18.com##div[class="story_heading"]
+news18.com##div[class^="article_follow"]
+news18.com##div[class^="author_box"]
+news18.com##ul[class^="tags"]
+news18.com##div[style="min-height:1170px"][class^="jsx-"]
+news18.com##div[class*="newftrshare_fixed"]
+news18.com##div[class*="newftrshare_in"]
+news18.com##section[class="ftr_container"]
+news18.com##div[class="social_icon"]
+news18.com##div[class="device"]
+news18.com##div[class="bsi_logo"]
+news18.com##section[class="bottom_footer"]
+
+
 ! newindianexpress.com
 newindianexpress.com##div[class*="sensex"]
 newindianexpress.com##div[id^="div-gpt-ad-"]
