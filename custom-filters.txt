@@ -141,6 +141,14 @@
 ! {display:none !important;}
 
 
+! 1mg.com
+1mg.com##script[id="adblock-detection"][src="/js/ads.js"]
+1mg.com##div[class^="temp-install-class"][class*="InstallAppBar"]
+1mg.com##div[class^="HomeCareplanSticky_"]
+1mg.com##section[class^="style__contentSection_"]
+1mg.com##footer[id="footer-bar"]
+
+
 ! 9to5mac.com, 9to5google.com, 9to5toys.com
 9to5mac.com,9to5google.com,9to5toys.com##nav[id^="primary-menu"][class^="primary-menu"]
 9to5mac.com,9to5google.com,9to5toys.com##span[id^="more-"]
@@ -1058,6 +1066,16 @@ phonearena.com##footer[class="layout__footer"]
 phonearena.com##div[class*="widgetBackToTop"]
 phonearena.com##div[style*="bottom: 0px; left: 0px; position: fixed; width:"]
 phonearena.com##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
+
+
+! phoronix.com
+phoronix.com##aside[class="widget"]
+phoronix.com##div[class="foot"]
+phoronix.com##div[id="sharebar"]
+phoronix.com##div[class="article-box"]
+phoronix.com##div[class="after-article"]
+phoronix.com##div[id="about-author"]
+phoronix.com##div[id="footer"]
 
 
 ! piunikaweb.com
