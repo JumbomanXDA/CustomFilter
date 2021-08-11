@@ -147,15 +147,6 @@
 1mg.com##div[class*="adBox"]
 1mg.com##div[class*="temp-install-class"]
 1mg.com##div[class*="AppDownloadBottomSheet"]
-1mg.com##div[class*="HomeCareplanSticky"]
-1mg.com##section[class*="style__pharmaHeader"]
-1mg.com##div[class*="style__quick-buy"]
-1mg.com##div[class*="style__rx-button"]
-1mg.com##section[class^="style__contentSection"]
-1mg.com##div[class*="VideoPlayer"]
-1mg.com##div[class*="Authenticity"]
-1mg.com##div[class*="ReportProblem"]
-1mg.com##img[src*="https://assets.1mg.com/pwa-app/production/1.1.5/static/images/svgs/icons/report_problem.svg"]
 1mg.com##footer[id*="footer"]
 
 
@@ -481,6 +472,7 @@ engadget.com##div[data-component="NewsletterCard"]
 engadget.com##div[data-component="JacAd"]
 engadget.com##section[data-component="PopularStreamHorizontal"]
 engadget.com##div[data-component="SpotIM"]
+engadget.com##div[class*="engadgetFontBlack"]
 engadget.com##div[id="MOBILE-BOTTOM_BTF"]
 engadget.com##footer[id="Footer"]
 
