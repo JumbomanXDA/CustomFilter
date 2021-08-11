@@ -141,15 +141,6 @@
 ! {display:none !important;}
 
 
-! 1mg.com
-1mg.com##div[class*="banner-slider"]
-1mg.com##div[class*="adunitContainer"]
-1mg.com##div[class*="adBox"]
-1mg.com##div[class*="temp-install-class"]
-1mg.com##div[class*="AppDownloadBottomSheet"]
-1mg.com##footer[id*="footer"]
-
-
 ! 9to5mac.com, 9to5google.com, 9to5toys.com
 9to5mac.com,9to5google.com,9to5toys.com##nav[id^="primary-menu"][class^="primary-menu"]
 9to5mac.com,9to5google.com,9to5toys.com##span[id^="more-"]
