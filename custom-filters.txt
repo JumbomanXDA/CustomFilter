@@ -343,6 +343,10 @@ businessinsider.in##div[class*="inarticle-wdgt"]
 businessinsider.in##.article-ad-container
 businessinsider.in##div[class*="ads-cont"]
 businessinsider.in##div[class="amazon_ad"]
+businessinsider.in##amp-ad
+businessinsider.in##div[id="social"]
+businessinsider.in##amp-social-share
+businessinsider.in##span[class*="ads-text"]
 businessinsider.in##span[class="ad-brdr-top"]
 businessinsider.in##hr[class="ad-brdr-btm"]
 businessinsider.in##div[class^="ads-cont"]
@@ -352,6 +356,10 @@ businessinsider.in##div[class="clearfix"][data-articleshowajax-status="loaded"]
 businessinsider.in##div[class*="footer-interlining-"]
 businessinsider.in##div[data-widget="tgp_footer"][class="footer-main-cont"]
 businessinsider.in##div[class="sub_footer"]
+businessinsider.in##div[class^="mrec-scrollable-cont"]
+businessinsider.in##amp-next-page
+businessinsider.in##div[class="widget_top_5"]
+businessinsider.in##div[class="keepscrolling"]
 
 
 ! cnbc.com
@@ -1245,6 +1253,16 @@ techradar.com##div[class*="read-more"]
 techradar.com##footer
 techradar.com##div[class*="popular-box"]
 techradar.com##.region_redirect_popup
+
+
+! telegraph.co.uk
+telegraph.co.uk##div[class^="js-advert"][id^="advert"]
+telegraph.co.uk##div[class^="new_premium_ads_text"]
+telegraph.co.uk##div[class="article__social"]
+telegraph.co.uk##div[class^="advert-label"]
+telegraph.co.uk##div[data-test="more-stories"][class^="more-stories"]
+telegraph.co.uk##div[class^="voucherCodes"]
+telegraph.co.uk##footer[class="site-footer"][data-test="site-footer"]
 
 
 ! theguardian.com
