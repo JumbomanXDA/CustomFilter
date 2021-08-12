@@ -1278,16 +1278,19 @@ thenextweb.com##footer[class^="footer"]
 
 
 ! theverge.com
-theverge.com##.c-ad-allowlist
-theverge.com##.c-footer
-theverge.com##.c-recirc-module
+theverge.com##div[class="article__share-buttons"]
+theverge.com##amp-social-share
+theverge.com##div[class="c-ad-allowlist"]
+theverge.com##div[class="c-recirc-module"]
+theverge.com##section[class="c-nextclick"]
+theverge.com##div[class="connatix-container"]
+theverge.com##div[class="outbrain-wrapper"]
 theverge.com##div[class="u-hidden-text"][id="formatter-datter"]
-theverge.com##section.c-nextclick
-theverge.com##section.top
 theverge.com##amp-youtube[data-vars-video-player="youtube"]
-theverge.com##.connatix-container
-theverge.com##.outbrain-wrapper
 theverge.com##div[class="adblock-allowlist-messaging__article-wrapper"]
+theverge.com##section[class="top"]
+theverge.com##div[class="c-footer"]
+theverge.com##footer[role="contentinfo"]
 
 
 ! timesofindia.com
