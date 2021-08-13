@@ -1255,6 +1255,14 @@ techradar.com##div[class*="popular-box"]
 techradar.com##.region_redirect_popup
 
 
+! telegraphindia.com
+telegraphindia.com##div[class*="uk-background-ad"][class*="adbox"]
+telegraphindia.com##div[class^="footer_bg"]
+telegraphindia.com##div[class*="listed_topics"]
+telegraphindia.com##div[class*="share-col"]
+telegraphindia.com##div[class*="mbannerbox"]
+
+
 ! telegraph.co.uk
 telegraph.co.uk##div[class^="js-advert"][id^="advert"]
 telegraph.co.uk##div[class^="new_premium_ads_text"]
@@ -1353,6 +1361,18 @@ vice.com##div[class="tags"]
 vice.com##div[class="vice-ad"]
 vice.com##div[class="recirc-footer"]
 vice.com##footer[class="page-footer"]
+
+
+! washingtonpost.com
+washingtonpost.com##div[data-qa="subscribe-promo"]
+washingtonpost.com##div[data-qa="article-body-ad"]
+washingtonpost.com##[data-qa^="comments-"]
+washingtonpost.com##div[data-sc-c="giftshareshortcut"]
+washingtonpost.com##[data-qa="recirc"]
+washingtonpost.com##div[data-sc-c="desktopfooter"]
+washingtonpost.com##[data-qa="newsletter"]
+washingtonpost.com##div[data-sc-c="footer"]
+washingtonpost.com##footer[data-sc-c="mobilefooter"]
 
 
 ! wccftech.com
