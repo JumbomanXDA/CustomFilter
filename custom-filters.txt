@@ -290,7 +290,24 @@ appletrack.com##div[class*="amp_widget_above_the_footer"]
 
 
 ! arstechnica.com
-arstechnica.com##aside[class*="thin-divide-bottom"],footer[id*="footer"]
+arstechnica.com##a[class="ot-sdk-show-settings"]
+arstechnica.com##div[class="superscroll-ad"]
+arstechnica.com##[class="ars-component-buy-box"]
+arstechnica.com##[class="instream-wrap"]
+arstechnica.com##[id="sponsored-recommendations"]
+arstechnica.com##[class="ad_crown"]
+arstechnica.com##[class="ad_fullwidth"]
+arstechnica.com##[class="ad_wrapper"]
+arstechnica.com##[class="ad_xrail"]
+arstechnica.com##[class="placeholderampad"]
+arstechnica.com##amp-ad
+arstechnica.com##ins[class*="adsbygoogle"]
+arstechnica.com##ins[class*="adsbyadop"]
+arstechnica.com##div[class="superscroll-ad"]
+arstechnica.com##section[id="comments-area"]
+arstechnica.com##aside[class="thin-divide-bottom"]
+arstechnica.com##ul[class="share-buttons"]
+arstechnica.com##footer[id="page-footer"]
 
 
 ! bgr.in
