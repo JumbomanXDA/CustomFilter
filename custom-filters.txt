@@ -268,9 +268,6 @@ apkmirror.com##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
 
 
 ! appletrack.com
-appletrack.com##link[href*="fonts"]
-appletrack.com###pagination
-appletrack.com##.autoload-nav
 appletrack.com##.cmts
 appletrack.com##.widget-area
 appletrack.com##amp-animation[id="hideAnim"]
@@ -280,13 +277,22 @@ appletrack.com##.fsp-cnt
 appletrack.com##.r-pf
 appletrack.com##.srp
 appletrack.com##div[class*="amp-ad"]
-appletrack.com##div[class*="related"]
-appletrack.com##div[id*="share"]
-appletrack.com##div[class*="share"]
+appletrack.com##div[class*="single-component-tag"]
+appletrack.com##div[class*="single-component-related"]
+appletrack.com##div[class="fox-related-posts"]
+appletrack.com##div[class^="fox-share"][class*="share-icons-shape"]
 appletrack.com##div[class*="ad-container"]
-appletrack.com##div[class*="fox-ad"]
+appletrack.com##div[class*="fox-ad"][class*="ad-code"]
+appletrack.com##div[class*="fox-ad"][class*="ad-container"]
+appletrack.com##div[class="banner-inner"]
+appletrack.com##ins[class="adsbygoogle"]
+appletrack.com##div[class^="ad_unit"][class*="text-ad text"]
+appletrack.com##div[id^="ads-"][class*="widget_ad"]
+appletrack.com##aside[id="secondary"][class="secondary"][role="complementary"]
 appletrack.com##div[id="backtotop"]
 appletrack.com##div[class*="amp_widget_above_the_footer"]
+appletrack.com##footer[id="wi-footer"][class="site-footer"]
+appletrack.com##div[id="footer-bottom"][class^="footer-bottom"]
 
 
 ! arstechnica.com
@@ -304,6 +310,7 @@ arstechnica.com##amp-ad
 arstechnica.com##ins[class*="adsbygoogle"]
 arstechnica.com##ins[class*="adsbyadop"]
 arstechnica.com##div[class="superscroll-ad"]
+arstechnica.com##section[class^="article-author"]
 arstechnica.com##section[id="comments-area"]
 arstechnica.com##aside[class="thin-divide-bottom"]
 arstechnica.com##ul[class="share-buttons"]
