@@ -622,6 +622,7 @@ gizchina.com##footer[class*="footer"]
 
 ! gizmochina.com
 gizmochina.com##[class*="td-social-sharing"]
+gizmochina.com##ul[class="sxc-follow-buttons"]
 gizmochina.com##div[id="wpfront-notification-bar-spacer"]
 gizmochina.com##ins[class="adsbygoogle"]
 gizmochina.com##div[class*="td-scroll-up"]
