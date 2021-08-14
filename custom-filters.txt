@@ -1303,6 +1303,21 @@ thenextweb.com##div[id="react-related"]
 thenextweb.com##footer[class^="footer"]
 
 
+! theregister.com
+theregister.com##div[class="stories"]
+theregister.com##ul[class="stories"]
+theregister.com##ul[class="listinks"]
+theregister.com##div[class^="sharing_widget_story_desktop"]
+theregister.com##div[class="comments "]
+theregister.com##div[class="newsletter_and_social"]
+theregister.com##div[class="newsletter_signup"]
+theregister.com##div[id="follow_btns"]
+theregister.com##div[id="foot_btm"]
+theregister.com##div[class="foot_btm_links"]
+theregister.com##div[id="footer"]
+theregister.com##div[id="end_scripts"]
+
+
 ! theverge.com
 theverge.com##div[class="article__share-buttons"]
 theverge.com##amp-social-share
@@ -1427,6 +1442,12 @@ wsj.com##div[class*="login-buttons"]
 wsj.com##div[id="AD_G"]
 wsj.com##div[id*="right-rail"]
 wsj.com##div[id*="trending"]
+wsj.com##div[class*="byline-wrap"]
+wsj.com##div[id="share-target"][class^="inline-share-menu"]
+wsj.com##div[id="webui-article-tools"]
+wsj.com##div[class^="shareMenuInlineWrap"]
+wsj.com##div[class="wsj-immersive-ad-container"]
+wsj.com##div[class="media-object-rich-text"]
 wsj.com##div[id*="footer"]
 
 
@@ -1452,6 +1473,7 @@ xda-developers.com##div[class*="spon_banner"]
 xda-developers.com##[class="product-cta"]
 xda-developers.com##section[class="readmore"]
 xda-developers.com##div[class^="et_social_inline"]
+xda-developers.com##div[class="grecaptcha-badge"]
 xda-developers.com##div[id="footer"]
 
 
