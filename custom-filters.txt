@@ -448,6 +448,17 @@ dailystar.co.uk##div[class="html-embed"][data-mod="htmlEmbed"]
 dailystar.co.uk##footer
 
 
+!digit.in
+digit.in##div[class*="Sponsered-Add"]
+digit.in##div[class="you_can_also_read"]
+digit.in##div[class="article-share"]
+digit.in##div[class="New-desk"]
+digit.in##amp-fx-flying-carpet
+digit.in##div[class="Tag-container"]
+digit.in##amp-next-page 
+digit.in##div[class="advertisements"]
+
+
 ! digitaltrends.com
 digitaltrends.com##.h-editors-recs
 digitaltrends.com##div[class*="dtads-slot"]
@@ -1067,6 +1078,7 @@ phandroid.com##div[class="preloader-container"]
 
 
 ! phonearena.com
+phonearena.com##span[style="font-style: italic; font-size: small;"]
 phonearena.com##[class*="widgetHeader__list_social"]
 phonearena.com##[class*="Deals"]
 phonearena.com##div[class*="widgetSurvey"]
@@ -1093,10 +1105,14 @@ phonearena.com##[class="widgetSidebarSubscription"]
 phonearena.com##nav[aria-label="navigation"]
 phonearena.com##div[class="layout__page_main_more"]
 phonearena.com##div[class*="widget-relatedPhones"]
+phonearena.com##div[class="paginator-headline"]
+phonearena.com##div[class="paginator-items"][data-target="paginatior-items"]
+phonearena.com##aside[class="layout__page_sidebar"]
 phonearena.com##div[id="comments"]
 phonearena.com##div[class*="widgetLinking_theme_latestNews"]
 phonearena.com##footer[class="layout__footer"]
 phonearena.com##div[class*="widgetBackToTop"]
+phonearena.com##.adblock_awareness
 phonearena.com##div[style*="bottom: 0px; left: 0px; position: fixed; width:"]
 phonearena.com##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
 
@@ -1185,11 +1201,31 @@ sammobile.com##a[id="loadMoreButton"]
 sammobile.com###SM_Sticky_Desktop
 
 
+! seekingalpha.com
+seekingalpha.com##p[id="a-disclosure"]
+seekingalpha.com##div[style="min-height: 250px;"]
+seekingalpha.com##div[data-test-id="author-root"]
+seekingalpha.com##div[class="piano-paywall-container"]
+seekingalpha.com##div[class="below_ad-piano-placeholder"]
+seekingalpha.com##div[id^="ad-slot-"]
+seekingalpha.com##div[data-test-id="article-likes"]
+seekingalpha.com##div[data-test-id="article-comment"]
+seekingalpha.com##footer[data-test-id="post-footer"]
+seekingalpha.com##div[data-test-id="section-suggestions"]
+seekingalpha.com##section[data-test-id="recommended-section"]
+seekingalpha.com##section[data-test-id="comments-section"]
+seekingalpha.com##div[data-test-id="comment"]
+
+
 ! semianalysis.com
 semianalysis.com##div[class="news-bar"]
 semianalysis.com##nav[id="site-navigation"][class*="main-navigation"]
 semianalysis.com##div[class*="sd-sharing-enabled"]
 semianalysis.com##amp-social-share
+semianalysis.com##span[class="tag-links"]
+semianalysis.com##span[class="comments"]
+semianalysis.com##a[class="wp-block-button__link"]
+semianalysis.com##h4[class="related-posts-main-title"]
 semianalysis.com##div[id="comments"]
 semianalysis.com##footer[id="colophon"]
 semianalysis.substack.com##div[class="intro-popup default-intro-popup"]
