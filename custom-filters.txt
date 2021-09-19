@@ -404,7 +404,6 @@ cnet.com##div[section="shortcodeGallery"]
 
 ! cnn.com
 cnn.com##div[id="featured-ribbon-markets-section"]
-cnn.com##div[id="featured-ribbon-markets-section"]
 cnn.com##div[class*="_featured-video"]
 cnn.com##div[id*="cn-featured-"]
 cnn.com##form[action="/search"]
@@ -1404,6 +1403,17 @@ theverge.com##section[class="top"]
 theverge.com##div[class*="c-tab-bar"][class*="tab-bar-fixed"][data-cid*="site/tab_bar"]
 theverge.com##div[class="c-footer"]
 theverge.com##footer[role="contentinfo"]
+
+
+! thewire.in
+thewire.in##div[class="header_adcode"]
+thewire.in##div[class="inbtw_content_container"]
+thewire.in##div[id="related_news"]
+thewire.in##div[class="related-content"]
+thewire.in##footer
+thewire.in##div[class="advertise"]
+thewire.in##div[class="social_media_menu_icons"]
+thewire.in##div[class="bottom_sticky_menu_unify"]
 
 
 ! timesofindia.com
