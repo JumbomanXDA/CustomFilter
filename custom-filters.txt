@@ -41,6 +41,7 @@
 ##div[class*="ad-unit"]
 ##div[class*="adtext"]
 ##p[class*="adtext"]
+##div[class="instream_ad"]
 
 ! warning
 ##div[class*="disclaimer"]
@@ -878,6 +879,13 @@ macrumors.com##div[class*="amp-ad"]
 macrumors.com##amp-ad
 macrumors.com##div[class*="footer"]
 macrumors.com##div[id*="comments"]
+
+
+! macstories.net
+macstories.net##aside[class*="aside-narrow"][id*="aside"]
+macstories.net##aside[class*="aside-wide"][id*="aside"]
+macstories.net##div[class*="post-supporters"]
+macstories.net##footer[class="site-footer"]
 
 
 ! medicaldialogues.in
