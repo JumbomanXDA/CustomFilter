@@ -1005,6 +1005,11 @@ smartprix.com##div[class*="scroll-up"]
 smartprix.com##footer
 
 
+! sourceforge.net
+sourceforge.net##section[id="nels"][class*="small-"]
+sourceforge.net##aside[class*="wide-projects-widget"]
+
+
 ! stackexchange.com,stackoverflow.com,superuser.com, askubuntu.com, serverfault.com
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##form[id="post-form"]
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##[class="footer"]
