@@ -385,6 +385,14 @@ digitaltrends.com##footer[class*="foot"]
 digitaltrends.com##h4[class*="h-editors-recs"]
 
 
+! digit.in
+digit.in##div[class*="textads"]
+digit.in##div[class="article_share"]
+digit.in##div[id*="cart-ad-"]
+digit.in##span[class="adsAdvert"]
+digit.in##div[id*="adslot"]
+
+
 ! digitimes.com
 digitimes.com##div[id*="adspace"]
 digitimes.com##div[class*="gotop"]
@@ -1006,7 +1014,7 @@ smartprix.com##footer
 
 
 ! sourceforge.net
-sourceforge.net##section[id="nels"][class*="small-"]
+sourceforge.net##[id="nels"][class*="small-"]
 sourceforge.net##aside[class*="wide-projects-widget"]
 
 
