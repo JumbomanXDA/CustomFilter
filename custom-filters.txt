@@ -853,6 +853,8 @@ pcmag.com##div[class="inteditions"]
 ! phonearena.com
 phonearena.com##[class*="widgetHeader__list_social"]
 phonearena.com##[class*="Deals"]
+phonearena.com##div[class*="heading-deal"]
+phonearena.com##div[class="spot-sticky-container"]
 phonearena.com##div[class*="widgetSurvey"]
 phonearena.com##div[id*="pa-survey-modal"]
 phonearena.com##[class="viewMoreOffers"]
