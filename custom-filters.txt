@@ -732,6 +732,12 @@ pcgamer.com##.articleBody
 pcgamer.com###document-footer
 pcgamer.com###sidebar
 pcgamer.com##.fancy-box
+pcgamer.com##div[id="slice-container-trendingbar"]
+pcgamer.com##div[id="slice-container-affiliateDisclaimerBar"]
+pcgamer.com##div[class="ad-unit"]
+pcgamer.com##[class*="socialite-widget"]
+pcgamer.com##[class*="author-block"]
+pcgamer.com##div[class="jump-to-comments"]
 pcgamer.com##.onesignal-customlink-container
 pcgamer.com##.read-more-container
 pcgamer.com##footer[class="van_taboola"]
@@ -925,6 +931,15 @@ techradar.com##div[class*="popular-box"]
 techradar.com##.region_redirect_popup
 
 
+! technosports.co.in
+technosports.co.in##div[class*="td-a-rec"]
+technosports.co.in##div[id*="atatags"]
+technosports.co.in##footer
+technosports.co.in##div[class*="comments"]
+technosports.co.in##div[id="comments"]
+technosports.co.in##div[class*="footer-wrap"]
+
+
 ! telecomtalk.info
 telecomtalk.info##div[class*="social-icons"]
 telecomtalk.info##div[class="subs-sec"]
@@ -983,7 +998,16 @@ timesofindia.com##div[class*="ad_"]
 tomsguide.com,tomshardware.com##div[class*="leaderboard-container"]
 tomsguide.com,tomshardware.com##div[class*="slot-"]
 tomsguide.com,tomshardware.com##div[class*="van_vid_carousel"]
+tomsguide.com,tomshardware.com##div[id="slice-container-trendingbar"]
+tomsguide.com,tomshardware.com##div[id="slice-container-affiliateDisclaimerBar"]
+tomsguide.com,tomshardware.com##div[class="ad-unit"]
+tomsguide.com,tomshardware.com##[class*="socialite-widget"]
+tomsguide.com,tomshardware.com##[class*="author-block"]
+tomsguide.com,tomshardware.com##div[class="jump-to-comments"]
+tomsguide.com,tomshardware.com##div[class*="tags"]
+tomsguide.com,tomshardware.com##div[class*="comments"]
 tomsguide.com,tomshardware.com##footer
+tomsguide.com,tomshardware.com##section[class*="newsletter"]
 tomsguide.com,tomshardware.com##[class*="popular-box"]
 
 
