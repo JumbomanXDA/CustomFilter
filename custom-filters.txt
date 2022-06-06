@@ -493,11 +493,13 @@ hindustantimes.com##div[class*="storyAd"]
 
 
 ! hothardware.com
-hothardware.com##.bottomnav
-hothardware.com##.cn-tags
+hothardware.com##div[class="bottomnav"]
+hothardware.com##div[class="cn-tags"]
 hothardware.com##amp-iframe
+hothardware.com##div[class*="patreon-button"]
+hothardware.com##div[class="disqus-area"]
 hothardware.com##div[class*="Footer"]
-
+hothardware.com##div[class="footer"]
 
 ! hpcwire.com
 hpcwire.com##.textwidget
@@ -608,8 +610,9 @@ macrumors.com##div[class*="colLinks-"]
 macrumors.com##div[class*="staffList-"]
 macrumors.com##div[class*="amp-ad"]
 macrumors.com##amp-ad
-macrumors.com##div[class*="footer"]
+macrumors.com##div[class*="subscribe-"]
 macrumors.com##div[id*="comments"]
+macrumors.com##div[class*="footer"]
 
 
 ! medicaldialogues.in
@@ -922,6 +925,23 @@ techradar.com##div[class*="popular-box"]
 techradar.com##.region_redirect_popup
 
 
+! telecomtalk.info
+telecomtalk.info##div[class*="social-icons"]
+telecomtalk.info##div[class="subs-sec"]
+telecomtalk.info##div[class="videos-section"]
+telecomtalk.info##div[class="report-name"]
+telecomtalk.info##div[class="editors_picks"]
+telecomtalk.info##div[class="editors_title widget_title"]
+telecomtalk.info##div[class="athr-details"]
+telecomtalk.info##div[class="auth-info"]
+telecomtalk.info##ul[id="accordion"]
+telecomtalk.info##[class="load-more"]
+telecomtalk.info##div[class="category-section"]
+telecomtalk.info##div[class*="comments"]
+telecomtalk.info##div[id="comments"]
+telecomtalk.info##div[class*="subscribe-"]
+
+
 ! thehindu.com
 thehindu.com##[class^="editvalue"]
 thehindu.com##[id^="relatedmoreintopics"]
@@ -995,16 +1015,17 @@ wccftech.com##.logo
 wccftech.com##.search-toggle
 wccftech.com##form[class="search-form"]
 wccftech.com##section[class="youtube-channel"]
-wccftech.com##nav[class="clearfix"]
 wccftech.com##.topics
 wccftech.com##.wccf-stock-wrap
 wccftech.com##p[class*="disclosure"]
-wccftech.com##div[class*="-ad"]
 wccftech.com##div[style="margin: 25px auto"][class="ad"]
 wccftech.com##div[class*="wccf-products"]
-wccftech.com##[class*="wccf_related_post"]
-wccftech.com##div[class*="share"]
 wccftech.com##div[data-nosnippet=""]
+wccftech.com##div[class="wp-share"]
+wccftech.com##div[class*="subscribe"]
+wccftech.com##div[id="disqus_thread"]
+wccftech.com##div[class="content-ad"]
+wccftech.com##footer
 wccftech.com##footer[data-nosnippet=""]
 wccftech.com##aside[class="aside-deals"]
 
