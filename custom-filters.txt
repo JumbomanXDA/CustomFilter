@@ -12,118 +12,6 @@
 ! class^=footer blocks : footer, footer bottom, footer-menu, bottom-footer-menu, menu-footer [as per documentation it should not block last 2, but dont know it blocks]
 ! class$=footer blocks : footer, footer-menu but dont block : menu-footer, footer_menu
 
-! Global ad filter
-||/advertisement.js
-###ad-container
-###amp-iframe
-
-##amp-sticky-ad[layout="nodisplay"]
-##amp-lightbox-gallery[layout="nodisplay"]
-##amp-lightbox-gallery[id*="amp-lightbox-gallery"]
-##amp-embed[width="100"][height="100"]
-##amp-ima-video[data-tag^=""]
-
-! ads
-##amp-analytics[type*="googleanalytics"]
-##div[class*="analytics"]
-##[class*="amp-ad"]
-##amp-ad[type*="adsense"]
-##amp-ad[type*="doubleclick"]
-##amp-auto-ads[type="adsense"]
-##iframe[src*="ads-iframe"]
-##div[class*="adsbygoogle"]
-##ins[class*="adsbygoogle"]
-##div[id*="div-gpt-ad"]
-##div[class*="div-gpt-ad"]
-##div[class*="adv-"]
-##div[class*="adv_"]
-##div[class*="ad-unit"]
-##div[class*="adtext"]
-##p[class*="adtext"]
-
-! warning
-##div[class*="disclaimer"]
-##div[id*="disclaimer"]
-##p[class*="disclaimer"]
-##div[class*="affiliate"]
-##div[id*="affiliate"]
-##div[class*="copyright"]
-##div[class*="cpyrght"]
-##p[class*="copyright"]
-
-! Like share Comments tags
-##div[class*="comment"]
-##div[id*="comment"]
-##section[id*="comment"]
-##div[class*="author"]
-##div[class^="share"]
-##div[class*="tags"]
-##div[id*="tags"]
-
-! Related Posts
-##div[class*="related-post"]
-##div[class*="related_post"]
-##div[class*="related-stories"]
-##div[class*="related-articles"]
-##div[class*="related-guides"]
-##div[class*="related-topics"]
-##div[class*="trending"]
-
-! footer menu
-##div[class="footer"]
-##div[class="Footer"]
-##div[class="p-footer"]
-##div[id="footer"]
-##footer[class="footer"]
-##footer[class="p-footer"]
-##footer[id="footer"]
-
-! Hot deals
-##div[class*="sponsor"]
-##div[data-nc*="deals"]
-##div[class*="deals"]
-
-! Signup newsletter
-##div[class*="newsletter"]
-##div[id*="newsletter"]
-##div[data-nc*="newsletter"]
-##div[class*="subscribe"]
-##div[id*="subscription"]
-##div[class*="email"]
-##[class*="signup"]
-
-
-##div[class*="fb-like"]
-##div[class*="fb-root"]
-##div[class*="hawk-processed"]
-
-! Go to top of page
-##[class*="scroll-up"]
-##[id*="scroll-up"]
-
-! Accept Cookies
-!||/cookie-prompt.js
-!##div[class*="gdpr"]
-!##div[id*="gdpr"]
-!##div[class*="cookie"]
-!##div[id*="cookie"]
-!##form[class*="cookie"]
-!##div[class*="privacy_policy"]
-!##div[id*="privacy_policy"]
-!##announcement-banner[class*="cookie"]
-!##.smartbanner
-!###smartbanner
-!##.app-banner
-!###app-banner
-
-! Disqus
-##div[class*="disqus"]
-##div[id*="disqus"]
-##.dsq-brlink
-||disqus.com/embed.js
-||disqus.com/embed/comments/
-||c.disquscdn.com/next/embed/
-||disquscdn.com/next/embed/
 
 ! Remove adblocker disable message
 ##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
@@ -331,6 +219,11 @@ businessinsider.in##div[class*="ads-cont"]
 businessinsider.in##div[class*="art-videos-wdgt"]
 businessinsider.in##div[class*="footer-interlining-"]
 businessinsider.in##div[class*="inarticle-wdgt"]
+
+
+! business-standard.com
+business-standard.com##div[class="app-add"]
+business-standard.com##div[id="divnonpaidcontent"]
 
 
 ! cnet.com
@@ -814,6 +707,11 @@ notebookcheck.net###author
 notebookcheck.net###nbc_bottombar
 notebookcheck.net##span[class*="tag"]
 
+! onsitego.com
+onsitego.com##div[class="jeg_sharelist"]
+onsitego.com##div[class="sv-page"]
+onsitego.com##div[class*="blog_cta"]
+
 
 ! oneplus.com
 forums.oneplus.com##div[class*="app-recommand"]
@@ -851,41 +749,15 @@ pcmag.com##div[class="inteditions"]
 
 
 ! phonearena.com
-phonearena.com##[class*="widgetHeader__list_social"]
-phonearena.com##[class*="Deals"]
 phonearena.com##div[class*="heading-deal"]
+phonearena.com##div[class="content-disclaimer"]
 phonearena.com##div[class="spot-sticky-container"]
-phonearena.com##div[class*="widgetSurvey"]
-phonearena.com##div[id*="pa-survey-modal"]
-phonearena.com##[class="viewMoreOffers"]
 phonearena.com##[class*="widgetOffers"]
-phonearena.com##[class*="announcements"]
-phonearena.com##[class*="shopLinks"]
-phonearena.com##[class*="widgetPhoneShopLinks"]
-phonearena.com##div[class="pricing widget"]
-phonearena.com##[class="price-banner"]
-phonearena.com##[class*="layout__page_main_header_disclaimer"]
-phonearena.com##div[class*="pa-sticky-container"]
-phonearena.com##[class*="spot_disclaimer"]
-phonearena.com##[class*="adSpot"]
-phonearena.com##[class="adOverlay"]
-phonearena.com##div[class*="top-adv"]
-phonearena.com##div[class*="adv-top"]
-phonearena.com##[class*="hot-phones"]
-phonearena.com##[class="carousel-pagination"]
-phonearena.com##[class="layout__page_main_header_metadata"]
-phonearena.com##a[data-href="#comments"]
-phonearena.com##[class="layout__page_main_latestReviews"]
-phonearena.com##div[class*="widgetSidebarSubscription"]
-phonearena.com##nav[aria-label="navigation"]
-phonearena.com##div[class="layout__page_main_more"]
-phonearena.com##div[class*="widget-relatedPhones"]
+phonearena.com##div[class="content-subscription"]
+phonearena.com##div[class="newsletter-subscription"]
+phonearena.com##div[class*="content-comments"]
 phonearena.com##div[id="comments"]
-phonearena.com##div[class*="widgetLinking_theme_latestNews"]
-phonearena.com##footer[class="layout__footer"]
-phonearena.com##div[class*="widgetBackToTop"]
-phonearena.com##div[style*="bottom: 0px; left: 0px; position: fixed; width:"]
-phonearena.com##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
+phonearena.com##footer
 
 
 ! piunikaweb.com
