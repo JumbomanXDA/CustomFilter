@@ -1111,7 +1111,12 @@ xda-developers.com##div[class*="alert_message"]
 xda-developers.com##div[class*="spon_banner"]
 xda-developers.com##[class="product-cta"]
 xda-developers.com##section[class="readmore"]
-
+xda-developers.com##[id="comments_area"]
+xda-developers.com##div[class="comments-block"]
+xda-developers.com##div[id="disqus_thread"]
+xda-developers.com##div[id*="post-tags"]
+xda-developers.com##div[class="post-tags"]
+xda-developers.com##div[id="footer"]
 
 
 ! forum.xda-developers.com
