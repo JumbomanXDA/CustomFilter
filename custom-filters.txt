@@ -74,6 +74,9 @@
 91mobiles.com##.mashsb-buttons
 91mobiles.com##[class*="next-prev"]
 91mobiles.com##aside[class*="widget_polular-product"]
+91mobiles.com##footer
+91mobiles.com##div[class="app-dwn-bnr"]
+91mobiles.com##div[class="comments"][id="comments"]
 91mobiles.com##[class*="footer"]
 
 
@@ -389,6 +392,13 @@ gadgets.ndtv.com##div[class="_ftdapp"]
 gadgets.ndtv.com##div[class="_ftcpytxt"]
 
 
+! galaxyclub.nl
+galaxyclub.nl##[class*="sharing-button"]
+galaxyclub.nl##footer[class="entry-footer"]
+galaxyclub.nl##div[class="entry-comments"][id="comments"]
+galaxyclub.nl##div[id="respond"][class="comment-respond"]
+
+
 ! gizchina.com
 gizchina.com###taboola-below-article-thumbnails
 gizchina.com##.ctaText
@@ -563,6 +573,13 @@ itnews.com.au##section[id="events-container"]
 itnews.com.au##footer
 itnews.com.au##div[id="footer-top-level"]
 itnews.com.au##div[id="footer-bottom-level"]
+
+
+! joaoapps.com
+forum.joaoapps.com##div[id="awayMessage"]
+forum.joaoapps.com##div[class*="tagBlock"]
+forum.joaoapps.com##footer
+joaoapps.com##footer
 
 
 ! letsgodigital.org
