@@ -331,6 +331,13 @@ electronicsweekly.com##div[class="widget-container"]
 electronicsweekly.com##aside[class="sidebar-narrow"]
 
 
+! blog.esper.io
+blog.esper.io##div[class="post-tags-container"]
+blog.esper.io##div[class*="post-content-share"]
+blog.esper.io##div[id="disqus_thread"]
+blog.esper.io##div[class="hubform"]
+
+
 ! extremetech.com
 extremetech.com##.byline
 extremetech.com##.global-footer
@@ -733,6 +740,11 @@ notebookcheck.net##span[class*="tag"]
 onsitego.com##div[class="jeg_sharelist"]
 onsitego.com##div[class="sv-page"]
 onsitego.com##div[class*="blog_cta"]
+onsitego.com##div[class="sv-page"]
+onsitego.com##div[class="jeg_post_tags"]
+onsitego.com##div[class="jeg_share_bottom_container"]
+onsitego.com##div[class="jnews_comment_container"]
+onsitego.com##div[id="comments"]
 
 
 ! oneplus.com
