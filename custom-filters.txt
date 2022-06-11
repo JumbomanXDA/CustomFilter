@@ -928,6 +928,8 @@ smartprix.com##footer
 
 
 ! sourceforge.net
+sourceforge.net##p[id="downloader"][class="text-yellow"]
+sourceforge.net##div[class*="newsletter_subscribe"]
 sourceforge.net##[id="nels"][class*="small-"]
 sourceforge.net##aside[class*="wide-projects-widget"]
 
