@@ -795,6 +795,7 @@ phonearena.com##div[class="spot-sticky-container"]
 phonearena.com##[class*="widgetOffers"]
 phonearena.com##div[class="content-subscription"]
 phonearena.com##div[class="newsletter-subscription"]
+phonearena.com##div[class*="content-tags"]
 phonearena.com##div[class*="content-comments"]
 phonearena.com##div[id="comments"]
 phonearena.com##footer
