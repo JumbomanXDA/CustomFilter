@@ -14,6 +14,8 @@
 ! class^=footer blocks : footer, footer bottom, footer-menu, bottom-footer-menu, menu-footer [as per documentation it should not block last 2, but dont know it blocks]
 ! class$=footer blocks : footer, footer-menu but dont block : menu-footer, footer_menu
 
+! Global
+##div[id="disqus_thread"]
 
 ! Remove adblocker disable message
 ##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
@@ -163,13 +165,21 @@ appletrack.com##.fsp-cnt
 appletrack.com##.r-pf
 appletrack.com##.srp
 appletrack.com##div[class*="amp-ad"]
-appletrack.com##div[class*="related"]
-appletrack.com##div[id*="share"]
-appletrack.com##div[class*="share"]
 appletrack.com##div[class*="ad-container"]
 appletrack.com##div[class*="fox-ad"]
 appletrack.com##div[id="backtotop"]
 appletrack.com##div[class*="amp_widget_above_the_footer"]
+appletrack.com##div[class*="tags"]
+appletrack.com##div[class="single-bottom-area"]
+appletrack.com##div[class*="social-icons"]
+appletrack.com##div[class*="social-icons"]
+appletrack.com##div[id="disqus_thread"]
+appletrack.com##footer[class="footer"]
+appletrack.com##div[class="apple-neori-in-article-sam"]
+appletrack.com##[id*="ezoic-pub-ad"]
+appletrack.com##[id*="div-gpt-ad"]
+appletrack.com##[class*="ezoic-ad"]
+
 
 
 ! arstechnica.com
@@ -933,6 +943,12 @@ sourceforge.net##p[id="downloader"][class="text-yellow"]
 sourceforge.net##div[class*="newsletter_subscribe"]
 sourceforge.net##[id="nels"][class*="small-"]
 sourceforge.net##aside[class*="wide-projects-widget"]
+
+
+! sparrowsnews.com
+sparrowsnews.com##div[class*="jeg_ad"]
+sparrowsnews.com##div[class="ads_google_ads"]
+sparrowsnews.com##div[id="footer"]
 
 
 ! stackexchange.com,stackoverflow.com,superuser.com, askubuntu.com, serverfault.com
