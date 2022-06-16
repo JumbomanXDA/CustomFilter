@@ -149,6 +149,7 @@ apkmirror.com##script
 apkmirror.com##.advertisement-text
 apkmirror.com##.footer
 apkmirror.com##div[class*="copyRight"]
+apkmirror.com##div[id="disqus_thread"]
 apkmirror.com##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
 
 
@@ -853,6 +854,8 @@ reuters.com##div[class*="_footer_"]
 
 
 ! sammobile.com
+sammobile.com##div[class="affiliate-disclosure"]
+sammobile.com##div[id="stickySbAd"]
 sammobile.com###related
 sammobile.com##div[id*="_Ad"]
 sammobile.com##div[class*="-ad-"]
