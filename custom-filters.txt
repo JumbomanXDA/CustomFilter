@@ -150,7 +150,7 @@ apkmirror.com##.advertisement-text
 apkmirror.com##.footer
 apkmirror.com##div[class*="copyRight"]
 apkmirror.com##div[id="disqus_thread"]
-apkmirror.com##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
+!apkmirror.com##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
 
 
 ! appletrack.com
@@ -835,6 +835,11 @@ pocketnow.com##[class*="powerkit_widget_posts"]
 pocketnow.com##[class*="pk-toc"]
 
 
+! prnewswire.com
+prnewswire.com##div[class="banner"]
+prnewswire.com##footer
+
+
 ! quora.com
 quora.com##.modal_signup_background
 quora.com##div[id$="_modal_signup_wrapper"]
@@ -1113,6 +1118,20 @@ windowscentral.com##div[class*="inline-cta-ad"]
 windowscentral.com##div[class="ad i1 "]
 windowscentral.com##div[class*="article-token--more-of"]
 windowscentral.com##footer
+
+
+! winfuture.de
+winfuture.de##div[class*="mtop"][class*="mb"]
+winfuture.de##ins[class="adsbygoogle"]
+winfuture.de##div[id*="ob_mb"]
+winfuture.de##div[class="mtop15"]
+winfuture.de##div[class="mtop20"]
+winfuture.de##div[id="footer"]
+winfuture.de##div[id="g_content_recommendation"]
+winfuture.de##div[class="footer"]
+winfuture.de##div[id="misc"][class*="mtop"]
+winfuture.de##div[class*="mtop"][class*="nointelliTXT"]
+winfuture.de##div[class*="rutschdiv"][class*="mb"]
 
 
 ! wired.com
