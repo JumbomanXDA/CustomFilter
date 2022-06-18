@@ -150,7 +150,6 @@ apkmirror.com##.advertisement-text
 apkmirror.com##.footer
 apkmirror.com##div[class*="copyRight"]
 apkmirror.com##div[id="disqus_thread"]
-!apkmirror.com##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
 
 
 ! appletrack.com
@@ -650,6 +649,27 @@ macrumors.com##amp-ad
 macrumors.com##div[class*="subscribe-"]
 macrumors.com##div[id*="comments"]
 macrumors.com##div[class*="footer"]
+
+
+! mayoclinic.org
+mayoclinic.org##div[id="adsmobileBottom"]
+mayoclinic.org##div[class*="globalnotice"]
+mayoclinic.org##div[class*="contentbox"][class*="policy"]
+mayoclinic.org##div[class="mayoad"]
+mayoclinic.org##div[class="requestappt"]
+mayoclinic.org##div[class="requestappointment"]
+mayoclinic.org##div[class*="acces-list-container"]
+mayoclinic.org##div[class*="internalads"]
+mayoclinic.org##div[id="productsServicesList"]
+mayoclinic.org##menu[class="social"]
+mayoclinic.org##div[class="share"]
+mayoclinic.org##div[class="social-share"]
+mayoclinic.org##div[class="myc-subscription-form"]
+mayoclinic.org##div[class="other-topics"]
+mayoclinic.org##div[class="placeHolder"]
+mayoclinic.org##div[class="related-links"]
+mayoclinic.org##div[id="footer"]
+mayoclinic.org##footer
 
 
 ! medicaldialogues.in
