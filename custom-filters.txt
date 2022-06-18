@@ -1,24 +1,11 @@
-! IMPORTANT NOTES
-! Most probably Global BLOCK level elements blocking (e.g. ##footer, ##amp-ad ) doesn't work
-! Instead use per website rule (e.g. google.com##footer )
-! Keep Global level filters to minimum
-
 ! Guide
 ! https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
-
-! Don't use
-! class*="_ad"
-! class*="sharing"
-! class*="ads" as it breaks any Class containg 'downloads' string, Instead use ^ (e.g class^="ads" )
-! class*="share" it blocks androidpolice use ^share
-! class^=footer blocks : footer, footer bottom, footer-menu, bottom-footer-menu, menu-footer [as per documentation it should not block last 2, but dont know it blocks]
-! class$=footer blocks : footer, footer-menu but dont block : menu-footer, footer_menu
 
 ! Global
 ##div[id="disqus_thread"]
 
 ! Remove adblocker disable message
-##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
+!##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
 
 
 ! To know which filters are blocked successfully on website.
