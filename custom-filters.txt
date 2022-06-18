@@ -445,6 +445,9 @@ gizmodo.com###js_trending
 gizmodo.com###replies
 gizmodo.com###taboola-below-article-thumbnails
 gizmodo.com###trackers
+gizmodo.com##div[class*="js_commerce-inset"]
+gizmodo.com##div[class*="js_newsletter-form-inline"]
+gizmodo.com##div[class*="js_comments-iframe"]
 gizmodo.com###trending_wrapper
 gizmodo.com##.js_lightbox-container
 gizmodo.com##.js_liveblog-controls
@@ -455,9 +458,7 @@ gizmodo.com##.js_qanda-controls
 gizmodo.com##.js_reading-list
 gizmodo.com##.js_ymal-below-post
 gizmodo.com##amp-iframe[src*="https://api.kinja.com/embed/comments/"]
-gizmodo.com##div[class*="ad"]
 gizmodo.com##div[class*="footer"]
-gizmodo.com##div[class*="commerce-inset-permalink"]
 gizmodo.com##div[class*="video-sticky"]
 gizmodo.com##div[class*="video-wrapper"]
 
@@ -973,6 +974,11 @@ stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com#
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##aside[class*="s-notice"],div[class*="js-consent-banner"]
 
 
+! techcrunch.com
+techcrunch.com##div[class="newsletter-signup-block"]
+techcrunch.com##footer
+
+
 ! techinsights.com
 techinsights.com##ins[class="adsbygoogle"]
 techinsights.com##ins[class="adsbyadop"]
@@ -1037,6 +1043,8 @@ thenextweb.com##section[id="newslettersignup"]
 thenextweb.com##section[class*="showcasePartner"]
 thenextweb.com##[class="alsoTaggedIn"]
 thenextweb.com##[class*="tags"]
+thenextweb.com##div[class*="inarticle-wrapper"][class*="growth-quarters"][class*="channel-cta"]
+thenextweb.com##div[class="c-channel__cta"][id="nl-container"]
 thenextweb.com##[data-event-action="Back to top"]
 thenextweb.com##div[id="react-related"]
 thenextweb.com##footer[class^="footer"]
@@ -1147,6 +1155,10 @@ wired.com##div[data-testid="Contributors"]
 wired.com##p[data-testid="ContentFooterRelatedVideoHeader"]
 wired.com##figure[class*="video-embed"]
 wired.com##div[data-testid="TagCloudWrapper"]
+wired.com##div[class*="NewsletterSubscribe"]
+wired.com##footer
+wired.com##div[class*="footer"]
+wired.com##div[class*="Footer"]
 wired.com##div[data-testid="ContentFooterBottom"]
 wired.com##div[class*="footer"]
 
