@@ -410,6 +410,13 @@ gizchina.com##.news-source
 gizchina.com##.postTitle
 gizchina.com##.sa-source-wrapper
 gizchina.com##.td-visible-phone
+gizchina.com##[class*="vw-bar__placeholder--right"]
+gizchina.com##[class*="vw-social-icons"]
+gizchina.com##div[class*="vuukle-powerbar"][class*="powerbarBoxDiv"]
+gizchina.com##div[id="vuukle-emote"]
+gizchina.com##div[id="vuukle-comments"]
+gizchina.com##div[class*="widget_search"]
+gizchina.com##div[id*="block-"][class*="widget_block"]
 gizchina.com##div[class*="Details--extras"]
 gizchina.com##div[class*="todayInHome"]
 gizchina.com##div[class*="widget_rss"]
