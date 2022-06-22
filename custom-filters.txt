@@ -137,7 +137,7 @@ apkmirror.com##.advertisement-text
 apkmirror.com##.footer
 apkmirror.com##div[class*="copyRight"]
 apkmirror.com##div[id="disqus_thread"]
-
+!apkmirror.com####+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
 
 ! appletrack.com
 appletrack.com##link[href*="fonts"]
@@ -589,6 +589,7 @@ itnews.com.au##div[id="footer-bottom-level"]
 
 ! joaoapps.com
 forum.joaoapps.com##div[id="awayMessage"]
+forum.joaoapps.com##div[id="adinserttop"]
 forum.joaoapps.com##div[class*="tagBlock"]
 forum.joaoapps.com##footer
 joaoapps.com##footer
@@ -864,6 +865,11 @@ quora.com##span[data-nosnippet="true"]
 quora.com##div[style*="ans_frontend_assets.images.use_app.png"]
 quora.com##div[style="position: fixed; left: 0px; right: 0px; bottom: 0px; z-index: 300; height: 50px;"]
 quora.com##div[class*="q-box qu-mt--small"]
+
+
+! reddit.com
+! hide promoted post in reddit post
+reddit.com##article[class][style*="z-index:"]
 
 
 ! reuters.com
@@ -1225,8 +1231,6 @@ xda-developers.com##div[class="notice-content"]
 xda-developers.com##div[class*="noticeScrollContainer"]
 xda-developers.com##div[class*="block--similarContents"]
 xda-developers.com##div[uix_component="MainSidebar"]
-!xda-developers.com##div[data-widget-key="top_voted"][data-widget-definition="xdatopvotedpostswidget"]
-!xda-developers.com##div[data-widget-key="newPosts"][data-widget-definition="new_posts"]
 xda-developers.com##footer[class="p-footer"][id="footer"]
 
 
