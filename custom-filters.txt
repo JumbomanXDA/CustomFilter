@@ -221,6 +221,15 @@ businessinsider.in##div[class*="ads-cont"]
 businessinsider.in##div[class*="art-videos-wdgt"]
 businessinsider.in##div[class*="footer-interlining-"]
 businessinsider.in##div[class*="inarticle-wdgt"]
+businessinsider.in##div[class*="event-sass-head"]
+businessinsider.in##div[class*="register-banner-sass"]
+businessinsider.in##div[class*="register-sass"]
+businessinsider.in##div[class*="sass-speakers-cont"]
+businessinsider.in##div[class="fc_clmb_ad"]
+businessinsider.in##div[class*="ads-cont"]
+businessinsider.in##[class*="article-ad-"]
+businessinsider.in##[class*="ad-brdr-"]
+businessinsider.in##div[class="tagline"]
 
 
 ! business-standard.com
@@ -401,6 +410,14 @@ galaxyclub.nl##[class*="sharing-button"]
 galaxyclub.nl##footer[class="entry-footer"]
 galaxyclub.nl##div[class="entry-comments"][id="comments"]
 galaxyclub.nl##div[id="respond"][class="comment-respond"]
+
+
+! getdroidtips.com
+getdroidtips.com##div[class*="code-block"][class*="code-block-"]
+getdroidtips.com##div[class="after-entry"]
+getdroidtips.com##div[id="comments"]
+getdroidtips.com##div[class="footer-widgets"]
+getdroidtips.com##footer[class="site-footer"]
 
 
 ! gizchina.com
@@ -1039,6 +1056,13 @@ telecomtalk.info##div[class="category-section"]
 telecomtalk.info##div[class*="comments"]
 telecomtalk.info##div[id="comments"]
 telecomtalk.info##div[class*="subscribe-"]
+
+
+! thecustomdroid.com
+thecustomdroid.com##div[class*="code-block"][class*="code-block-"]
+thecustomdroid.com##div[id="comments"]
+thecustomdroid.com##footer[class="entry-footer"]
+thecustomdroid.com##div[class="footer-widgets"]
 
 
 ! thehindu.com
