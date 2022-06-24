@@ -515,6 +515,7 @@ gsmarena.com##footer.grid_12
 gsmarena.com##h2[class="lower section material-card"]
 gsmarena.com##a[href="search.php3"]
 gsmarena.com##p[class="switch-desktop"]
+gsmarena.com##div[id="user-comments"]
 gsmarena.com##footer
 
 
@@ -602,6 +603,16 @@ itnews.com.au##section[id="events-container"]
 itnews.com.au##footer
 itnews.com.au##div[id="footer-top-level"]
 itnews.com.au##div[id="footer-bottom-level"]
+
+
+! jagranjosh.com
+jagranjosh.com##div[class*="mob-ads"]
+jagranjosh.com##div[id="commentDataDestDiv"]
+jagranjosh.com##div[class="jagranLocal"]
+jagranjosh.com##div[class="NextPrev"]
+jagranjosh.com##div[class*="play-card"][class*="show"]
+jagranjosh.com##div[class="tradingWid"]
+jagranjosh.com##footer[class="text-center"]
 
 
 ! joaoapps.com
@@ -1164,6 +1175,16 @@ wccftech.com##footer[data-nosnippet=""]
 wccftech.com##aside[class="aside-deals"]
 
 
+! wikipedia.org
+wikipedia.org##div[class="modal"]
+wikipedia.org##div[class*="frb-top"]
+wikipedia.org##div[id*="frb-inline"]
+wikipedia.org##div[id*="frb-nag"]
+wikipedia.org##div[class*="frb-inline"]
+wikipedia.org##div[class="frb-footer"]
+wikipedia.org##hr[class="frb-separator"]
+
+
 ! windowscentral.com
 windowscentral.com##div[class*="_suppl_content"]
 windowscentral.com##div[class*="inline-cta-ad"]
@@ -1244,6 +1265,7 @@ xda-developers.com##div[class="comments-block"]
 xda-developers.com##div[id="disqus_thread"]
 xda-developers.com##div[id*="post-tags"]
 xda-developers.com##div[class="post-tags"]
+xda-developers.com##div[class*="widget"][id="newsletter-sidebar-subscribe"]
 xda-developers.com##div[id="footer"]
 
 
