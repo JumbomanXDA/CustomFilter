@@ -131,6 +131,13 @@ androidpolice.com##amp-addthis
 androidpolice.com##div[class*="footer"]
 
 
+! angstronomics.com
+angstronomics.com##div[class*="subscribe-widget"]
+angstronomics.com##div[class*="comments-section"]
+angstronomics.com##div[class*="footer"]
+angstronomics.com##hr[class="footer-facepile-separator"]
+
+
 ! apkmirror.com
 apkmirror.com##script
 apkmirror.com##.advertisement-text
@@ -171,6 +178,11 @@ appletrack.com##[class*="ezoic-ad"]
 
 ! arstechnica.com
 arstechnica.com##aside[class*="thin-divide-bottom"],footer[id*="footer"]
+
+
+! bbc.com
+bbc.com##div[id="sticky-mpu"]
+bbc.com##div[data-component="image-block"][class*="ssrcss"]
 
 
 ! bgr.in
@@ -696,6 +708,17 @@ mayoclinic.org##div[id="footer"]
 mayoclinic.org##footer
 
 
+! mdisk.me
+mdisk.me##div[class="btn-game"]
+mdisk.me##div[class="report"]
+mdisk.me##div[class="earn-icon"]
+mdisk.me##div[class="favorite-prompt"]
+mdisk.me##div[class="sterra-ad"]
+mdisk.me##div[class="liveBox"]
+mdisk.me##div[class="live-ad"]
+mdisk.me##ul[class="disclaim"]
+
+
 ! medicaldialogues.in
 medicaldialogues.in##div[class*="-ad-"]
 medicaldialogues.in###header_top_band_area
@@ -730,6 +753,16 @@ mobilesyrup.com##div[class^="featured-posts"]
 mobilesyrup.com##div[class="wide-feature-article"]
 mobilesyrup.com##div[class^="callout-a"]
 mobilesyrup.com##footer[class="footer"]
+
+
+! msguides.com
+msguides.com##div[id="kknbnpcv"]
+msguides.com##div[class*="kk-star-ratings"]
+msguides.com##div[class*="kksr-stars"]
+msguides.com##footer
+msguides.com##div[class*="entry-author"]
+msguides.com##nav[class*="post-navigation"][aria-label*="Posts"]
+msguides.com##div[id="comments"]
 
 
 ! mysmartprice.com
@@ -840,6 +873,10 @@ pcmag.com##.morelikethis
 pcmag.com##div[class="wrapper bottom"]
 pcmag.com##div[class*="footer"]
 pcmag.com##[id*="footer"]
+pcmag.com##div[class="bg-gray-lightest"]
+pcmag.com##div[class*="commerce-"]
+pcmag.com##div[x-data*="window.newsletters"]
+pcmag.com##div[id="comments"]
 pcmag.com##div[class="inteditions"]
 
 
@@ -1192,7 +1229,17 @@ wikipedia.org##hr[class="frb-separator"]
 ! windowscentral.com
 windowscentral.com##div[class*="_suppl_content"]
 windowscentral.com##div[class*="inline-cta-ad"]
-windowscentral.com##div[class="ad i1 "]
+windowscentral.com##div[id="slice-container-affiliateDisclaimerBar"]
+windowscentral.com##div[class="ad-unit"]
+windowscentral.com##[class*="hawk-nest"][class*="hawk-processed"]
+windowscentral.com##div[class*="deal-widget"]
+windowscentral.com##div[class*="author-block"]
+windowscentral.com##div[class="read-more-container"]
+windowscentral.com##div[id*="this-will-be-used-for-mpu-"]
+windowscentral.com##nav[id="articleTag"]
+windowscentral.com##div[class="related-articles-block"]
+windowscentral.com##div[data-widget-type="ads"]
+windowscentral.com##div[data-widget-type="newsletter"]
 windowscentral.com##div[class*="article-token--more-of"]
 windowscentral.com##footer
 
