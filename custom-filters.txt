@@ -982,6 +982,10 @@ slashleaks.com##div[id*="bottom"]
 slashleaks.com##div[id*="disqus_thread"]
 slashleaks.com##[class*="footer"]
 slashleaks.com##div[class="widget"][id="gallery-widget"]
+slashleaks.com##div[id="tarteaucitronRoot"]
+slashleaks.com##div[class*="entry-comments-trigger"]
+slashleaks.com##div[id="sl-comments"]
+slashleaks.com##h4[class*="sl-title-bar"]
 slashleaks.com##div[class="entry-ad-banner"]
 
 
