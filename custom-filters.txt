@@ -2,14 +2,41 @@
 ! https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
 
 ! Global
+! comment causes issues with github
 ##div[id="disqus_thread"]
 ##div[class="comments"]
 ##div[id="comments"]
 ##div[class="comment"]
 ##div[id="comment"]
+##div[class="adsbygoogle"]
 ##ins[class="adsbygoogle"]
+
+! Newsletter and subscriptions
 ##[class*="newsletter"]
 ##[id*="newsletter"]
+##div[class*="subscribe"]
+##div[id*="subscribe"]
+##div[class*="subscription"]
+##div[id*="subscription"]
+
+
+! Accept Cookies
+##div[class*="gdpr"]
+##div[id*="gdpr"]
+##div[class*="cookie"]
+##div[id*="cookie"]
+##form[class*="cookie"]
+##div[class*="privacy-policy"]
+##div[id*="privacy-policy"]
+##div[class*="privacy_policy"]
+##div[id*="privacy_policy"]
+##announcement-banner
+##div[class*="consent-popup"]
+##div[class*="consent-banner"]
+##.smartbanner
+###smartbanner
+##.app-banner
+###app-banner
 
 
 ! Remove adblocker disable message
