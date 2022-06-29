@@ -3,6 +3,14 @@
 
 ! Global
 ##div[id="disqus_thread"]
+##div[class="comments"]
+##div[id="comments"]
+##div[class="comment"]
+##div[id="comment"]
+##ins[class="adsbygoogle"]
+##[class*="newsletter"]
+##[id*="newsletter"]
+
 
 ! Remove adblocker disable message
 !##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
@@ -617,6 +625,15 @@ itnews.com.au##div[id="footer-top-level"]
 itnews.com.au##div[id="footer-bottom-level"]
 
 
+! itsfoss.com
+itsfoss.com##div[class*="ss-inline-share-wrapper"]
+itsfoss.com##p[class*="ss-social-share-label"]
+itsfoss.com##section[class="author-box"]
+itsfoss.com##div[id="comments"]
+itsfoss.com##aside[class*="widget-area"]
+itsfoss.com##div[class*="footer-widgets"]
+
+
 ! jagranjosh.com
 jagranjosh.com##div[class*="mob-ads"]
 jagranjosh.com##div[id="commentDataDestDiv"]
@@ -653,6 +670,11 @@ lifehacker.com##div[class*="video-sticky"]
 lifehacker.com##div[class*="js_commerce"]
 lifehacker.com##div[class*="ad-container"]
 lifehacker.com##aside[class*="inset--story"]
+
+
+! linuxhint.com
+linuxhint.com##div[class*="adthrive"]
+linuxhint.com##section[class*="author-box"]
 
 
 ! livestrong.com
@@ -1074,14 +1096,14 @@ techinsights.com##section[class="subscription-block"]
 techinsights.com##footer[class="site-footer"]
 
 
-! techradar.com
-techradar.com##div[class*="ad-unit"]
-techradar.com##span[class*="rating"]
-techradar.com##div[class*="van_vid_carousel"]
-techradar.com##div[class*="read-more"]
-techradar.com##footer
-techradar.com##div[class*="popular-box"]
-techradar.com##.region_redirect_popup
+! tecmint.com
+tecmint.com##div[class^="top-bar"]
+tecmint.com##center[style*="padding-bottom"]
+tecmint.com##footer
+tecmint.com##div[class="alertbox"]
+tecmint.com##div[class="after-post-box"]
+tecmint.com##div[class="comments-area"]
+tecmint.com##div[id*="sidebar"][class*="widget-area"]
 
 
 ! technosports.co.in
@@ -1091,6 +1113,16 @@ technosports.co.in##footer
 technosports.co.in##div[class*="comments"]
 technosports.co.in##div[id="comments"]
 technosports.co.in##div[class*="footer-wrap"]
+
+
+! techradar.com
+techradar.com##div[class*="ad-unit"]
+techradar.com##span[class*="rating"]
+techradar.com##div[class*="van_vid_carousel"]
+techradar.com##div[class*="read-more"]
+techradar.com##footer
+techradar.com##div[class*="popular-box"]
+techradar.com##.region_redirect_popup
 
 
 ! telecomtalk.info
@@ -1115,6 +1147,14 @@ thecustomdroid.com##div[class*="code-block"][class*="code-block-"]
 thecustomdroid.com##div[id="comments"]
 thecustomdroid.com##footer[class="entry-footer"]
 thecustomdroid.com##div[class="footer-widgets"]
+
+
+! theguardian.com
+theguardian.com##div[class*="ad-slot"]
+theguardian.com##div[class*="content-footer"]
+theguardian.com##gu-island[name="TopRightAdSlot"]
+theguardian.com##gu-island[name="SubNav"]
+theguardian.com##footer
 
 
 ! thehindu.com
@@ -1214,6 +1254,13 @@ wccftech.com##div[class="content-ad"]
 wccftech.com##footer
 wccftech.com##footer[data-nosnippet=""]
 wccftech.com##aside[class="aside-deals"]
+
+
+! fuse.wikichip.org
+fuse.wikichip.org##div[class="news-bar"]
+fuse.wikichip.org##div[class="mistape_caption"]
+fuse.wikichip.org##div[class="share-buttons"]
+fuse.wikichip.org##aside[id*="tag_cloud"][class*="tag_cloud"]
 
 
 ! wikipedia.org
