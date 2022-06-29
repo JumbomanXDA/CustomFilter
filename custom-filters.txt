@@ -2,7 +2,7 @@
 ! https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
 
 ! Global
-! comment causes issues with github
+! attribute comment causes issues with github
 ##div[id="disqus_thread"]
 ##div[class="comments"]
 ##div[id="comments"]
@@ -532,6 +532,10 @@ gizmodo.com##amp-iframe[src*="https://api.kinja.com/embed/comments/"]
 gizmodo.com##div[class*="footer"]
 gizmodo.com##div[class*="video-sticky"]
 gizmodo.com##div[class*="video-wrapper"]
+
+
+! google.com
+google.com##div[id="taw"]
 
 
 ! gsmarena.com
