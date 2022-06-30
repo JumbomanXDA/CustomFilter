@@ -12,8 +12,8 @@
 ##ins[class="adsbygoogle"]
 
 ! Newsletter and subscriptions
-##[class*="newsletter"]
-##[id*="newsletter"]
+##div[class*="newsletter"]
+##div[id*="newsletter"]
 ##div[class*="subscribe"]
 ##div[id*="subscribe"]
 ##div[class*="subscription"]
@@ -594,6 +594,20 @@ hothardware.com##div[class="disqus-area"]
 hothardware.com##div[class*="Footer"]
 hothardware.com##div[class="footer"]
 
+
+! howtogeek.com
+howtogeek.com##div[class*="walter"][class*="inpage-style"]
+howtogeek.com##div[class="header-commission-statemen"]
+howtogeek.com##span[class="author-meta-entry-wrap"]
+howtogeek.com##div[class="article-bottom"]
+howtogeek.com##div[class="message"]
+howtogeek.com##span[class="twitter"]
+howtogeek.com##span[class="facebook"]
+howtogeek.com##span[class="twitter-mobile"]
+howtogeek.com##span[class="facebook-mobile"]
+howtogeek.com##footer
+
+
 ! hpcwire.com
 hpcwire.com##.textwidget
 hpcwire.com###editorspick
@@ -876,6 +890,16 @@ notebookcheck.net##.prev_next_news
 notebookcheck.net###author
 notebookcheck.net###nbc_bottombar
 notebookcheck.net##span[class*="tag"]
+
+
+! online-convert.com
+! online-convert.com##footer > div[class="container"]
+online-convert.com##div[class*="feedback-container"]
+online-convert.com##[class*="marketing-box"]
+online-convert.com##div[class*="extension-container"]
+online-convert.com##div[class*="social-container"]
+online-convert.com##div[class*="footer"]
+
 
 ! onsitego.com
 onsitego.com##div[class="jeg_sharelist"]
@@ -1389,6 +1413,7 @@ xda-developers.com##div[class*="alert_message"]
 xda-developers.com##div[class*="spon_banner"]
 xda-developers.com##[class="product-cta"]
 xda-developers.com##section[class="readmore"]
+xda-developers.com##div[class*="et_social_inline"]
 xda-developers.com##[id="comments_area"]
 xda-developers.com##div[class="comments-block"]
 xda-developers.com##div[id="disqus_thread"]
@@ -1398,7 +1423,7 @@ xda-developers.com##div[class*="widget"][id="newsletter-sidebar-subscribe"]
 xda-developers.com##div[id="footer"]
 
 
-! forum.xda-developers.com
+! XDA forum
 ! ##div[class*=footer"] blocking "Search This Thread" functionality in xda-forum
 xda-developers.com###thread-header-social
 xda-developers.com##div[class="uix_noticeIcon"]
@@ -1407,6 +1432,7 @@ xda-developers.com##div[class*="noticeScrollContainer"]
 xda-developers.com##div[class*="block--similarContents"]
 xda-developers.com##div[uix_component="MainSidebar"]
 xda-developers.com##footer[class="p-footer"][id="footer"]
+xda-developers.com##div[class*="shareButtons"][data-xf-init="share-buttons"]
 
 
 ! xiaomi.eu
