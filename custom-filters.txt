@@ -245,6 +245,11 @@ bgr.com##div[class*="pmc-links"]
 bgr.com##[class*="product-callout"]
 
 
+! blog.hubspot.com
+blog.hubspot.com##span[class*="hs-cta-wrapper"]
+blog.hubspot.com##div[class="blog-sticky-footer"]
+
+
 ! bloomberg.com
 ! if paywall popup comes, use "Reader mode" to read the page
 bloomberg.com##.unsupported-browser-notification-container
