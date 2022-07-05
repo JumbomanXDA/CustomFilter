@@ -11,6 +11,7 @@
 ##div[class="adsbygoogle"]
 ##ins[class="adsbygoogle"]
 
+
 ! Newsletter and subscriptions
 ##div[class*="newsletter"]
 ##div[id*="newsletter"]
@@ -1108,7 +1109,6 @@ slashleaks.com##h4[class*="sl-title-bar"]
 slashleaks.com##div[class="entry-ad-banner"]
 
 
-
 ! smartprix.com
 smartprix.com##div[class*="post-sharing-top"]
 smartprix.com##div[class*="post-sharing-bottom"]
@@ -1123,6 +1123,14 @@ sourceforge.net##p[id="downloader"][class="text-yellow"]
 sourceforge.net##div[class*="newsletter_subscribe"]
 sourceforge.net##[id="nels"][class*="small-"]
 sourceforge.net##aside[class*="wide-projects-widget"]
+sourceforge.net##div[class="sterling"]
+sourceforge.net##div[data-id*="div-gpt-ad"]
+sourceforge.net##section[class*="rate-project"]
+sourceforge.net##section[id="reviews"][class*="reviews-list"]
+sourceforge.net##section[class*="section-additional-details"]
+sourceforge.net##a[id="report-inappropriate"]
+sourceforge.net##aside[class="content-supplement"]
+sourceforge.net##footer
 
 
 ! sparrowsnews.com
