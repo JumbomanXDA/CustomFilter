@@ -491,6 +491,11 @@ gizchina.com##div[class*="Details--extras"]
 gizchina.com##div[class*="todayInHome"]
 gizchina.com##div[class*="widget_rss"]
 gizchina.com##div[class*="widget_text"]
+gizchina.com##div[class*="mrf-adv"]
+gizchina.com##div[data-label="Advertisement"]
+gizchina.com##footer[id="mrf-footer"]
+gizchina.com##div[class="mrf-collapseFooter"]
+gizchina.com##ul[id="mrf-shareOptions"][class*="mrf-shareOptions"]
 gizchina.com##footer[class*="footer"]
 
 
