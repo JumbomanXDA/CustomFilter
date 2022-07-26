@@ -645,6 +645,12 @@ indiatoday.in##div[class*="top-takes-video-container"]
 indiatoday.in##div[class*="youtube-embed"]
 indiatoday.in##iframe[data-src*="https://www.indiatodaygroup.com/newsletter-subscription/widgets/display_form.php"]
 indiatoday.in##iframe[src*="//youtube.com/embed/"]
+indiatoday.in##div[class="share_bar"][id="share_bar"]
+indiatoday.in##div[class*="fixwhtsapp"]
+indiatoday.in##div[class*="comment"]
+indiatoday.in##div[class="app_menu"]
+indiatoday.in##section[class="footer-bottom"]
+indiatoday.in##footer[id="footer"]
 
 
 ! imore.com
