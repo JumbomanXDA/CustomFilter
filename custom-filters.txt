@@ -547,6 +547,7 @@ gizmodo.com##div[class*="video-wrapper"]
 
 ! google.com
 google.com##div[id="taw"]
+google.com##div[class="bg9urf"]
 
 
 ! gsmarena.com
@@ -876,6 +877,19 @@ newindianexpress.com##div[class^="footer"]
 newindianexpress.com##div[class^="mobile_share"]
 
 
+! news18.com
+news18.com##span[style*="transform:uppercase"][class*="jsx-"]
+news18.com##div[class*="ad-div"]
+news18.com##div[class*="article_follow"]
+news18.com##div[class*="author_box"]
+news18.com##div[class="DynamicBottomBar"]
+news18.com##ul[class*="article_socials"]
+news18.com##ul[class*="tags"]
+news18.com##div[class*="jsx-"][class*="socalWrap"]
+news18.com##div[class*="jsx-"][class*="topAddArticle"]
+news18.com##footer
+
+
 ! nikkei.com
 nikkei.com##div[id*="share-"]
 nikkei.com##div[class*="share-"]
@@ -1046,6 +1060,7 @@ sammobile.com##footer
 sammobile.com##div[id*="footer"]
 sammobile.com##a[id="loadMoreButton"]
 sammobile.com###SM_Sticky_Desktop
+sammobile.com##a[class*="badge-"]
 
 
 !seekingalpha.com
@@ -1327,6 +1342,9 @@ wccftech.com##div[class="content-ad"]
 wccftech.com##footer
 wccftech.com##footer[data-nosnippet=""]
 wccftech.com##aside[class="aside-deals"]
+wccftech.com##div[class*="d-md-none"]
+wccftech.com##div[class="story-related"]
+wccftech.com##div[id="comments"]
 
 
 ! fuse.wikichip.org
