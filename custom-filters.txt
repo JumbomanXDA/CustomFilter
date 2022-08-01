@@ -264,6 +264,14 @@ bloomberg.com##[class*="footer"]
 bloomberg.com##footer[class*="footer"]
 
 
+! bollywoodhungama.com
+bollywoodhungama.com##div[id="smartbanner"]
+bollywoodhungama.com##div[class="entry-tags"]
+bollywoodhungama.com##div[class="tags-list"]
+bollywoodhungama.com##span[id*="rate-"]
+bollywoodhungama.com##div[class*="comment-section"]
+
+
 ! businessinsider.in
 businessinsider.in##.mobile_padding
 businessinsider.in##.right_content
@@ -740,6 +748,12 @@ linuxhint.com##div[class*="adthrive"]
 linuxhint.com##section[class*="author-box"]
 
 
+! livemint.com
+livemint.com##span[id="mobNavTab"]
+livemint.com##div[id="offerMob"]
+livemint.com##div[class="openinApp"]
+
+
 ! livestrong.com
 livestrong.com##div[class*="homepage-expert"]
 livestrong.com##div[class="component-myplate-calorie-tracker"]
@@ -1137,6 +1151,12 @@ slashleaks.com##div[class="entry-ad-banner"]
 
 
 ! smartprix.com
+smartprix.com##div[class*="notice-warning"]
+smartprix.com##div[class*="sm-ureviews"]
+smartprix.com##sm-dap[pos*="product_above_discuss"]
+smartprix.com##sm-dap[pos*="product_above_main_specs"]
+smartprix.com##sm-dap[pos*="product_below_product_box"]
+smartprix.com##div[class="sm-discuss"]
 smartprix.com##div[class*="post-sharing-top"]
 smartprix.com##div[class*="post-sharing-bottom"]
 smartprix.com##div[class*="relatedposts"]
@@ -1257,6 +1277,14 @@ thehindu.com##[class^="editvalue"]
 thehindu.com##[id^="relatedmoreintopics"]
 thehindu.com##[class^="footer"]
 thehindu.com##div[class="back-top"]
+
+
+! themobileindian.com
+themobileindian.com##div[class*="tdb_single_post_share"]
+themobileindian.com##div[class*="td-post-sharing"]
+themobileindian.com##div[class*="td-social-sharing-button"]
+themobileindian.com##div[class*="tdb_single_tags"]
+themobileindian.com##div[class*="post-message-box"]
 
 
 ! thenextweb.com
