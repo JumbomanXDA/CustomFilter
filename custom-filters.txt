@@ -1003,6 +1003,17 @@ pcmag.com##div[id="comments"]
 pcmag.com##div[class="inteditions"]
 
 
+! pcworld.com,techadvisor.com
+pcworld.com,techadvisor.com##div[id="secondaryNav"]
+pcworld.com,techadvisor.com##div[class="secondaryNav-social-wrap"]
+pcworld.com,techadvisor.com##div[class="affiliate-disclaimer"]
+pcworld.com,techadvisor.com##div[class="share-icons--wrapper"]
+pcworld.com,techadvisor.com##div[class="article-author-box"][data-ga="article-footer-author"]
+pcworld.com,techadvisor.com##footer[class="primaryFooter"]
+pcworld.com,techadvisor.com##[class="review-best-price"]
+pcworld.com,techadvisor.com##div[class*="price-comparison"]
+
+
 ! phonearena.com
 phonearena.com##div[class*="heading-deal"]
 phonearena.com##div[class="content-disclaimer"]
@@ -1315,6 +1326,12 @@ theverge.com##.outbrain-wrapper
 
 
 ! timesofindia.com
+timesofindia.com##div[data-plugin="top_sticky_share"]
+timesofindia.com##div[data-plugin="article_sticky_header"][class*="stickysharetop"]
+timesofindia.com##[data-plugin*="share"]
+timesofindia.com##div[class*="ATF_wrapper"]
+timesofindia.com##li[class="getapp"]
+timesofindia.com##div[class="ctaopenapp"]
 timesofindia.com##div[class*=""][style="height:undefined"]
 timesofindia.com##div[class*="ad_"]
 
