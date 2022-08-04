@@ -638,6 +638,14 @@ imgur.com##div[class*="SeeImgurOIA-overlay"]
 imgur.com##div[class*="FloatingOIA-container"]
 
 
+! indianexpress.com
+indianexpress.com##div[id*="ie-headingbox-breakin"]
+indianexpress.com##div[class*="app-btn"]
+indianexpress.com##div[class="premium-story"]
+indianexpress.com##div[class="tags"]
+indianexpress.com##div[class*="footer"]
+
+
 ! indiatoday.in
 indiatoday.in##.inline-story-add
 indiatoday.in##.live-tv-ico
@@ -1244,11 +1252,14 @@ technosports.co.in##div[class*="footer-wrap"]
 ! techradar.com
 techradar.com##div[class*="ad-unit"]
 techradar.com##span[class*="rating"]
-techradar.com##div[class*="van_vid_carousel"]
 techradar.com##div[class*="read-more"]
 techradar.com##footer
 techradar.com##div[class*="popular-box"]
 techradar.com##.region_redirect_popup
+techradar.com##div[id*="affiliateDisclaimerBar"]
+techradar.com##nav[class*="socialite-widget"]
+techradar.com##div[class*="author-block"]
+techradar.com##section[class*="newsletter-signup"]
 
 
 ! telecomtalk.info
