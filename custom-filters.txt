@@ -1364,6 +1364,11 @@ tomsguide.com,tomshardware.com##section[class*="newsletter"]
 tomsguide.com,tomshardware.com##[class*="popular-box"]
 
 
+! trustedreviews.com
+trustedreviews.com##div[class*="advert"][id*="mpu"]
+trustedreviews.com##div[id*="embed_signup"]
+
+
 ! tv9marathi.com
 tv9marathi.com##div[class*="ads"]
 
@@ -1460,17 +1465,19 @@ winfuture.de##div[class*="rutschdiv"][class*="mb"]
 
 
 ! wired.com
+wired.com##div[class*="ReviewPageDisclaimerBelow"]
+wired.com##div[class*="SocialIconsWrapper"]
+wired.com##section[data-testid="LinkBanner"]
 wired.com##aside[class*="paywall-bar"]
 wired.com##div[data-testid="Contributors"]
 wired.com##p[data-testid="ContentFooterRelatedVideoHeader"]
-wired.com##figure[class*="video-embed"]
+!wired.com##figure[class*="video-embed"]
 wired.com##div[data-testid="TagCloudWrapper"]
 wired.com##div[class*="NewsletterSubscribe"]
 wired.com##footer
 wired.com##div[class*="footer"]
 wired.com##div[class*="Footer"]
 wired.com##div[data-testid="ContentFooterBottom"]
-wired.com##div[class*="footer"]
 
 
 ! wired.co.uk
