@@ -893,6 +893,18 @@ mysmartprice.com##div[class="comments"]
 mysmartprice.com##[id*="scrollToTopButton"]
 
 
+! nextpit.com
+nextpit.com##div[class*="articlePartBanner"]
+nextpit.com##div[class="jobbioapp"]
+nextpit.com##aside[class="np-product-offers"]
+nextpit.com##div[class="ameta"]
+nextpit.com##div[class="affiliateOffersHint"]
+nextpit.com##div[class="article-share-bar"]
+nextpit.com##form[action*="subscriptions"]
+nextpit.com##section[class="articleComments"]
+nextpit.com##footer
+
+
 ! newindianexpress.com
 newindianexpress.com##div[class*="sensex"]
 newindianexpress.com##div[id^="div-gpt-ad-"]
@@ -1367,6 +1379,8 @@ tomsguide.com,tomshardware.com##[class*="popular-box"]
 ! trustedreviews.com
 trustedreviews.com##div[class*="advert"][id*="mpu"]
 trustedreviews.com##div[id*="embed_signup"]
+trustedreviews.com##div[class="jargon-block"]
+trustedreviews.com##footer
 
 
 ! tv9marathi.com
