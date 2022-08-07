@@ -1348,6 +1348,16 @@ theverge.com##.connatix-container
 theverge.com##.outbrain-wrapper
 
 
+! thewire.in
+thewire.in##div[class="social_share"]
+thewire.in##div[class="header_adcode"]
+thewire.in##div[class="inbtw_content_container"]
+thewire.in##div[class="bottom_adcode"]
+thewire.in##div[class="social_media_menu_icons"]
+thewire.in##iframe[src*="support.thewire.in/?iframe=1"]
+thewire.in##footer
+
+
 ! timesofindia.com
 timesofindia.com##div[data-plugin="top_sticky_share"]
 timesofindia.com##div[data-plugin="article_sticky_header"][class*="stickysharetop"]
