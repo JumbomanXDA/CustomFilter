@@ -453,7 +453,7 @@ gadgets360.com##div[id="belowtxt"]
 gadgets360.com##div[id="ethics_link"]
 gadgets360.com##div[id="__kpw_prod_rhs_wgt"]
 gadgets360.com##div[class="_kpw_wrp_rhs_widget"]
-
+gadgets360.com##div[class="_ftgry"]
 
 ! gadgets.ndtv.com
 gadgets.ndtv.com##div[class="langch langchange"]
