@@ -1354,7 +1354,9 @@ thewire.in##div[class="sticky_next_social"]
 thewire.in##div[class="header_adcode"]
 thewire.in##div[class="inbtw_content_container"]
 thewire.in##div[class="bottom_adcode"]
+thewire.in##div[class="advertise"]
 thewire.in##div[class="social_media_menu_icons"]
+thewire.in##div[class="bottom_sticky_menu_unify"]
 thewire.in##iframe[src*="support.thewire.in/?iframe=1"]
 thewire.in##footer
 
