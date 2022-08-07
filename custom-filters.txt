@@ -444,6 +444,17 @@ frontpagetech.com##footer
 frontpagetech.com##div[class*="back-to-top"]
 
 
+! gadgets360.com
+gadgets360.com##div[class*="_ad"]
+gadgets360.com##ul[class*="social-share"]
+gadgets360.com##div[class*="alsoseewgt"]
+gadgets360.com##div[class="navigation_comment"]
+gadgets360.com##div[id="belowtxt"]
+gadgets360.com##div[id="ethics_link"]
+gadgets360.com##div[id="__kpw_prod_rhs_wgt"]
+gadgets360.com##div[class="_kpw_wrp_rhs_widget"]
+
+
 ! gadgets.ndtv.com
 gadgets.ndtv.com##div[class="langch langchange"]
 gadgets.ndtv.com##div[class*="_wbswdgtsl"]
