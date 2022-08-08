@@ -1362,6 +1362,7 @@ theverge.com##.outbrain-wrapper
 theverge.com##section[id="comments"]
 theverge.com##div[id*="comments"]
 theverge.com##footer
+theverge.com##div[class="remixd-wrapper"]
 theverge.com##div[class*="social-buttons"]
 theverge.com##span[class*="tab-bar__sponsorship"]
 theverge.com##div[class*="tab-bar"][data-cid*="site/tab_bar/index"]
