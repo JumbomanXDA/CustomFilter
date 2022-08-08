@@ -1592,7 +1592,8 @@ xiaomi.eu##footer[class="p-footer"][id="footer"]
 
 ! xvideos
 xvideos.com##div[class*="comments"]
-
+xvideos.com##div[class="remove-ads"]
+xvideos.com##div[id="ad-footer"]
 
 ! zdnet.com
 zdnet.com##[id="zd-logo"]
