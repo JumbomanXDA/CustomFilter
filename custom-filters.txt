@@ -410,7 +410,7 @@ extremetech.com##.byline
 extremetech.com##.global-footer
 extremetech.com##.post-widget
 extremetech.com##.textwidget
-extremetech.com##div[class="row collapse"]
+extremetech.com##div[class*="affiliate-text"]
 
 
 ! firstpost.com
@@ -1362,6 +1362,7 @@ theverge.com##.outbrain-wrapper
 theverge.com##section[id="comments"]
 theverge.com##div[id*="comments"]
 theverge.com##footer
+theverge.com##div[class*="group-disclosure-ecomm"]
 theverge.com##div[class="remixd-wrapper"]
 theverge.com##div[class*="social-buttons"]
 theverge.com##span[class*="tab-bar__sponsorship"]
