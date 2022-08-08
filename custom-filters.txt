@@ -1359,6 +1359,7 @@ theverge.com##section.top
 theverge.com##amp-youtube[data-vars-video-player="youtube"]
 theverge.com##.connatix-container
 theverge.com##.outbrain-wrapper
+theverge.com##section[id="comments"]
 
 
 ! thewire.in
