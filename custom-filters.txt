@@ -1590,6 +1590,10 @@ xiaomi.eu##[class*="scrollButtons"]
 xiaomi.eu##footer[class="p-footer"][id="footer"]
 
 
+! xvideos
+xvideos.com##div[class*="comments"]
+
+
 ! zdnet.com
 zdnet.com##[id="zd-logo"]
 zdnet.com##div[class*="-ad-"]
