@@ -1602,8 +1602,10 @@ xiaomi.eu##footer[class="p-footer"][id="footer"]
 xvideos.com##div[class*="comments"]
 xvideos.com##div[class="remove-ads"]
 xvideos.com##div[id="ad-footer"]
+xvideos.com##span[class="mobile-only-hide"]
 xvideos.com##div[class="terms"]
 xvideos.com##div[class="botLinks"]
+xvideos.com##div[id*="tabComments"]
 xvideos.com##footer
 
 
