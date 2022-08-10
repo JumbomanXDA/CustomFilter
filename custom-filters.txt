@@ -1097,6 +1097,7 @@ quora.com##span[data-nosnippet="true"]
 quora.com##div[style*="ans_frontend_assets.images.use_app.png"]
 quora.com##div[style="position: fixed; left: 0px; right: 0px; bottom: 0px; z-index: 300; height: 50px;"]
 quora.com##div[class*="q-box qu-mt--small"]
+quora.com##div[class*="qu-zIndex--action_bar"]
 
 
 ! reddit.com
