@@ -1614,6 +1614,7 @@ xvideos.com##footer
 zdnet.com##[id="zd-logo"]
 zdnet.com##div[class*="-ad-"]
 zdnet.com##div[class*="socialSharebar"]
+zdnet.com##div[class*="socialComments"]
 zdnet.com##section[class*="related-topics"]
 zdnet.com##section[class*="related-stories"]
 zdnet.com##div[class*="breaking-news"]
