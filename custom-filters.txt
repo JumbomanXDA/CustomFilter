@@ -1613,6 +1613,7 @@ xvideos.com##footer
 ! zdnet.com
 zdnet.com##[id="zd-logo"]
 zdnet.com##div[class*="-ad-"]
+zdnet.com##div[class*="socialSharebar"]
 zdnet.com##section[class*="related-topics"]
 zdnet.com##section[class*="related-stories"]
 zdnet.com##div[class*="breaking-news"]
