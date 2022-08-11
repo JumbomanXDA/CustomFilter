@@ -1626,4 +1626,5 @@ zdnet.com##[class="copyright"]
 zdnet.com##div[class="col-2 alpha"]
 zdnet.com##div[class="col-2 beta"]
 zdnet.com##div[class="col-2 gamma"]
+zdnet.com##footer
 
