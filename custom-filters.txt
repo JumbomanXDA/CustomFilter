@@ -1093,6 +1093,9 @@ pocketnow.com##[class*="pk-toc"]
 
 ! prabhatkhabar.com
 prabhatkhabar.com##div[class="gR_IS"]
+prabhatkhabar.com##div[class="adunitContainer"]
+prabhatkhabar.com##div[class="adBox"]
+prabhatkhabar.com##iframe[src*="mg.mgid.com"]
 prabhatkhabar.com##footer
 
 
