@@ -236,6 +236,12 @@ bgr.in##h2[class*="hdh2"]
 bgr.in##a[data-event-sub-cat*="NEW ARRIVALS"]
 bgr.in##section[class*="upcoming-mp"]
 bgr.in##p[class="copyRight"]
+bgr.in##ul[class="social-icon"]
+bgr.in##div[class*="ads-box"]
+bgr.in##div[class="other-story"]
+bgr.in##div[class="tags"]
+bgr.in##div[class*="footerNav"]
+bgr.in##footer
 
 
 ! bgr.com
