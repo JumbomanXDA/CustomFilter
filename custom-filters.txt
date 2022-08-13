@@ -1091,6 +1091,11 @@ pocketnow.com##[class*="powerkit_widget_posts"]
 pocketnow.com##[class*="pk-toc"]
 
 
+! prabhatkhabar.com
+prabhatkhabar.com##div[class="gR_IS"]
+prabhatkhabar.com##footer
+
+
 ! prnewswire.com
 prnewswire.com##div[class="banner"]
 prnewswire.com##footer
