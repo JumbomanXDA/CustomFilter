@@ -241,6 +241,8 @@ bgr.in##div[class*="ads-box"]
 bgr.in##div[class="other-story"]
 bgr.in##div[class="tags"]
 bgr.in##div[class*="footerNav"]
+bgr.in##div[class*="top-horizontal-banner"]
+bgr.in##div[class*="add-placeholder"]
 bgr.in##footer
 
 
