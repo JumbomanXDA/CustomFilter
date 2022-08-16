@@ -848,6 +848,7 @@ mdisk.me##ul[class="disclaim"]
 
 
 ! mdiskshortner.link
+mdiskshortner.link##script[src="//addresseepaper.com/sfp.js"]
 mdiskshortner.link##script[type="text/javascript"][src*=".js"]
 
 
