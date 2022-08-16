@@ -847,12 +847,6 @@ mdisk.me##div[class="live-ad"]
 mdisk.me##ul[class="disclaim"]
 
 
-! mdiskshortner.link
-mdiskshortner.link##script[src="//addresseepaper.com/sfp.js"]
-mdiskshortner.link##script[type="text/javascript"][src*=".js"]
-mdiskshortner.link##div[class*="alert-danger"]
-
-
 ! medicaldialogues.in
 medicaldialogues.in##div[class*="-ad-"]
 medicaldialogues.in###header_top_band_area
