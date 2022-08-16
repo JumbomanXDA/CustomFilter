@@ -1055,6 +1055,21 @@ pcworld.com,techadvisor.com##[class="review-best-price"]
 pcworld.com,techadvisor.com##div[class*="price-comparison"]
 
 
+! phonandroid.com
+phonandroid.com##div[id="sub-nav"]
+phonandroid.com##div[class*="mailpoet_form_popup_overlay"]
+phonandroid.com##div[id*="mailpoet_form"]
+phonandroid.com##aside[class="nwscrollsidebar"]
+phonandroid.com##form[action*="mailpoet_subscription_form"]
+phonandroid.com##div[class*="gm-push-notification"]
+phonandroid.com##div[id*="gm-push-notification"]
+phonandroid.com##div[class*="share-box"]
+phonandroid.com##div[id="comments"]
+phonandroid.com##div[id="disqus_thread"]
+phonandroid.com##div[id="bottom_ad"]
+phonandroid.com##footer
+
+
 ! phonearena.com
 phonearena.com##div[class*="heading-deal"]
 phonearena.com##div[class="content-disclaimer"]
