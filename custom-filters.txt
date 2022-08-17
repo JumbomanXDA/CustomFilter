@@ -1139,6 +1139,12 @@ quora.com##div[class*="qu-zIndex--action_bar"]
 reddit.com##article[class][style*="z-index:"]
 
 
+! referus.in
+referus.in##div[class="container"]
+referus.in##[class*="footer"]
+referus.in##footer
+
+
 ! reuters.com
 reuters.com##header
 reuters.com##div[class*="OldSiteBanner"]
