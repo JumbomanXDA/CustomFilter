@@ -1140,7 +1140,6 @@ reddit.com##article[class][style*="z-index:"]
 
 
 ! referus.in
-referus.in##div[class="container"]
 referus.in##[class*="footer"]
 referus.in##footer
 
