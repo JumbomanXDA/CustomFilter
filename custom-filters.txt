@@ -926,6 +926,19 @@ nextpit.com##section[class="articleComments"]
 nextpit.com##footer
 
 
+! news9live.com
+news9live.com##div[id*="ad_level"]
+news9live.com##div[class*="ad_unit"]
+news9live.com##div[class*="adsCont"]
+news9live.com##div[id="left_level_before_tags"]
+news9live.com##div[class="post-tags"]
+news9live.com##div[class*="social-share"]
+news9live.com##div[class*="ind-social-"]
+news9live.com##div[data-name="relatedPost"]
+news9live.com##div[class*="footer"]
+news9live.com##footer
+
+
 ! newindianexpress.com
 newindianexpress.com##div[class*="sensex"]
 newindianexpress.com##div[id^="div-gpt-ad-"]
