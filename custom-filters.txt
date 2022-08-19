@@ -927,6 +927,7 @@ nextpit.com##footer
 
 
 ! news9live.com
+news9live.com##div[id="left_before_story"]
 news9live.com##div[id*="ad_level"]
 news9live.com##div[class*="ad_unit"]
 news9live.com##div[class*="adsCont"]
