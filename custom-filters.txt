@@ -1151,6 +1151,17 @@ reuters.com##div[class*="RegularArticleLayout__newsletter"]
 reuters.com##div[class*="_footer_"]
 
 
+! rprna.com
+rprna.com##div[class*="header-social"]
+rprna.com##div[class*="tags-share-box"]
+rprna.com##div[class="post-tags"]
+rprna.com##div[class*="google-adsense"]
+rprna.com##div[class="post-author"]
+rprna.com##div[id="sidebar"]
+rprna.com##div[class*="footer"]
+rprna.com##footer
+
+
 ! sammobile.com
 sammobile.com##div[class="affiliate-disclosure"]
 sammobile.com##div[id="stickySbAd"]
