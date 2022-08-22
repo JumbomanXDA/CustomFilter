@@ -815,6 +815,13 @@ macrumors.com##div[id*="comments"]
 macrumors.com##div[class*="footer"]
 
 
+! makeuseof.com
+makeuseof.com##div[class="heading_sharing"]
+makeuseof.com##div[class="sharing bottom"]
+makeuseof.com##div[class="article-tags"]
+makeuseof.com##div[class*="article-author-bio"]
+
+
 ! mayoclinic.org
 mayoclinic.org##div[id="adsmobileBottom"]
 mayoclinic.org##div[class*="globalnotice"]
