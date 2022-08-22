@@ -1339,6 +1339,16 @@ technosports.co.in##div[id="comments"]
 technosports.co.in##div[class*="footer-wrap"]
 
 
+! techpp.com
+techpp.com##footer
+techpp.com##div[id="customad"]
+techpp.com##div[id="was-this-helpful"]
+techpp.com##div[class="tppAds"]
+techpp.com##div[class="tpp-inp"]
+techpp.com##div[class*="comments"]
+techpp.com##div[class*="affilate-disclosure"]
+
+
 ! techradar.com
 techradar.com##div[class*="ad-unit"]
 techradar.com##span[class*="rating"]
