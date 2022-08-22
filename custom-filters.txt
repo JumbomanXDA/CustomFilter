@@ -1345,7 +1345,10 @@ techpp.com##div[id="customad"]
 techpp.com##div[id="was-this-helpful"]
 techpp.com##div[class="tppAds"]
 techpp.com##div[class="tpp-inp"]
+techpp.com##div[class*="mobile-share"]
+techpp.com##div[class*="social-share-article"]
 techpp.com##div[class*="comments"]
+techpp.com##div[class*="hash-tags"]
 techpp.com##div[class*="affilate-disclosure"]
 
 
