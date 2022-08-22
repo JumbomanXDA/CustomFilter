@@ -1340,7 +1340,7 @@ technosports.co.in##div[class*="footer-wrap"]
 
 
 ! techpp.com
-techpp.com##footer
+techpp.com##footer[id*="footer"]
 techpp.com##div[id="customad"]
 techpp.com##div[id="was-this-helpful"]
 techpp.com##div[class="tppAds"]
