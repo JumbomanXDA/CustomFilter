@@ -49,10 +49,6 @@
 ! {display:none !important;}
 
 
-! mkvcinemas
-185.53.88.204##div[id="commentfb]
-185.53.88.204##div[id="footer]
-
 ! 1mg.com
 1mg.com##div[class*="banner-slider"]
 1mg.com##div[class*="adunitContainer"]
