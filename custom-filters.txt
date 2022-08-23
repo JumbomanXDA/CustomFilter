@@ -1668,6 +1668,7 @@ xda-developers.com##div[id="footer"]
 ! XDA forum
 ! ##div[class*=footer"] blocking "Search This Thread" functionality in xda-forum
 xda-developers.com###thread-header-social
+xda-developers.com##ul[class*="thnoticesplus_topbar"]
 xda-developers.com##div[class="uix_noticeIcon"]
 xda-developers.com##div[class="notice-content"]
 xda-developers.com##div[class*="noticeScrollContainer"]
