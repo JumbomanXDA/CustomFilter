@@ -1651,6 +1651,7 @@ xda-developers.com##.nonamp-link
 xda-developers.com##[data-freestar-ad*=""]
 xda-developers.com##[id*="affiliate-warning"]
 xda-developers.com##[id*="xda_alert_bar"]
+xda-developers.com##[class*="xda-alertbar"]
 xda-developers.com##div[class*="alert_message"]
 xda-developers.com##div[class*="spon_banner"]
 xda-developers.com##[class="product-cta"]
@@ -1668,7 +1669,8 @@ xda-developers.com##div[id="footer"]
 ! XDA forum
 ! ##div[class*=footer"] blocking "Search This Thread" functionality in xda-forum
 xda-developers.com###thread-header-social
-xda-developers.com##ul[class*="thnoticesplus_topbar"]
+xda-developers.com##ul[class*="thnoticesplus_topbar"][data-xf-init="notices"]
+xda-developers.com##div[class="notice-content"]
 xda-developers.com##div[class="uix_noticeIcon"]
 xda-developers.com##div[class="notice-content"]
 xda-developers.com##div[class*="noticeScrollContainer"]
