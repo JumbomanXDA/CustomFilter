@@ -49,7 +49,7 @@
 ! {display:none !important;}
 
 
-! 185.53.88.204
+! mkvcinemas
 185.53.88.204##div[id="commentfb]
 185.53.88.204##div[id="footer]
 
