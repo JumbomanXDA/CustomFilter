@@ -1668,16 +1668,23 @@ xda-developers.com##div[id="footer"]
 
 ! XDA forum
 ! ##div[class*=footer"] blocking "Search This Thread" functionality in xda-forum
-xda-developers.com###thread-header-social
-xda-developers.com##ul[class*="thnoticesplus_topbar"][data-xf-init="notices"]
-xda-developers.com##div[class="notice-content"]
-xda-developers.com##div[class="uix_noticeIcon"]
-xda-developers.com##div[class="notice-content"]
-xda-developers.com##div[class*="noticeScrollContainer"]
-xda-developers.com##div[class*="block--similarContents"]
-xda-developers.com##div[uix_component="MainSidebar"]
-xda-developers.com##footer[class="p-footer"][id="footer"]
-xda-developers.com##div[class*="shareButtons"][data-xf-init="share-buttons"]
+forum.xda-developers.com###thread-header-social
+forum.xda-developers.com##ul[class*="thnoticesplus_topbar"][data-xf-init="notices"]
+forum.xda-developers.com##div[class="notice-content"]
+forum.xda-developers.com##div[class="uix_noticeIcon"]
+forum.xda-developers.com##div[class="notice-content"]
+forum.xda-developers.com##div[class*="noticeScrollContainer"]
+forum.xda-developers.com##div[uix_component="MainSidebar"]
+forum.xda-developers.com##footer[class="p-footer"][id="footer"]
+
+forum.xda-developers.com##div[class*="block--similarContents"]
+forum.xda-developers.com##div[data-widget-key*="top_voted"]
+forum.xda-developers.com##div[data-widget-definition*="xdatopvotedpostswidget"]
+forum.xda-developers.com##div[data-widget-key*="newPosts"][data-widget-definition*="new_posts"]
+forum.xda-developers.com##div[class="uix_extendedFooter"]
+forum.xda-developers.com##div[data-widget-definition="th_navigation"]
+forum.xda-developers.com##div[data-widget-definition="th_userNavigation"]
+forum.xda-developers.com##div[class*="shareButtons"][data-xf-init*="share-buttons"]
 
 
 ! xiaomi.eu
