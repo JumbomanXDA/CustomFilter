@@ -349,6 +349,17 @@ dailystar.co.uk##div[class="html-embed"][data-mod="htmlEmbed"]
 dailystar.co.uk##footer
 
 
+! digieduhubmvp.blogspot.com
+digieduhubmvp.blogspot.com##div[id*="after-ad"]
+digieduhubmvp.blogspot.com##div[id*="before-ad"]
+digieduhubmvp.blogspot.com##div[id*="home-ad"]
+digieduhubmvp.blogspot.com##div[id*="custom-ad"]
+digieduhubmvp.blogspot.com##div[id*="arel-ad"]
+digieduhubmvp.blogspot.com##div[class="post-share"]
+digieduhubmvp.blogspot.com##div[class*="blog-post-comments"]
+digieduhubmvp.blogspot.com##div[class="back-top"]
+
+
 ! digitaltrends.com
 digitaltrends.com##.h-editors-recs
 digitaltrends.com##div[class*="dtads-slot"]
