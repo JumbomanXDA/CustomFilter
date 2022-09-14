@@ -457,9 +457,15 @@ forbes.com##amp-lightbox
 ! frontpagetech.com
 frontpagetech.com##.zox-post-soc-stat
 frontpagetech.com##div[class*="-ad"]
-frontpagetech.com##div[class="adthrive"]
+frontpagetech.com##div[class*="adthrive"]
+frontpagetech.com##div[class*="tags"]
+frontpagetech.com##div[class*="share-buttons"]
+frontpagetech.com##div[class*="entry__author"]
+frontpagetech.com##div[class*="wpra-reactions-wrap"]
 frontpagetech.com##div[class*="popup"]
-frontpagetech.com##footer
+frontpagetech.com##footer[class*="footer"]
+frontpagetech.com##div[class*="footer"]
+frontpagetech.com##div[class*="social-links"]
 frontpagetech.com##div[class*="back-to-top"]
 
 
