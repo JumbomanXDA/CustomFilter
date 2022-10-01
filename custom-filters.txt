@@ -418,6 +418,7 @@ electronicsweekly.com##aside[class="sidebar-narrow"]
 
 
 ! blog.esper.io
+blog.esper.io##form[action*="convertkit.com"][class*="formkit-form"]
 blog.esper.io##div[class="post-tags-container"]
 blog.esper.io##div[class*="post-content-share"]
 blog.esper.io##div[id="disqus_thread"]
