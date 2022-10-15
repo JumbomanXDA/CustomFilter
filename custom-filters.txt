@@ -1177,6 +1177,7 @@ quora.com##div[class*="qu-zIndex--action_bar"]
 ! reddit.com
 ! hide promoted post in reddit post
 reddit.com##article[class][style*="z-index:"]
+reddit.com##div[class*="XPromoBottomBar"]
 
 
 ! referus.in
