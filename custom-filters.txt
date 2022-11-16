@@ -165,6 +165,7 @@ androidpolice.com##div[class^="share-box"]
 androidpolice.com##div[class="categories"]
 androidpolice.com##amp-addthis
 androidpolice.com##div[class*="footer"]
+androidpolice.com##div[class*="adsninja"]
 
 
 ! angstronomics.com
@@ -1683,6 +1684,7 @@ xda-developers.com##div[id*="post-tags"]
 xda-developers.com##div[class="post-tags"]
 xda-developers.com##div[class*="widget"][id="newsletter-sidebar-subscribe"]
 xda-developers.com##div[id="footer"]
+xda-developers.com##div[class*="adsninja"]
 
 
 ! XDA forum
