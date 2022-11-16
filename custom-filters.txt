@@ -10,7 +10,7 @@
 ##div[id="comment"]
 ##div[class="adsbygoogle"]
 ##ins[class="adsbygoogle"]
-
+##div[class*="adsninja"]
 
 ! Newsletter and subscriptions
 ##div[class*="newsletter"]
