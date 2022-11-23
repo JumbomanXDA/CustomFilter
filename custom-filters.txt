@@ -1684,6 +1684,7 @@ xda-developers.com##div[class="post-tags"]
 xda-developers.com##div[class*="widget"][id="newsletter-sidebar-subscribe"]
 xda-developers.com##div[id="footer"]
 xda-developers.com##div[class*="adsninja"]
+xda-developers.com##div[class*="pencil-banner"]
 
 
 ! XDA forum
