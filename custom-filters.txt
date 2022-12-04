@@ -38,6 +38,7 @@
 ##.app-banner
 ###app-banner
 
+##amp-ad
 
 ! Remove adblocker disable message
 !##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
