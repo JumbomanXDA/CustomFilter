@@ -1748,3 +1748,8 @@ zdnet.com##div[class="col-2 beta"]
 zdnet.com##div[class="col-2 gamma"]
 zdnet.com##footer
 
+
+
+# miscellaneous
+martu.site##img[src*="jpg"]
+||i1.wp.com/vtsbharath.org/wp-content/uploads/2016/04/Donate-Banner.jpg
