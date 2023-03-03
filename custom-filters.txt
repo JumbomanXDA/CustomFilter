@@ -1529,6 +1529,10 @@ trustedreviews.com##footer
 tv9marathi.com##div[class*="ads"]
 
 
+! twitter.com
+twitter.com##div[data-testid="placementTracking"]
+
+
 ! venturebeat.com
 venturebeat.com##div[class*="vb_image_source"]
 venturebeat.com##div[class*="boilerplate-before"]
