@@ -182,6 +182,9 @@ apkmirror.com##.footer
 apkmirror.com##div[class*="copyRight"]
 apkmirror.com##div[id="disqus_thread"]
 !apkmirror.com####+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
+apkmirror.com##div[id="bottom-slider"]
+||stats.wp.com/e-202309.js
+
 
 ! appletrack.com
 appletrack.com##link[href*="fonts"]
