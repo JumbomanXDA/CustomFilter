@@ -1141,6 +1141,11 @@ piunikaweb.com##div[class="go-up"]
 piunikaweb.com##div[class*="page-navigation"]
 
 
+! pixeldrain.com
+pixeldrain.com##div[class*="intro_popup"]
+pixeldrain.com##div[class*="support_banner"]
+
+
 ! pocketnow.com
 pocketnow.com##[id*="alert_bar"]
 pocketnow.com##[class*="pn_collectionboxtopofpage"]
