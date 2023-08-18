@@ -597,7 +597,7 @@ gizmodo.com##div[class*="video-wrapper"]
 
 
 ! google.com
-mail.google.com##div[id="nav"]
+#mail.google.com##div[id="nav"]
 google.com##div[id="taw"]
 google.com##div[class="bg9urf"]
 
