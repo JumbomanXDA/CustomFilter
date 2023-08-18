@@ -395,6 +395,9 @@ gizmodo.com##div[class*="video-sticky"]
 gizmodo.com##div[class*="video-wrapper"]
 
 
+! Gmail
+mail.google.com##div[id="speedbump"]
+
 
 ! gsmarena.com
 gsmarena.com##li[id="search-button"]
