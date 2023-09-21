@@ -1119,6 +1119,7 @@ phonandroid.com##footer
 
 ! phonearena.com
 phonearena.com##div[class*="heading-deal"]
+phonearena.com##div[class*="announcement"]
 phonearena.com##div[class="content-disclaimer"]
 phonearena.com##div[class="spot-sticky-container"]
 phonearena.com##[class*="widgetOffers"]
