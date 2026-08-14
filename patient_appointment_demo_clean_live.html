@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dr. Ankush Maindad — Book Appointment</title>
+<style>
+:root{--ink:#172033;--muted:#687386;--primary:#6d28d9;--bg:#f6f7fb;--card:#fff;--line:#e3e6ed;--bad:#b42318;--good:#16835b}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:var(--bg)}
+.wrap{max-width:1000px;margin:auto;padding:18px}.nav{display:flex;justify-content:space-between;align-items:center;padding:8px 0 22px}.brand{font-weight:800}.brand span{color:var(--primary)}
+.btn{border:0;border-radius:12px;padding:13px 18px;font-weight:800;cursor:pointer}.dark{background:var(--primary);color:#fff}
+.hero{background:linear-gradient(135deg,#4c1d95,#7e22ce);color:white;border-radius:26px;padding:36px 30px;display:grid;grid-template-columns:1.3fr .7fr;gap:25px;align-items:center}.tag{font-size:13px;background:#ffffff20;border:1px solid #ffffff35;border-radius:999px;padding:7px 11px}.hero h1{font-size:40px;line-height:1.05;margin:15px 0 12px}.hero p{line-height:1.5;color:#eee}.doctor{text-align:center;background:#ffffff15;border:1px solid #ffffff2d;border-radius:20px;padding:22px}.avatar{width:100px;height:100px;border-radius:50%;margin:auto;background:#ffffff25;display:flex;align-items:center;justify-content:center;font-size:34px;font-weight:800}
+.section{padding:30px 0}.section h2{margin:0 0 7px}.sub{color:var(--muted);margin:0 0 18px}.booking{background:white;border:1px solid var(--line);border-radius:22px;padding:24px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field label{display:block;font-size:13px;font-weight:800;margin-bottom:7px}.field input,.field select{width:100%;padding:12px;border:1px solid #d9dde6;border-radius:11px;font:inherit;background:#fff}.req{color:#b42318}.age{display:grid;grid-template-columns:1fr 130px;gap:8px}.full{grid-column:1/-1}.help{font-size:12px;color:var(--muted);margin-top:6px}.error{display:none;color:var(--bad);font-size:12px;margin-top:5px}.invalid input,.invalid select{border-color:#e57373;background:#fff8f8}.invalid .error{display:block}
+.schedule{display:none;margin-top:18px;border:1px solid #e5ddfa;background:#faf8ff;border-radius:18px;padding:17px}.schedule-top{display:flex;justify-content:space-between;gap:10px;align-items:center}.schedule-title{font-weight:850}.badge{font-size:11px;font-weight:800;color:var(--good);background:#e8f7f0;padding:6px 9px;border-radius:999px;white-space:nowrap}.hint{font-size:12px;color:var(--muted);margin-top:6px}.calendar{margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}.calhead{display:flex;justify-content:space-between;align-items:center;padding:12px;border-bottom:1px solid var(--line)}.calhead button{border:1px solid var(--line);background:#fff;border-radius:8px;padding:5px 10px;cursor:pointer}.caltitle{font-weight:800}.week,.days{display:grid;grid-template-columns:repeat(7,1fr)}.week div{text-align:center;font-size:11px;color:var(--muted);font-weight:700;padding:9px 2px}.day{min-height:45px;display:flex;align-items:center;justify-content:center;border-top:1px solid #f0f1f4;border-right:1px solid #f0f1f4;font-size:13px}.day:nth-child(7n){border-right:0}.empty{background:#fff}.unavailable{background:#f0f1f4;color:#b8bec8}.available{color:var(--primary);font-weight:850;cursor:pointer}.available:hover{background:#f2edff}.selected{background:var(--primary);color:#fff}.today{box-shadow:inset 0 0 0 2px #c4b5fd}
+.slots{display:none;margin-top:18px}.slots h3{font-size:16px;margin:0 0 6px}.slot-note{font-size:12px;color:var(--muted);margin-bottom:12px}.slot-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.slot{background:#fff;border:1px solid #ddd8ee;border-radius:13px;padding:13px;text-align:left;cursor:pointer}.slot:hover{border-color:#9b7bea;background:#faf7ff}.slot.selected-slot{border:2px solid var(--primary);background:#f6f0ff;padding:12px}.slot.full{border-color:#e5e7eb;background:#f2f3f5;color:#9ca3af;cursor:not-allowed}.slot-time{font-weight:850}.slot-count{font-size:11px;color:var(--muted);margin-top:4px}.slot.full .slot-count{color:#9ca3af}.toast{display:none;margin-top:15px;padding:15px;border-radius:12px;background:#e9f8f1;color:#126c4d;font-weight:700}.success{display:none;background:#fff;border:1px solid #cdebdc;border-radius:20px;padding:24px;margin-top:18px}.success h3{margin-top:0;color:#126c4d}.summary{background:#f6faf8;padding:14px;border-radius:12px;line-height:1.8}
+@media(max-width:700px){.hero{grid-template-columns:1fr}.hero h1{font-size:34px}.grid{grid-template-columns:1fr}.full{grid-column:auto}.age{grid-template-columns:1fr 120px}.wrap{padding:13px}}
+@media(max-width:430px){.slot-grid{grid-template-columns:1fr}}
+</style>
+<style>
+.sheet-card{margin-top:18px;background:#f8fbff;border:1px solid #dbeafe;border-radius:16px;padding:15px}
+.sheet-card b{display:block;margin-bottom:5px}.sheet-card p{margin:0;color:#64748b;font-size:12px;line-height:1.5}
+.sheet-link{display:inline-block;margin-top:9px;font-size:12px;color:#2563eb;font-weight:750;text-decoration:none}
+.sync{display:none;margin-top:12px;padding:12px;border-radius:10px;background:#eef6ff;color:#1e40af;font-size:12px}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+<nav class="nav"><div class="brand">NEURON <span>•</span> Pediatric Neurology</div><a class="btn dark" href="#book">Book Appointment</a></nav>
+
+<section class="hero">
+<div><span class="tag">Pediatric Neurologist & Epileptologist</span><h1>Expert care for your child's brain & nervous system.</h1><p>Choose your location, an available OPD date and a convenient 1-hour appointment slot.</p></div>
+<div class="doctor"><div class="avatar">AM</div><h3>Dr. Ankush Maindad</h3><div>MD Pediatrics</div><div style="margin-top:9px;font-size:13px;color:#eee">NEURON Hospital, Latur</div></div>
+</section>
+
+<section class="section" id="book">
+<h2>Book an Appointment</h2>
+<p class="sub">Fields marked <span class="req">*</span> are compulsory. Confirmation will be sent on WhatsApp.</p>
+
+<div class="booking">
+</div>
+
+<form id="form" novalidate>
+<div class="grid">
+<div class="field" id="fChild"><label>Child's Name <span class="req">*</span></label><input id="child" placeholder="Enter child's full name"><div class="error">Please enter child's name.</div></div>
+
+<div class="field" id="fAge"><label>Child's Age <span class="req">*</span></label><div class="age"><input id="age" type="number" min="0" max="999" step="1" placeholder="Age"><select id="ageUnit"><option value="">Select</option><option>Days</option><option>Months</option><option>Years</option></select></div><div class="error">Please enter age and select the unit.</div></div>
+
+<div class="field" id="fPhone"><label>WhatsApp Number <span class="req">*</span></label><input id="phone" type="tel" inputmode="numeric" maxlength="10" placeholder="10-digit WhatsApp number"><div class="help">Appointment confirmation will be sent on WhatsApp.</div><div class="error">Please enter a valid 10-digit Indian mobile number.</div></div>
+
+<div class="field" id="fType"><label>Consultation Type <span class="req">*</span></label><select id="type"><option value="">Select consultation type</option><option>New Patient</option><option>Follow-up</option></select><div class="error">Please select consultation type.</div></div>
+
+<div class="field full" id="fLoc"><label>Consultation Location <span class="req">*</span></label><select id="location"><option value="">Select location</option><option value="latur">Latur — NEURON Hospital</option><option value="beed">Beed — Shivkamal Hospital</option><option value="ambajogai">Ambajogai — Vaidyanath Hospital</option><option value="parli">Parli — Arogya Hospital</option><option value="omerga">Omerga — Aadhar Hospital</option><option value="nilanga">Nilanga — Salunke Hospital</option><option value="udgir">Udgir — Shiv Parvati Hospital</option><option value="dharashiv">Dharashiv — Pranada Clinic</option><option value="barshi">Barshi — Jagdale Mama Hospital</option></select><div class="error">Please select a consultation location.</div></div>
+
+<div class="field full"><label>Reason for Visit <span style="font-weight:500;color:var(--muted)">(Optional)</span></label><input id="reason" placeholder="e.g. seizures, developmental delay, headache"></div>
+</div>
+
+<div class="schedule" id="schedule">
+<div class="schedule-top"><div><div class="schedule-title" id="scheduleTitle"></div><div class="hint" id="scheduleRule"></div></div><div class="badge">Available dates only</div></div>
+<div class="calendar">
+<div class="calhead"><button type="button" id="prev">‹</button><div class="caltitle" id="month"></div><button type="button" id="next">›</button></div>
+<div class="week"><div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div></div>
+<div class="days" id="days"></div>
+</div>
+<div class="hint">Faint dates are unavailable and cannot be selected.</div>
+
+<div class="field" id="fDate" style="margin-top:14px"><label>Appointment Date <span class="req">*</span></label><input id="selectedDate" readonly placeholder="Select an available date above"><div class="error">Please select an available appointment date.</div></div>
+
+<div class="slots" id="slots">
+<h3>Choose a time slot <span class="req">*</span></h3>
+<div class="slot-note">Each slot is 1 hour. Maximum 8 patients per slot.</div>
+<div class="slot-grid" id="slotGrid"></div>
+<div class="error" id="slotError">Please select an available time slot.</div>
+</div>
+</div>
+
+<button class="btn dark" type="submit" style="width:100%;margin-top:20px;font-size:15px">Book Appointment</button>
+</form>
+
+<div class="success" id="success"><h3>Appointment booked successfully</h3><div class="summary" id="summary"></div><p style="margin-bottom:0;color:var(--muted);font-size:13px">Your appointment details will be securely recorded after booking.</p></div>
+</div>
+</section>
+</div>
+
+<script>
+
+// Google Sheet configuration for this demo.
+// Sheet URL supplied by the clinic:
+const GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/11rcDtmrRXgATsj_P5y3W43n4a9dr6Ff5CwClVi8Lfv0/edit?usp=sharing";
+// For production, set this to a deployed Google Apps Script Web App URL.
+// Example: const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/XXXXX/exec";
+const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx3Yw_2xIh9dqMy113avK6H2tTgLxZ_SYSoL07drj2BtRm0nQOaPS1Skbf2lbicIKDM/exec";
+const schedules={
+latur:{name:"Latur — NEURON Hospital",rule:"Latur OPD schedule",days:d=>true},
+beed:{name:"Beed — Shivkamal Hospital",rule:"2nd & 4th Thursday",days:d=>d.getDay()===4&&(Math.ceil(d.getDate()/7)===2||Math.ceil(d.getDate()/7)===4)},
+ambajogai:{name:"Ambajogai — Vaidyanath Hospital",rule:"1st & 3rd Sunday",days:d=>d.getDay()===0&&(Math.ceil(d.getDate()/7)===1||Math.ceil(d.getDate()/7)===3)},
+parli:{name:"Parli — Arogya Hospital",rule:"1st & 3rd Sunday",days:d=>d.getDay()===0&&(Math.ceil(d.getDate()/7)===1||Math.ceil(d.getDate()/7)===3)},
+omerga:{name:"Omerga — Aadhar Hospital",rule:"Every Saturday",days:d=>d.getDay()===6},
+nilanga:{name:"Nilanga — Salunke Hospital",rule:"1st Saturday",days:d=>d.getDay()===6&&Math.ceil(d.getDate()/7)===1},
+udgir:{name:"Udgir — Shiv Parvati Hospital",rule:"2nd & 4th Sunday",days:d=>d.getDay()===0&&(Math.ceil(d.getDate()/7)===2||Math.ceil(d.getDate()/7)===4)},
+dharashiv:{name:"Dharashiv — Pranada Clinic",rule:"1st & 3rd Thursday",days:d=>d.getDay()===4&&(Math.ceil(d.getDate()/7)===1||Math.ceil(d.getDate()/7)===3)},
+barshi:{name:"Barshi — Jagdale Mama Hospital",rule:"1st & 3rd Thursday",days:d=>d.getDay()===4&&(Math.ceil(d.getDate()/7)===1||Math.ceil(d.getDate()/7)===3)}
+};
+const slotTimes=["09:00 AM – 10:00 AM","10:00 AM – 11:00 AM","11:00 AM – 12:00 PM","12:00 PM – 01:00 PM","02:00 PM – 03:00 PM","03:00 PM – 04:00 PM","04:00 PM – 05:00 PM","05:00 PM – 06:00 PM"];
+const demoBooked={}; // Demo capacity data
+const $=id=>document.getElementById(id),loc=$("location"),schedule=$("schedule"),days=$("days"),month=$("month"),selected=$("selectedDate");
+
+let view=new Date();view.setDate(1);let chosen=null,chosenSlot=null;
+function clearDate(){chosen=null;chosenSlot=null;selected.value="";$("fDate").classList.remove("invalid");$("slots").style.display="none";$("slotGrid").innerHTML=""}
+function key(){return loc.value+"_"+(chosen?chosen.toISOString().slice(0,10):"")}
+function render(){
+ if(!loc.value){schedule.style.display="none";return}
+ schedule.style.display="block";const s=schedules[loc.value];$("scheduleTitle").textContent=s.name;$("scheduleRule").textContent=s.rule;month.textContent=view.toLocaleString("en-US",{month:"long",year:"numeric"});days.innerHTML="";
+ const first=new Date(view.getFullYear(),view.getMonth(),1).getDay(),count=new Date(view.getFullYear(),view.getMonth()+1,0).getDate(),today=new Date();today.setHours(0,0,0,0);
+ for(let i=0;i<first;i++){let e=document.createElement("div");e.className="day empty";days.appendChild(e)}
+ for(let n=1;n<=count;n++){const d=new Date(view.getFullYear(),view.getMonth(),n);d.setHours(0,0,0,0);let e=document.createElement("div");e.className="day";const allowed=s.days(d)&&d>=today;e.textContent=n;
+ if(allowed){e.classList.add("available");e.onclick=()=>{chosen=d;chosenSlot=null;selected.value=d.toLocaleDateString("en-IN",{weekday:"short",day:"numeric",month:"short",year:"numeric"});$("fDate").classList.remove("invalid");document.querySelectorAll(".selected").forEach(x=>x.classList.remove("selected"));e.classList.add("selected");renderSlots()}}
+ else e.classList.add("unavailable");if(d.getTime()===today.getTime())e.classList.add("today");days.appendChild(e)}
+}
+function renderSlots(){
+ $("slots").style.display="block";$("slotGrid").innerHTML="";$("slotError").style.display="none";chosenSlot=null;
+ const counts=demoBooked[key()]||[];
+ slotTimes.forEach((time,i)=>{const count=counts[i]||[0,2,5,8,6,1,7,8][i];const b=document.createElement("button");b.type="button";b.className="slot"+(count>=8?" full":"");b.innerHTML=`<div class="slot-time">${time}</div><div class="slot-count">${count>=8?"FULL":(8-count)+" spots available"} · ${count}/8 booked</div>`;
+ if(count<8)b.onclick=()=>{chosenSlot=time;document.querySelectorAll(".selected-slot").forEach(x=>x.classList.remove("selected-slot"));b.classList.add("selected-slot");$("slotError").style.display="none"};
+ else b.disabled=true;$("slotGrid").appendChild(b)})
+}
+loc.onchange=()=>{view=new Date();view.setDate(1);clearDate();render()};
+$("prev").onclick=()=>{view.setMonth(view.getMonth()-1);clearDate();render()};$("next").onclick=()=>{view.setMonth(view.getMonth()+1);clearDate();render()};
+function valid(){
+let ok=true;const checks=[[$("fChild"),$("child").value.trim()!==""],[$("fAge"),$("age").value!==""&&Number($("age").value)>=0&&$("ageUnit").value!==""],[$("fPhone"),/^[6-9]\d{9}$/.test($("phone").value.trim())],[$("fType"),$("type").value!==""],[$("fLoc"),loc.value!==""],[$("fDate"),!!chosen]];
+checks.forEach(([box,test])=>{box.classList.toggle("invalid",!test);if(!test)ok=false});
+if(!chosenSlot){$("slotError").style.display="block";ok=false}else $("slotError").style.display="none";return ok
+}
+$("form").onsubmit=async e=>{
+ e.preventDefault();
+ if(!valid()){document.querySelector(".invalid input,.invalid select")?.focus();return}
+ const s=schedules[loc.value];
+ const booking={
+   child:$("child").value.trim(),
+   age:$("age").value+" "+$("ageUnit").value,
+   whatsapp:$("phone").value.trim(),
+   location:s.name,
+   date:chosen.toISOString().slice(0,10),
+   displayDate:selected.value,
+   time:chosenSlot,
+   type:$("type").value,
+   reason:$("reason").value.trim(),
+   status:"Confirmed",
+   bookedAt:new Date().toISOString()
+ };
+ $("summary").innerHTML=`<b>Child:</b> ${booking.child}<br><b>Age:</b> ${booking.age}<br><b>WhatsApp:</b> ${booking.whatsapp}<br><b>Location:</b> ${booking.location}<br><b>Date:</b> ${booking.displayDate}<br><b>Time:</b> ${booking.time}<br><b>Type:</b> ${booking.type}${booking.reason?`<br><b>Reason:</b> ${booking.reason}`:""}`;
+ $("success").style.display="block";
+ $("success").scrollIntoView({behavior:"smooth",block:"center"});
+
+ // If an Apps Script endpoint is configured, send the confirmed booking to it.
+ // Otherwise this demo keeps the booking locally and provides the Sheet link.
+ if(GOOGLE_APPS_SCRIPT_URL){
+   try{
+     const response = await fetch(GOOGLE_APPS_SCRIPT_URL,{
+       method:"POST",
+       headers:{"Content-Type":"text/plain;charset=utf-8"},
+       body:JSON.stringify(booking)
+     });
+     const result = await response.json();
+     if(!result.ok){
+       if(result.error==="SLOT_FULL"){
+         alert("Sorry, this time slot has just become full. Please select another slot.");
+         renderSlots();
+         return;
+       }
+       throw new Error(result.error || "Booking failed");
+     }
+     $("summary").innerHTML += `<br><b>Booking ID:</b> ${result.bookingId}`;
+
+   }catch(err){console.log("Sheet sync error:",err)}
+ }
+};
+</script>
+
+</body>
+</html>
